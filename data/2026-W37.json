@@ -1,0 +1,249 @@
+{
+  "week": "2026-W37",
+  "generated_at": "2026-09-10T06:21:07.484198+00:00",
+  "offline": true,
+  "stats": {
+    "candidates": 0,
+    "new": 0,
+    "high_priority": 0,
+    "sources": 26
+  },
+  "trends": [],
+  "candidates": [],
+  "sources": [
+    {
+      "source_id": "journal_annals_of_emergency_medicine",
+      "label": "Annals of Emergency Medicine CFP",
+      "url": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine/about/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_resuscitation",
+      "label": "Resuscitation CFP",
+      "url": "https://www.sciencedirect.com/journal/resuscitation/about/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_academic_emergency_medicine",
+      "label": "Academic Emergency Medicine CFP",
+      "url": "https://onlinelibrary.wiley.com/journal/15532712",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_emergency_medicine_journal",
+      "label": "Emergency Medicine Journal CFP",
+      "url": "https://emj.bmj.com/pages/special-issues-and-collections/",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_the_american_journal_of_emergency_medicine",
+      "label": "The American Journal of Emergency Medicine CFP",
+      "url": "https://www.sciencedirect.com/journal/the-american-journal-of-emergency-medicine/about/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_intensive_care_medicine",
+      "label": "Intensive Care Medicine CFP",
+      "url": "https://link.springer.com/journal/134/updates",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_critical_care",
+      "label": "Critical Care CFP",
+      "url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_chest",
+      "label": "CHEST CFP",
+      "url": "https://www.sciencedirect.com/journal/chest/about/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_critical_care_medicine",
+      "label": "Critical Care Medicine CFP",
+      "url": "https://journals.lww.com/ccmjournal/pages/default.aspx",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_npj_digital_medicine",
+      "label": "npj Digital Medicine CFP",
+      "url": "https://www.nature.com/npjdigitalmed/guest-edited-collections",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_journal_of_the_american_medical_informatics_association",
+      "label": "Journal of the American Medical Informatics Association CFP",
+      "url": "https://academic.oup.com/jamia/pages/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "url": "https://jbhi.embs.org/special-issues/",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_artificial_intelligence_in_medicine",
+      "label": "Artificial Intelligence in Medicine CFP",
+      "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_international_journal_of_medical_informatics",
+      "label": "International Journal of Medical Informatics CFP",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_journal_of_medical_internet_research",
+      "label": "Journal of Medical Internet Research CFP",
+      "url": "https://www.jmir.org/announcements",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_jmir_medical_informatics",
+      "label": "JMIR Medical Informatics CFP",
+      "url": "https://medinform.jmir.org/announcements",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_the_lancet_digital_health",
+      "label": "The Lancet Digital Health CFP",
+      "url": "https://www.thelancet.com/journals/landig/announcements",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_jama_network_open",
+      "label": "JAMA Network Open CFP",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/pages/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "journal_plos_digital_health",
+      "label": "PLOS Digital Health CFP",
+      "url": "https://journals.plos.org/digitalhealth/s/calls-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "springer_open_calls",
+      "label": "Springer Nature Open Calls for Papers",
+      "url": "https://www.springernature.com/gp/authors/campaigns/call-for-papers",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "taylor_francis_calls",
+      "label": "Taylor & Francis Calls for Papers",
+      "url": "https://think.taylorandfrancis.com/calls-for-papers/",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "wiley_special_issues",
+      "label": "Wiley Special Issues and Calls for Papers",
+      "url": "https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/special-issues.html",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "mdpi_special_issues",
+      "label": "MDPI Special Issues Search",
+      "url": "https://www.mdpi.com/special_issues",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "rsc_calls",
+      "label": "Royal Society of Chemistry Calls for Papers",
+      "url": "https://www.rsc.org/journals-books-databases/about-journals/journals-information/calls-for-papers/",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    },
+    {
+      "source_id": "bmj_collections",
+      "label": "BMJ Journals Special Issues and Collections",
+      "url": "https://www.bmj.com/company/journals/",
+      "status": "skipped_offline",
+      "candidates": 0,
+      "error": "Offline run: network fetching disabled.",
+      "status_code": null
+    }
+  ]
+}

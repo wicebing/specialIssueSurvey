@@ -1,0 +1,435 @@
+{
+  "tracking_policy": {
+    "project_name": "Academic CFP Tracker",
+    "report_timezone": "Asia/Taipei",
+    "deadline_horizon_days": 210,
+    "minimum_topic_hits": 1,
+    "include_unknown_deadline": true,
+    "include_unverified_q1_candidates": true,
+    "direct_source_timeout_seconds": 25,
+    "max_search_results_per_query": 8,
+    "user_agent": "AcademicCFPTracker/1.0 (+https://github.com/your-org/academic-cfp-tracker)",
+    "q1_rule": "Treat configured journals as the curated JCR Q1 / top-20% watchlist. Re-check Clarivate JCR yearly; use SCImago only as a secondary public signal.",
+    "candidate_phrases": [
+      "call for papers",
+      "calls for papers",
+      "special issue",
+      "special issues",
+      "special collection",
+      "special collections",
+      "article collection",
+      "article collections",
+      "theme issue",
+      "guest edited collection",
+      "topical collection",
+      "submission deadline",
+      "manuscript deadline"
+    ]
+  },
+  "topic_taxonomy": [
+    {
+      "id": "emergency_medicine",
+      "label": "急診醫學 / Emergency Medicine",
+      "keywords": [
+        "emergency medicine",
+        "emergency department",
+        "emergency care",
+        "emergency medical services",
+        "EMS",
+        "prehospital",
+        "pre-hospital",
+        "triage",
+        "crowding",
+        "urgent care",
+        "急診",
+        "緊急醫療",
+        "院前",
+        "檢傷"
+      ]
+    },
+    {
+      "id": "resuscitation_critical_care",
+      "label": "急救復甦與重症 / Resuscitation & Critical Care",
+      "keywords": [
+        "resuscitation",
+        "cardiac arrest",
+        "critical care",
+        "intensive care",
+        "ICU",
+        "sepsis",
+        "shock",
+        "trauma",
+        "organ failure",
+        "airway",
+        "復甦",
+        "心肺停止",
+        "重症",
+        "敗血症",
+        "創傷"
+      ]
+    },
+    {
+      "id": "medical_informatics",
+      "label": "醫學資訊 / Medical Informatics",
+      "keywords": [
+        "medical informatics",
+        "biomedical informatics",
+        "health informatics",
+        "clinical informatics",
+        "EHR",
+        "electronic health record",
+        "clinical decision support",
+        "CDSS",
+        "interoperability",
+        "FHIR",
+        "醫學資訊",
+        "電子病歷",
+        "臨床決策"
+      ]
+    },
+    {
+      "id": "digital_health_telecare",
+      "label": "遠距照護與數位醫療 / Telecare & Digital Health",
+      "keywords": [
+        "telemedicine",
+        "telehealth",
+        "remote care",
+        "remote monitoring",
+        "virtual care",
+        "mHealth",
+        "digital health",
+        "wearable",
+        "hospital at home",
+        "遠距醫療",
+        "遠距照護",
+        "行動醫療",
+        "穿戴"
+      ]
+    },
+    {
+      "id": "ai_data_science",
+      "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+      "keywords": [
+        "artificial intelligence",
+        "machine learning",
+        "deep learning",
+        "generative AI",
+        "large language model",
+        "LLM",
+        "multimodal",
+        "digital twin",
+        "prediction model",
+        "risk prediction",
+        "natural language processing",
+        "NLP",
+        "AI",
+        "人工智慧",
+        "生成式",
+        "大型語言模型",
+        "多模態"
+      ]
+    },
+    {
+      "id": "misinformation_public_health",
+      "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+      "keywords": [
+        "misinformation",
+        "disinformation",
+        "infodemic",
+        "health communication",
+        "public health surveillance",
+        "social media",
+        "fake news",
+        "假訊息",
+        "錯誤資訊",
+        "資訊疫情",
+        "公衛監測"
+      ]
+    }
+  ],
+  "journals": [
+    {
+      "journal": "Annals of Emergency Medicine",
+      "aliases": ["Ann Emerg Med"],
+      "category": "急診醫學",
+      "publisher": "Elsevier",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency medicine flagship watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine/about/call-for-papers"
+    },
+    {
+      "journal": "Resuscitation",
+      "aliases": ["Resuscitation journal"],
+      "category": "急診醫學 / 急救復甦",
+      "publisher": "Elsevier",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and resuscitation watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.sciencedirect.com/journal/resuscitation/about/call-for-papers"
+    },
+    {
+      "journal": "Academic Emergency Medicine",
+      "aliases": ["AEM", "Acad Emerg Med"],
+      "category": "急診醫學",
+      "publisher": "Wiley",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency medicine watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://onlinelibrary.wiley.com/journal/15532712"
+    },
+    {
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "aliases": ["SJTREM", "Scand J Trauma Resusc Emerg Med"],
+      "category": "急診醫學 / 創傷急救",
+      "publisher": "Springer Nature / BMC",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers"
+    },
+    {
+      "journal": "Emergency Medicine Journal",
+      "aliases": ["EMJ"],
+      "category": "急診醫學",
+      "publisher": "BMJ",
+      "priority": 4,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency medicine watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://emj.bmj.com/pages/special-issues-and-collections/"
+    },
+    {
+      "journal": "The American Journal of Emergency Medicine",
+      "aliases": ["American Journal of Emergency Medicine", "AJEM"],
+      "category": "急診醫學",
+      "publisher": "Elsevier",
+      "priority": 4,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency medicine watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.sciencedirect.com/journal/the-american-journal-of-emergency-medicine/about/call-for-papers"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "aliases": ["ICM"],
+      "category": "重症醫學",
+      "publisher": "Springer Nature",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://link.springer.com/journal/134/updates"
+    },
+    {
+      "journal": "Critical Care",
+      "aliases": ["Critical Care journal"],
+      "category": "重症醫學",
+      "publisher": "Springer Nature / BMC",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers"
+    },
+    {
+      "journal": "CHEST",
+      "aliases": ["Chest journal"],
+      "category": "重症醫學 / 呼吸重症",
+      "publisher": "Elsevier",
+      "priority": 4,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care and respiratory medicine watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.sciencedirect.com/journal/chest/about/call-for-papers"
+    },
+    {
+      "journal": "Critical Care Medicine",
+      "aliases": ["CCM", "Crit Care Med"],
+      "category": "重症醫學",
+      "publisher": "Wolters Kluwer / LWW",
+      "priority": 4,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://journals.lww.com/ccmjournal/pages/default.aspx"
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "aliases": ["Nature npj Digital Medicine"],
+      "category": "醫療資訊 / 數位醫療",
+      "publisher": "Nature Portfolio",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top digital medicine watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.nature.com/npjdigitalmed/guest-edited-collections"
+    },
+    {
+      "journal": "Journal of the American Medical Informatics Association",
+      "aliases": ["JAMIA"],
+      "category": "醫療資訊",
+      "publisher": "Oxford Academic",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top medical informatics watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://academic.oup.com/jamia/pages/call-for-papers"
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "aliases": ["IEEE JBHI", "JBHI"],
+      "category": "醫療資訊 / 生醫工程",
+      "publisher": "IEEE",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://jbhi.embs.org/special-issues/"
+    },
+    {
+      "journal": "Artificial Intelligence in Medicine",
+      "aliases": ["AI in Medicine", "AIIM"],
+      "category": "醫療資訊 / AI 醫療",
+      "publisher": "Elsevier",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top medical AI watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/call-for-papers"
+    },
+    {
+      "journal": "International Journal of Medical Informatics",
+      "aliases": ["IJMI"],
+      "category": "醫療資訊",
+      "publisher": "Elsevier",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top medical informatics watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/call-for-papers"
+    },
+    {
+      "journal": "Journal of Medical Internet Research",
+      "aliases": ["JMIR"],
+      "category": "醫療資訊 / 遠距醫療",
+      "publisher": "JMIR Publications",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top digital health watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://www.jmir.org/announcements"
+    },
+    {
+      "journal": "JMIR Medical Informatics",
+      "aliases": ["JMIR Med Inform", "JMIR MedInform"],
+      "category": "醫療資訊",
+      "publisher": "JMIR Publications",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top medical informatics watchlist; verify yearly in Clarivate JCR.",
+      "cfp_url": "https://medinform.jmir.org/announcements"
+    },
+    {
+      "journal": "The Lancet Digital Health",
+      "aliases": ["Lancet Digital Health"],
+      "category": "數位醫療 / 醫療資訊",
+      "publisher": "Elsevier / The Lancet",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "High-impact digital health watchlist entry; verify current JCR category and rank yearly.",
+      "cfp_url": "https://www.thelancet.com/journals/landig/announcements"
+    },
+    {
+      "journal": "JAMA Network Open",
+      "aliases": ["JAMA Netw Open"],
+      "category": "臨床醫學 / 公衛資訊",
+      "publisher": "JAMA Network",
+      "priority": 4,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "High-impact general medicine watchlist entry; verify current JCR category and rank yearly.",
+      "cfp_url": "https://jamanetwork.com/journals/jamanetworkopen/pages/call-for-papers"
+    },
+    {
+      "journal": "PLOS Digital Health",
+      "aliases": ["PLOS Digit Health"],
+      "category": "數位醫療 / 公衛資訊",
+      "publisher": "PLOS",
+      "priority": 3,
+      "jcr_band": "Q1_candidate_verify",
+      "q1_evidence": "Candidate digital health watchlist entry; verify JCR status before treating as Q1.",
+      "cfp_url": "https://journals.plos.org/digitalhealth/s/calls-for-papers"
+    }
+  ],
+  "sources": [
+    {
+      "id": "springer_open_calls",
+      "label": "Springer Nature Open Calls for Papers",
+      "type": "page",
+      "publisher": "Springer Nature",
+      "url": "https://www.springernature.com/gp/authors/campaigns/call-for-papers",
+      "official": true
+    },
+    {
+      "id": "taylor_francis_calls",
+      "label": "Taylor & Francis Calls for Papers",
+      "type": "page",
+      "publisher": "Taylor & Francis",
+      "url": "https://think.taylorandfrancis.com/calls-for-papers/",
+      "official": true
+    },
+    {
+      "id": "wiley_special_issues",
+      "label": "Wiley Special Issues and Calls for Papers",
+      "type": "page",
+      "publisher": "Wiley",
+      "url": "https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/special-issues.html",
+      "official": true
+    },
+    {
+      "id": "mdpi_special_issues",
+      "label": "MDPI Special Issues Search",
+      "type": "page",
+      "publisher": "MDPI",
+      "url": "https://www.mdpi.com/special_issues",
+      "official": true
+    },
+    {
+      "id": "rsc_calls",
+      "label": "Royal Society of Chemistry Calls for Papers",
+      "type": "page",
+      "publisher": "Royal Society of Chemistry",
+      "url": "https://www.rsc.org/journals-books-databases/about-journals/journals-information/calls-for-papers/",
+      "official": true
+    },
+    {
+      "id": "bmj_collections",
+      "label": "BMJ Journals Special Issues and Collections",
+      "type": "page",
+      "publisher": "BMJ",
+      "url": "https://www.bmj.com/company/journals/",
+      "official": true
+    }
+  ],
+  "search_queries": [
+    {
+      "id": "emergency_medicine_special_issue",
+      "query": "\"call for papers\" \"special issue\" \"emergency medicine\" deadline",
+      "category_hint": "急診醫學"
+    },
+    {
+      "id": "critical_care_special_issue",
+      "query": "\"special issue\" \"critical care\" \"submission deadline\" journal",
+      "category_hint": "重症醫學"
+    },
+    {
+      "id": "medical_informatics_special_issue",
+      "query": "\"call for papers\" \"medical informatics\" \"special issue\"",
+      "category_hint": "醫療資訊"
+    },
+    {
+      "id": "digital_health_telemedicine_special_issue",
+      "query": "\"special issue\" telemedicine OR telehealth \"call for papers\" journal",
+      "category_hint": "遠距照護與數位醫療"
+    },
+    {
+      "id": "generative_ai_healthcare_special_issue",
+      "query": "\"generative AI\" healthcare \"special issue\" \"call for papers\"",
+      "category_hint": "AI 醫療"
+    },
+    {
+      "id": "health_misinformation_special_issue",
+      "query": "\"health misinformation\" OR infodemic \"special issue\" \"call for papers\"",
+      "category_hint": "醫療假訊息"
+    }
+  ]
+}
+
