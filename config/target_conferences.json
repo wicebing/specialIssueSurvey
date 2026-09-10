@@ -29,6 +29,12 @@
           "slug": "apbc",
           "relevance": "亞太生物資訊",
           "field": "生醫資訊"
+        },
+        {
+          "category": "CG",
+          "slug": "icassp",
+          "relevance": "生醫訊號處理（ECG/EEG）",
+          "field": "訊號處理"
         }
       ]
     },
@@ -67,12 +73,6 @@
           "slug": "iui",
           "relevance": "臨床決策介面",
           "field": "人機互動"
-        },
-        {
-          "category": "HI",
-          "slug": "icwsm",
-          "relevance": "健康假訊息與社群資料",
-          "field": "社群媒體"
         }
       ]
     },
@@ -477,6 +477,68 @@
           "typical_month": "April",
           "relevance": "臨床機器學習",
           "field": "醫療 AI"
+        }
+      ]
+    },
+    {
+      "id": "society_digital_health",
+      "collector": "curated",
+      "label": "數位健康 / 健康假訊息會議（人工核對）",
+      "tier": "core",
+      "url": "",
+      "conferences": [
+        {
+          "name": "ICWSM (AAAI International Conference on Web and Social Media)",
+          "acronym": "ICWSM 2027",
+          "edition": "2027",
+          "url": "https://www.icwsm.org/2027/submit/",
+          "submission_deadline": "2026-09-15",
+          "deadline_text": "多輪投稿，第二輪 15th Sep 2026（Notification 15th Nov 2026）；下一輪 15th Jan 2027。All deadlines are 23:59 AoE.",
+          "city": "Edinburgh, Scotland, UK",
+          "dates": "尚未公布（歷年多在 6 月）",
+          "typical_month": "多輪：5 月 / 9 月 / 1 月",
+          "relevance": "健康假訊息、社群資料監測（本領域首選）",
+          "field": "社群媒體",
+          "note": "一年三輪投稿，錯過這輪還有 2027-01-15。會議日期尚未公布。"
+        },
+        {
+          "name": "IEEE ICHI (International Conference on Healthcare Informatics)",
+          "acronym": "ICHI 2027",
+          "edition": "2027 (15th)",
+          "url": "https://ichi2027.github.io/ICHI2027/",
+          "submission_deadline": "2026-09-21",
+          "deadline_text": "Early Bird Submission is now open! Submit by September 21, 2026 for an early decision.",
+          "city": "Washington, DC, USA",
+          "dates": "June 11-14, 2027",
+          "start_date": "2027-06-11",
+          "typical_month": "September (early bird)",
+          "relevance": "醫療資訊學（IEEE 同儕審查主力會議）",
+          "field": "醫學資訊",
+          "note": "9/21 為 early bird 提前決定的截止日，正式截稿日尚未公布。"
+        },
+        {
+          "name": "International Digital Public Health Conference",
+          "acronym": "DPH 2027",
+          "edition": "2027 (12th)",
+          "url": "https://dphconf.org/",
+          "city": "London, UK",
+          "dates": "15-17 June 2027",
+          "start_date": "2027-06-15",
+          "status": "announced_not_open",
+          "typical_month": "不詳（網站為動態產生，需人工開啟確認）",
+          "relevance": "數位公共衛生",
+          "field": "公共衛生資訊",
+          "note": "地點與日期已定。網站以 JavaScript 產生，截稿日無法自動擷取，請直接開啟頁面確認。"
+        },
+        {
+          "name": "APAMI Congress (Asia Pacific Association for Medical Informatics)",
+          "acronym": "APAMI",
+          "edition": "2027",
+          "url": "https://apami.org/",
+          "status": "not_announced",
+          "typical_month": "不詳",
+          "relevance": "亞太醫學資訊（距離近、競爭較低）",
+          "field": "醫學資訊"
         }
       ]
     }

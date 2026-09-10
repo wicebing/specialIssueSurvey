@@ -305,6 +305,12 @@ VENUE_WORDS = (
     "center", "centre", "convention", "conference", "exhibition", "congress",
     "hotel", "university", "college", "hall", "campus", "palace", "arena",
     "resort", "institute", "messe", "expo", "forum", "pavilion",
+    # Hotel chains appear as bare brand names with no venue keyword, e.g.
+    # "Hilton Union Square, San Francisco, USA".
+    "hilton", "marriott", "sheraton", "hyatt", "westin", "cordis", "hors",
+    "intercontinental", "radisson", "novotel", "sofitel", "fairmont",
+    "plaza", "square", "complex", "academy", "club", "casino", "cruise",
+    "fira", "park", "gardens", "tower", "auditorium", "theatre", "theater",
 )
 
 

@@ -1,12 +1,12 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-10T09:17:13.345448+00:00",
+  "generated_at": "2026-09-10T15:50:12.797092+00:00",
   "stats": {
-    "tracked": 45,
-    "open": 11,
-    "urgent": 10,
-    "pending": 34,
-    "sources": 7
+    "tracked": 49,
+    "open": 14,
+    "urgent": 13,
+    "pending": 35,
+    "sources": 8
   },
   "conferences": [
     {
@@ -56,6 +56,52 @@
       "_days_left": 0
     },
     {
+      "name": "ICWSM (AAAI International Conference on Web and Social Media)",
+      "acronym": "ICWSM 2027",
+      "edition": "2027",
+      "url": "https://www.icwsm.org/2027/submit/",
+      "submission_deadline": "2026-09-15",
+      "abstract_deadline": null,
+      "deadline_text": "多輪投稿，第二輪 15th Sep 2026（Notification 15th Nov 2026）；下一輪 15th Jan 2027。All deadlines are 23:59 AoE.",
+      "city": "Edinburgh, Scotland, UK",
+      "venue": "",
+      "dates": "尚未公布（歷年多在 6 月）",
+      "start_date": null,
+      "field": "社群媒體",
+      "rank": "",
+      "relevance": "健康假訊息、社群資料監測（本領域首選）",
+      "source_id": "society_digital_health",
+      "status": "open",
+      "typical_month": "多輪：5 月 / 9 月 / 1 月",
+      "note": "一年三輪投稿，錯過這輪還有 2027-01-15。會議日期尚未公布。",
+      "tier": "core",
+      "_next_deadline": "2026-09-15",
+      "_days_left": 5
+    },
+    {
+      "name": "ICASSP",
+      "acronym": "ICASSP",
+      "edition": "2027",
+      "url": "https://2027.ieeeicassp.org/",
+      "submission_deadline": "2026-09-16",
+      "abstract_deadline": null,
+      "deadline_text": "",
+      "city": "Toronto, Canada",
+      "venue": "",
+      "dates": "May 16-21, 2027",
+      "start_date": null,
+      "field": "CG",
+      "rank": "CCF B / CORE B / THCPL B",
+      "relevance": "生醫訊號處理（ECG/EEG）",
+      "source_id": "ccf_clinical_ai",
+      "status": "open",
+      "typical_month": "",
+      "note": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "tier": "core",
+      "_next_deadline": "2026-09-16",
+      "_days_left": 6
+    },
+    {
       "name": "ICLR",
       "acronym": "ICLR",
       "edition": "2027",
@@ -77,6 +123,29 @@
       "tier": "core",
       "_next_deadline": "2026-09-18",
       "_days_left": 8
+    },
+    {
+      "name": "IEEE ICHI (International Conference on Healthcare Informatics)",
+      "acronym": "ICHI 2027",
+      "edition": "2027 (15th)",
+      "url": "https://ichi2027.github.io/ICHI2027/",
+      "submission_deadline": "2026-09-21",
+      "abstract_deadline": null,
+      "deadline_text": "Early Bird Submission is now open! Submit by September 21, 2026 for an early decision.",
+      "city": "Washington, DC, USA",
+      "venue": "",
+      "dates": "June 11-14, 2027",
+      "start_date": "2027-06-11",
+      "field": "醫學資訊",
+      "rank": "",
+      "relevance": "醫療資訊學（IEEE 同儕審查主力會議）",
+      "source_id": "society_digital_health",
+      "status": "open",
+      "typical_month": "September (early bird)",
+      "note": "9/21 為 early bird 提前決定的截止日，正式截稿日尚未公布。",
+      "tier": "core",
+      "_next_deadline": "2026-09-21",
+      "_days_left": 11
     },
     {
       "name": "AAEM Scientific Assembly",
@@ -447,6 +516,29 @@
       "_days_left": null
     },
     {
+      "name": "APAMI Congress (Asia Pacific Association for Medical Informatics)",
+      "acronym": "APAMI",
+      "edition": "2027",
+      "url": "https://apami.org/",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "",
+      "city": "",
+      "venue": "",
+      "dates": "",
+      "start_date": null,
+      "field": "醫學資訊",
+      "rank": "",
+      "relevance": "亞太醫學資訊（距離近、競爭較低）",
+      "source_id": "society_digital_health",
+      "status": "not_announced",
+      "typical_month": "不詳",
+      "note": "",
+      "tier": "core",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
       "name": "APBC",
       "acronym": "APBC",
       "edition": "2026 (最近一屆)",
@@ -723,29 +815,6 @@
       "_days_left": null
     },
     {
-      "name": "ICWSM",
-      "acronym": "ICWSM",
-      "edition": "2026 (最近一屆)",
-      "url": "https://www.icwsm.org/2026/index.html",
-      "submission_deadline": null,
-      "abstract_deadline": null,
-      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-01-15",
-      "city": "",
-      "venue": "",
-      "dates": "",
-      "start_date": null,
-      "field": "HI",
-      "rank": "CCF B / CORE A / THCPL N",
-      "relevance": "健康假訊息與社群資料",
-      "source_id": "ccf_health_hci",
-      "status": "not_announced",
-      "typical_month": "January",
-      "note": "The International AAAI Conference on Web and Social Media",
-      "tier": "core",
-      "_next_deadline": null,
-      "_days_left": null
-    },
-    {
       "name": "IFEM Global Congress on Emergency Medicine (ICEM)",
       "acronym": "IFEM2027",
       "edition": "2027 (26th)",
@@ -833,6 +902,29 @@
       "status": "not_announced",
       "typical_month": "August",
       "note": "ACM Conference on Intelligent User Interfaces",
+      "tier": "core",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
+      "name": "International Digital Public Health Conference",
+      "acronym": "DPH 2027",
+      "edition": "2027 (12th)",
+      "url": "https://dphconf.org/",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "",
+      "city": "London, UK",
+      "venue": "",
+      "dates": "15-17 June 2027",
+      "start_date": "2027-06-15",
+      "field": "公共衛生資訊",
+      "rank": "",
+      "relevance": "數位公共衛生",
+      "source_id": "society_digital_health",
+      "status": "announced_not_open",
+      "typical_month": "不詳（網站為動態產生，需人工開啟確認）",
+      "note": "地點與日期已定。網站以 JavaScript 產生，截稿日無法自動擷取，請直接開啟頁面確認。",
       "tier": "core",
       "_next_deadline": null,
       "_days_left": null
@@ -1051,8 +1143,8 @@
       "label": "醫學影像 / 生醫 AI 會議 (ccf-deadlines)",
       "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference",
       "status": "ok",
-      "found": 3,
-      "accepted": 0,
+      "found": 4,
+      "accepted": 1,
       "notes": "3 awaiting next-edition announcement"
     },
     {
@@ -1060,9 +1152,9 @@
       "label": "數位健康 / 人機互動會議 (ccf-deadlines)",
       "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference",
       "status": "ok",
-      "found": 6,
+      "found": 5,
       "accepted": 2,
-      "notes": "4 awaiting next-edition announcement"
+      "notes": "3 awaiting next-edition announcement"
     },
     {
       "source_id": "ccf_core_ai",
@@ -1108,6 +1200,15 @@
       "found": 7,
       "accepted": 2,
       "notes": "5 awaiting next-edition announcement"
+    },
+    {
+      "source_id": "society_digital_health",
+      "label": "數位健康 / 健康假訊息會議（人工核對）",
+      "url": "",
+      "status": "ok",
+      "found": 4,
+      "accepted": 2,
+      "notes": "1 awaiting next-edition announcement"
     }
   ]
 }

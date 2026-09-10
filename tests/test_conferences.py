@@ -217,3 +217,27 @@ def test_conference_config_is_valid():
                 assert item["category"] and item["slug"]
             else:
                 assert item["name"] and item["url"]
+
+
+# --- venue prefixes observed across the live feed ---------------------------
+
+VENUE_CASES = [
+    ("Hilton Union Square, San Francisco, USA", "San Francisco, USA"),
+    ("Messe Wien Exhibition Congress Center, Vienna, Austria", "Vienna, Austria"),
+    ("ADNEC Centre, Abu Dhabi, U.A.E.", "Abu Dhabi, U.A.E."),
+    ("David L. Lawrence Convention Center, Pittsburgh, USA", "Pittsburgh, USA"),
+    ("Centre de Convencions Internacional de Barcelona, Barcelona, Spain", "Barcelona, Spain"),
+    ("Fields Institute, Toronto, Canada", "Toronto, Canada"),
+    ("Cordis, Hong Kong SAR, China", "Hong Kong SAR, China"),
+    ("San Jose, California, USA", "San Jose, California, USA"),
+    ("Seattle, WA, United States", "Seattle, WA, United States"),
+    ("Seoul, Korea", "Seoul, Korea"),
+    ("Abu Dhabi", "Abu Dhabi"),
+    ("Virtual", "Virtual"),
+]
+
+
+def test_venue_prefixes_are_stripped_from_the_city_column():
+    """A hotel or convention centre name must not reach the 舉辦城市 column."""
+    for place, expected in VENUE_CASES:
+        assert city_of(place)[0] == expected, place
