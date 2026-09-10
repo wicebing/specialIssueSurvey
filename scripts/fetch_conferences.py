@@ -71,7 +71,7 @@ def generate_conference_site(week_id: str) -> None:
     upcoming = sorted(
         (c for c in conferences if c.get("status") == "open" and c.get("_next_deadline")),
         key=lambda c: c["_next_deadline"],
-    )[:10]
+    )[:12]
 
     rows = "\n".join(
         '<li><a href="{url}">{name} {edition}</a><span class="pill">{deadline}</span>'

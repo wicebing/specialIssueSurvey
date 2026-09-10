@@ -12,9 +12,24 @@
       "label": "醫學影像 / 生醫 AI 會議 (ccf-deadlines)",
       "tier": "core",
       "conferences": [
-        { "category": "MX", "slug": "miccai", "relevance": "醫學影像 AI", "field": "醫學影像" },
-        { "category": "MX", "slug": "bibm", "relevance": "生物醫學資訊", "field": "生醫資訊" },
-        { "category": "MX", "slug": "apbc", "relevance": "亞太生物資訊", "field": "生醫資訊" }
+        {
+          "category": "MX",
+          "slug": "miccai",
+          "relevance": "醫學影像 AI",
+          "field": "醫學影像"
+        },
+        {
+          "category": "MX",
+          "slug": "bibm",
+          "relevance": "生物醫學資訊",
+          "field": "生醫資訊"
+        },
+        {
+          "category": "MX",
+          "slug": "apbc",
+          "relevance": "亞太生物資訊",
+          "field": "生醫資訊"
+        }
       ]
     },
     {
@@ -23,12 +38,42 @@
       "label": "數位健康 / 人機互動會議 (ccf-deadlines)",
       "tier": "core",
       "conferences": [
-        { "category": "HI", "slug": "chi", "relevance": "數位健康介面與行為", "field": "人機互動" },
-        { "category": "HI", "slug": "ubicomp", "relevance": "穿戴裝置與遠距監測", "field": "普及運算" },
-        { "category": "HI", "slug": "percom", "relevance": "感測與遠距照護", "field": "普及運算" },
-        { "category": "HI", "slug": "cscw", "relevance": "照護協作與健康社群", "field": "人機互動" },
-        { "category": "HI", "slug": "iui", "relevance": "臨床決策介面", "field": "人機互動" },
-        { "category": "HI", "slug": "icwsm", "relevance": "健康假訊息與社群資料", "field": "社群媒體" }
+        {
+          "category": "HI",
+          "slug": "chi",
+          "relevance": "數位健康介面與行為",
+          "field": "人機互動"
+        },
+        {
+          "category": "HI",
+          "slug": "ubicomp",
+          "relevance": "穿戴裝置與遠距監測",
+          "field": "普及運算"
+        },
+        {
+          "category": "HI",
+          "slug": "percom",
+          "relevance": "感測與遠距照護",
+          "field": "普及運算"
+        },
+        {
+          "category": "HI",
+          "slug": "cscw",
+          "relevance": "照護協作與健康社群",
+          "field": "人機互動"
+        },
+        {
+          "category": "HI",
+          "slug": "iui",
+          "relevance": "臨床決策介面",
+          "field": "人機互動"
+        },
+        {
+          "category": "HI",
+          "slug": "icwsm",
+          "relevance": "健康假訊息與社群資料",
+          "field": "社群媒體"
+        }
       ]
     },
     {
@@ -37,16 +82,66 @@
       "label": "頂尖 AI / ML / NLP 會議 (ccf-deadlines)",
       "tier": "core",
       "conferences": [
-        { "category": "AI", "slug": "nips", "relevance": "臨床 AI 方法學", "field": "機器學習" },
-        { "category": "AI", "slug": "icml", "relevance": "臨床 AI 方法學", "field": "機器學習" },
-        { "category": "AI", "slug": "iclr", "relevance": "臨床 AI 方法學", "field": "機器學習" },
-        { "category": "AI", "slug": "aaai", "relevance": "醫療 AI 應用", "field": "人工智慧" },
-        { "category": "AI", "slug": "ijcai", "relevance": "醫療 AI 應用", "field": "人工智慧" },
-        { "category": "AI", "slug": "acl", "relevance": "臨床文本與 LLM", "field": "自然語言處理" },
-        { "category": "AI", "slug": "emnlp", "relevance": "臨床文本與 LLM", "field": "自然語言處理" },
-        { "category": "AI", "slug": "naacl", "relevance": "臨床文本與 LLM", "field": "自然語言處理" },
-        { "category": "AI", "slug": "cvpr", "relevance": "醫學影像視覺", "field": "電腦視覺" },
-        { "category": "AI", "slug": "iccv", "relevance": "醫學影像視覺", "field": "電腦視覺" }
+        {
+          "category": "AI",
+          "slug": "nips",
+          "relevance": "臨床 AI 方法學",
+          "field": "機器學習"
+        },
+        {
+          "category": "AI",
+          "slug": "icml",
+          "relevance": "臨床 AI 方法學",
+          "field": "機器學習"
+        },
+        {
+          "category": "AI",
+          "slug": "iclr",
+          "relevance": "臨床 AI 方法學",
+          "field": "機器學習"
+        },
+        {
+          "category": "AI",
+          "slug": "aaai",
+          "relevance": "醫療 AI 應用",
+          "field": "人工智慧"
+        },
+        {
+          "category": "AI",
+          "slug": "ijcai",
+          "relevance": "醫療 AI 應用",
+          "field": "人工智慧"
+        },
+        {
+          "category": "AI",
+          "slug": "acl",
+          "relevance": "臨床文本與 LLM",
+          "field": "自然語言處理"
+        },
+        {
+          "category": "AI",
+          "slug": "emnlp",
+          "relevance": "臨床文本與 LLM",
+          "field": "自然語言處理"
+        },
+        {
+          "category": "AI",
+          "slug": "naacl",
+          "relevance": "臨床文本與 LLM",
+          "field": "自然語言處理"
+        },
+        {
+          "category": "AI",
+          "slug": "cvpr",
+          "relevance": "醫學影像視覺",
+          "field": "電腦視覺"
+        },
+        {
+          "category": "AI",
+          "slug": "iccv",
+          "relevance": "醫學影像視覺",
+          "field": "電腦視覺"
+        }
       ]
     },
     {
@@ -55,10 +150,334 @@
       "label": "資料探勘 / 資訊檢索會議 (ccf-deadlines)",
       "tier": "other",
       "conferences": [
-        { "category": "DB", "slug": "sigkdd", "relevance": "健康資料探勘", "field": "資料探勘" },
-        { "category": "DB", "slug": "cikm", "relevance": "健康知識管理", "field": "資料探勘" },
-        { "category": "DB", "slug": "sigir", "relevance": "健康資訊檢索", "field": "資訊檢索" },
-        { "category": "MX", "slug": "www", "relevance": "網路健康資訊與假訊息", "field": "全球資訊網" }
+        {
+          "category": "DB",
+          "slug": "sigkdd",
+          "relevance": "健康資料探勘",
+          "field": "資料探勘"
+        },
+        {
+          "category": "DB",
+          "slug": "cikm",
+          "relevance": "健康知識管理",
+          "field": "資料探勘"
+        },
+        {
+          "category": "DB",
+          "slug": "sigir",
+          "relevance": "健康資訊檢索",
+          "field": "資訊檢索"
+        },
+        {
+          "category": "MX",
+          "slug": "www",
+          "relevance": "網路健康資訊與假訊息",
+          "field": "全球資訊網"
+        }
+      ]
+    },
+    {
+      "id": "society_emergency",
+      "collector": "curated",
+      "label": "急診醫學學會年會（人工核對）",
+      "tier": "core",
+      "url": "",
+      "conferences": [
+        {
+          "name": "AAEM Scientific Assembly",
+          "acronym": "AAEM27",
+          "edition": "2027",
+          "url": "https://www.aaem.org/aaem27/education/research-abstracts-case-reports/",
+          "abstract_deadline": "2026-09-23",
+          "deadline_text": "Wednesday, September 23 at 10:59pm CT: Research abstracts and case reports submissions close. No extensions.",
+          "city": "San Antonio, Texas, USA",
+          "dates": "April 25-29, 2027",
+          "start_date": "2027-04-25",
+          "typical_month": "September",
+          "relevance": "急診醫學",
+          "field": "急診醫學",
+          "note": "研究摘要與病例報告同一截止日，不接受延期。"
+        },
+        {
+          "name": "SAEM Annual Meeting",
+          "acronym": "SAEM27",
+          "edition": "2027",
+          "url": "https://www.saem.org/meetings-and-events/annual-meeting/annual-meeting-navigation/education/submission-deadlines",
+          "abstract_deadline": "2027-01-05",
+          "deadline_text": "Abstracts Submissions Open: Monday, November 2, 2026; Submissions Close: Tuesday, January 5, 2027",
+          "city": "San Francisco, California, USA",
+          "dates": "May 18-21, 2027",
+          "start_date": "2027-05-18",
+          "typical_month": "January",
+          "relevance": "急診醫學（學術主力會議）",
+          "field": "急診醫學",
+          "note": "研究摘要 1/5 截止；Didactics 與 Innovations 等其他投稿軌在 2026 年 9 月就截止，需分開注意。"
+        },
+        {
+          "name": "IFEM Global Congress on Emergency Medicine (ICEM)",
+          "acronym": "IFEM2027",
+          "edition": "2027 (26th)",
+          "url": "https://www.ifem.cc/ifem2027",
+          "city": "Kuala Lumpur, Malaysia",
+          "dates": "10-13 June 2027",
+          "start_date": "2027-06-10",
+          "status": "announced_not_open",
+          "typical_month": "不詳（投稿尚未開放）",
+          "relevance": "國際急診醫學",
+          "field": "急診醫學",
+          "note": "地點與日期已定，摘要投稿尚未開放。"
+        },
+        {
+          "name": "ACEP Research Forum",
+          "acronym": "ACEP27",
+          "edition": "2027",
+          "url": "https://www.acep.org/education/meetings/research",
+          "city": "Boston, Massachusetts, USA",
+          "dates": "October 25-28, 2027",
+          "start_date": "2027-10-25",
+          "status": "not_announced",
+          "typical_month": "June",
+          "relevance": "急診醫學",
+          "field": "急診醫學"
+        },
+        {
+          "name": "EUSEM Congress",
+          "acronym": "EUSEM",
+          "edition": "2027",
+          "url": "https://eusemcongress.org/abstract-submission/",
+          "status": "not_announced",
+          "typical_month": "September",
+          "relevance": "歐洲急診醫學",
+          "field": "急診醫學",
+          "note": "2026 屆摘要已於 2026-09-01 截止；2027 屆地點尚未公布。"
+        },
+        {
+          "name": "ACEM Annual Scientific Meeting",
+          "acronym": "ACEM ASM",
+          "edition": "2027",
+          "url": "https://acemasm.com.au/",
+          "status": "not_announced",
+          "typical_month": "July",
+          "relevance": "澳紐急診醫學",
+          "field": "急診醫學",
+          "note": "2026 屆為 11 月於 Perth；2027 屆尚未公布。"
+        },
+        {
+          "name": "Asian Conference on Emergency Medicine (ACEM)",
+          "acronym": "ACEM 2028",
+          "edition": "2028 (14th)",
+          "url": "https://www.asiansem.org/events-and-sponsorship",
+          "city": "Singapore",
+          "dates": "20-25 October 2028",
+          "start_date": "2028-10-20",
+          "status": "announced_not_open",
+          "typical_month": "不詳（投稿尚未開放）",
+          "relevance": "亞洲急診醫學（距離近）",
+          "field": "急診醫學"
+        },
+        {
+          "name": "台灣急診醫學會年會 (TSEM)",
+          "acronym": "TSEM",
+          "edition": "2027",
+          "url": "https://www.sem.org.tw/News/12/Index",
+          "status": "not_announced",
+          "typical_month": "不詳",
+          "relevance": "國內年會",
+          "field": "急診醫學",
+          "note": "學會網站為 Big5 編碼且無機器可讀的投稿頁，需人工查看年會專區公告。"
+        }
+      ]
+    },
+    {
+      "id": "society_critical_care",
+      "collector": "curated",
+      "label": "重症 / 復甦 / 呼吸學會年會（人工核對）",
+      "tier": "core",
+      "url": "",
+      "conferences": [
+        {
+          "name": "ATS International Conference",
+          "acronym": "ATS 2027",
+          "edition": "2027",
+          "url": "https://site.thoracic.org/conference/program/call-for-scientific-abstracts-and-case-reports",
+          "abstract_deadline": "2026-11-04",
+          "deadline_text": "Deadline: 5 p.m. ET, Wednesday, Nov. 4, 2026",
+          "city": "New Orleans, LA, USA",
+          "dates": "May 14-19, 2027",
+          "start_date": "2027-05-14",
+          "typical_month": "November",
+          "relevance": "重症、呼吸與加護醫學",
+          "field": "重症醫學",
+          "note": "投稿需付費；截止時間為美東時間下午 5 點。"
+        },
+        {
+          "name": "ESICM LIVES",
+          "acronym": "LIVES 2027",
+          "edition": "2027 (40th)",
+          "url": "https://www.esicm.org/events/40th-annual-congress-copenhagen/",
+          "city": "Copenhagen, Denmark",
+          "dates": "September 25-29, 2027",
+          "start_date": "2027-09-25",
+          "status": "announced_not_open",
+          "typical_month": "不詳（投稿尚未開放）",
+          "relevance": "歐洲重症醫學",
+          "field": "重症醫學",
+          "note": "地點與日期已定，摘要投稿尚未開放。"
+        },
+        {
+          "name": "SCCM Critical Care Congress",
+          "acronym": "SCCM",
+          "edition": "2028",
+          "url": "https://www.sccm.org/",
+          "city": "Baltimore, Maryland, USA",
+          "dates": "April 9-11, 2028",
+          "start_date": "2028-04-09",
+          "status": "not_announced",
+          "typical_month": "不詳",
+          "relevance": "美國重症醫學",
+          "field": "重症醫學"
+        },
+        {
+          "name": "ERS Congress",
+          "acronym": "ERS 2027",
+          "edition": "2027",
+          "url": "https://www.ersnet.org/congress-and-events/congress/",
+          "city": "Milan, Italy",
+          "dates": "11-14 September 2027",
+          "start_date": "2027-09-11",
+          "status": "announced_not_open",
+          "typical_month": "不詳（投稿尚未開放）",
+          "relevance": "歐洲呼吸醫學",
+          "field": "呼吸醫學"
+        },
+        {
+          "name": "ISICEM (International Symposium on Intensive Care and Emergency Medicine)",
+          "acronym": "ISICEM",
+          "edition": "2027",
+          "url": "https://www.isicem.org/",
+          "city": "Brussels, Belgium",
+          "status": "not_announced",
+          "typical_month": "不詳",
+          "relevance": "重症與急診醫學（固定於布魯塞爾）",
+          "field": "重症醫學"
+        },
+        {
+          "name": "AHA Resuscitation Science Symposium (ReSS)",
+          "acronym": "ReSS",
+          "edition": "2027",
+          "url": "https://professional.heart.org/en/meetings/resuscitation-science-symposium",
+          "status": "not_announced",
+          "typical_month": "June",
+          "relevance": "急救復甦研究",
+          "field": "急救復甦"
+        },
+        {
+          "name": "ERC Resuscitation Congress",
+          "acronym": "ERC",
+          "edition": "2027",
+          "url": "https://www.erc.edu/congress",
+          "status": "not_announced",
+          "typical_month": "不詳",
+          "relevance": "歐洲急救復甦",
+          "field": "急救復甦"
+        }
+      ]
+    },
+    {
+      "id": "society_informatics",
+      "collector": "curated",
+      "label": "醫學資訊學會會議（人工核對）",
+      "tier": "core",
+      "url": "",
+      "conferences": [
+        {
+          "name": "Medical Informatics Europe (EFMI MIE)",
+          "acronym": "MIE 2027",
+          "edition": "2027",
+          "url": "https://mie2027.efmi.org/call-for-papers",
+          "submission_deadline": "2026-10-20",
+          "deadline_text": "Submission deadline: 20 October 2026",
+          "city": "Tallinn, Estonia",
+          "dates": "26-30 April 2027",
+          "start_date": "2027-04-26",
+          "typical_month": "October",
+          "relevance": "歐洲醫學資訊主力會議",
+          "field": "醫學資訊"
+        },
+        {
+          "name": "ML4H Symposium (Machine Learning for Health)",
+          "acronym": "ML4H",
+          "edition": "2026",
+          "url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+          "submission_deadline": "2026-09-10",
+          "deadline_text": "Sep 10 Paper submission deadline (no separate abstract deadline). All times are in AoE.",
+          "city": "Sydney, Australia",
+          "dates": "December 6-7, 2026",
+          "start_date": "2026-12-06",
+          "typical_month": "September",
+          "relevance": "健康機器學習",
+          "field": "醫療 AI",
+          "note": "截止時間為 AoE 時區，比台灣時間晚。"
+        },
+        {
+          "name": "AMIA Annual Symposium",
+          "acronym": "AMIA",
+          "edition": "2027",
+          "url": "https://amia.org/education-events/annual-symposium",
+          "city": "San Diego, CA, USA",
+          "dates": "November 6-10, 2027",
+          "start_date": "2027-11-06",
+          "status": "not_announced",
+          "typical_month": "March",
+          "relevance": "北美醫學資訊主力會議",
+          "field": "醫學資訊",
+          "note": "2027 徵稿尚未公布；投稿系統為 amia.secure-platform.com。"
+        },
+        {
+          "name": "AMIA Amplify (Informatics Summit / Clinical Informatics Conference)",
+          "acronym": "AMIA Amplify",
+          "edition": "2027",
+          "url": "https://amia.org/education-events",
+          "city": "Atlanta, GA, USA",
+          "dates": "April 12-15, 2027",
+          "start_date": "2027-04-12",
+          "status": "not_announced",
+          "typical_month": "September",
+          "relevance": "臨床資訊學",
+          "field": "醫學資訊",
+          "note": "2027 屆投稿已於 2026-09-03 截止。"
+        },
+        {
+          "name": "MEDINFO (IMIA World Congress on Medical and Health Informatics)",
+          "acronym": "MEDINFO",
+          "edition": "2027",
+          "url": "https://imia-medinfo.org/",
+          "city": "Dubai, United Arab Emirates",
+          "status": "not_announced",
+          "typical_month": "不詳",
+          "relevance": "全球醫學資訊大會",
+          "field": "醫學資訊"
+        },
+        {
+          "name": "AHLI Conference on Health, Inference, and Learning (CHIL)",
+          "acronym": "CHIL",
+          "edition": "2027",
+          "url": "https://chil.ahli.cc/",
+          "status": "not_announced",
+          "typical_month": "February",
+          "relevance": "健康推論與機器學習",
+          "field": "醫療 AI"
+        },
+        {
+          "name": "Machine Learning for Healthcare Conference (MLHC)",
+          "acronym": "MLHC",
+          "edition": "2027",
+          "url": "https://www.mlforhc.org/",
+          "status": "not_announced",
+          "typical_month": "April",
+          "relevance": "臨床機器學習",
+          "field": "醫療 AI"
+        }
       ]
     }
   ]

@@ -77,7 +77,8 @@ def render_conference_markdown(
         "",
         f"> 產生時間：{generated_at:%Y-%m-%d %H:%M} UTC  ",
         "> 每週更新。只列出截稿日還沒過的場次；已經截稿的會自動換成下一屆。  ",
-        "> 涵蓋：醫學影像 AI、生醫資訊、數位健康與人機互動、健康假訊息、頂尖 AI/ML/NLP。",
+        "> 涵蓋：急診醫學、重症與急救復甦、醫學資訊、醫學影像 AI、數位健康與人機互動、"
+        "健康假訊息，以及頂尖 AI / ML / NLP 會議。",
         "",
         "## 本週行動摘要",
         "",
@@ -113,17 +114,21 @@ def render_conference_markdown(
     lines += [
         "## 🕓 下一屆尚未公布（先把題目養好）",
         "",
-        "這些會議還沒公布下一屆截稿日。表格列的是它**往年通常截稿的月份**，可以先排時程。",
+        "這些會議還沒公布下一屆截稿日。表格列的是它**往年通常截稿的月份**，可以先排時程；"
+        "已經確定的地點與日期也一併列出，方便先安排行程。",
         "",
-        "| 會議 | 通常截稿月份 | 相關領域 | 等級 | 官方連結 |",
-        "| :--- | :--- | :--- | :--- | :--- |",
+        "| 會議 | 通常截稿月份 | 舉辦城市 | 會議日期 | 相關領域 | 官方連結 |",
+        "| :--- | :--- | :--- | :--- | :--- | :--- |",
     ]
     for conference in sorted(pending, key=lambda c: (c.typical_month or "zz", c.name)):
         link = f"[開啟]({conference.url})" if conference.url else "-"
+        name = esc(conference.name)
+        if conference.edition:
+            name = f"{name} {esc(conference.edition)}"
         lines.append(
-            f"| **{esc(conference.name)}** | {esc(conference.typical_month) or '不詳'} "
-            f"| {esc(conference.relevance or conference.field) or '-'} "
-            f"| {esc(conference.rank) or '-'} | {link} |"
+            f"| **{name}** | {esc(conference.typical_month) or '不詳'} "
+            f"| {esc(conference.city) or '-'} | {esc(conference.dates) or '-'} "
+            f"| {esc(conference.relevance or conference.field) or '-'} | {link} |"
         )
     lines.append("")
 
