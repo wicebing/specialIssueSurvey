@@ -51,11 +51,12 @@ $VenvPython = Join-Path $RepoRoot ".venv\Scripts\python.exe"
 & $VenvPython -m pip install --upgrade pip
 & $VenvPython -m pip install -r requirements.txt
 
-$Args = @("scripts\fetch_cfps.py")
+$RunArgs = @("scripts\fetch_cfps.py")
 if ($SkipTrends) {
-    $Args += "--skip-trends"
+    $RunArgs += "--skip-trends"
 }
-& $VenvPython @Args
+& $VenvPython @RunArgs
+& $VenvPython "scripts\fetch_conferences.py"
 
 if (!(Test-Path -LiteralPath ".git")) {
     Write-Host "This folder is not a git repository yet. Run: git init; git add .; git commit -m 'Initial CFP tracker'"

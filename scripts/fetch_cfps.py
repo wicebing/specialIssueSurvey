@@ -222,7 +222,8 @@ def render_site_page(title: str, body: str, active: str = "") -> str:
     <header class="topbar">
       <div class="brand"><a href="{prefix}index.html">Top Journal CFP Tracker</a></div>
       <nav class="nav" aria-label="Primary">
-        <a href="{prefix}index.html">首頁</a>
+        <a href="{prefix}index.html">期刊 Special Issue</a>
+        <a href="{prefix}conferences.html">會議截稿日</a>
       </nav>
     </header>
     {body}
@@ -404,6 +405,16 @@ def update_readme(week_id: str, stats: dict[str, Any]) -> None:
 - 確認開放投稿：{stats.get('open_calls', 0)} 筆
 - 其中有明確截稿日：{stats.get('with_deadline', 0)} 筆
 - 本週新出現：{stats.get('new', 0)} 筆
+
+## 會議投稿截止日
+
+另一份每週更新的清單，列出頂尖會議的**截稿日、舉辦城市與會議日期**。
+
+[{week_id} 會議截稿週報](reports/conferences/{week_id}.md)
+
+```powershell
+.\\.venv\\Scripts\\python -m scripts.fetch_conferences
+```
 
 ## 這個追蹤器怎麼保證不亂報
 

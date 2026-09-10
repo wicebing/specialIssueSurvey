@@ -1,0 +1,65 @@
+{
+  "policy": {
+    "project_name": "Top Conference Deadline Tracker",
+    "contact_email": "wicebing@gmail.com",
+    "urgent_days": 90,
+    "note": "Dataset entries come from the community-maintained ccf-deadlines feed. Curated entries are hand-verified against each society's official page; re-check them when the next edition is announced."
+  },
+  "conference_sources": [
+    {
+      "id": "ccf_clinical_ai",
+      "collector": "ccf_dataset",
+      "label": "醫學影像 / 生醫 AI 會議 (ccf-deadlines)",
+      "tier": "core",
+      "conferences": [
+        { "category": "MX", "slug": "miccai", "relevance": "醫學影像 AI", "field": "醫學影像" },
+        { "category": "MX", "slug": "bibm", "relevance": "生物醫學資訊", "field": "生醫資訊" },
+        { "category": "MX", "slug": "apbc", "relevance": "亞太生物資訊", "field": "生醫資訊" }
+      ]
+    },
+    {
+      "id": "ccf_health_hci",
+      "collector": "ccf_dataset",
+      "label": "數位健康 / 人機互動會議 (ccf-deadlines)",
+      "tier": "core",
+      "conferences": [
+        { "category": "HI", "slug": "chi", "relevance": "數位健康介面與行為", "field": "人機互動" },
+        { "category": "HI", "slug": "ubicomp", "relevance": "穿戴裝置與遠距監測", "field": "普及運算" },
+        { "category": "HI", "slug": "percom", "relevance": "感測與遠距照護", "field": "普及運算" },
+        { "category": "HI", "slug": "cscw", "relevance": "照護協作與健康社群", "field": "人機互動" },
+        { "category": "HI", "slug": "iui", "relevance": "臨床決策介面", "field": "人機互動" },
+        { "category": "HI", "slug": "icwsm", "relevance": "健康假訊息與社群資料", "field": "社群媒體" }
+      ]
+    },
+    {
+      "id": "ccf_core_ai",
+      "collector": "ccf_dataset",
+      "label": "頂尖 AI / ML / NLP 會議 (ccf-deadlines)",
+      "tier": "core",
+      "conferences": [
+        { "category": "AI", "slug": "nips", "relevance": "臨床 AI 方法學", "field": "機器學習" },
+        { "category": "AI", "slug": "icml", "relevance": "臨床 AI 方法學", "field": "機器學習" },
+        { "category": "AI", "slug": "iclr", "relevance": "臨床 AI 方法學", "field": "機器學習" },
+        { "category": "AI", "slug": "aaai", "relevance": "醫療 AI 應用", "field": "人工智慧" },
+        { "category": "AI", "slug": "ijcai", "relevance": "醫療 AI 應用", "field": "人工智慧" },
+        { "category": "AI", "slug": "acl", "relevance": "臨床文本與 LLM", "field": "自然語言處理" },
+        { "category": "AI", "slug": "emnlp", "relevance": "臨床文本與 LLM", "field": "自然語言處理" },
+        { "category": "AI", "slug": "naacl", "relevance": "臨床文本與 LLM", "field": "自然語言處理" },
+        { "category": "AI", "slug": "cvpr", "relevance": "醫學影像視覺", "field": "電腦視覺" },
+        { "category": "AI", "slug": "iccv", "relevance": "醫學影像視覺", "field": "電腦視覺" }
+      ]
+    },
+    {
+      "id": "ccf_data_mining",
+      "collector": "ccf_dataset",
+      "label": "資料探勘 / 資訊檢索會議 (ccf-deadlines)",
+      "tier": "other",
+      "conferences": [
+        { "category": "DB", "slug": "sigkdd", "relevance": "健康資料探勘", "field": "資料探勘" },
+        { "category": "DB", "slug": "cikm", "relevance": "健康知識管理", "field": "資料探勘" },
+        { "category": "DB", "slug": "sigir", "relevance": "健康資訊檢索", "field": "資訊檢索" },
+        { "category": "MX", "slug": "www", "relevance": "網路健康資訊與假訊息", "field": "全球資訊網" }
+      ]
+    }
+  ]
+}

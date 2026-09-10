@@ -12,6 +12,16 @@
 - 其中有明確截稿日：48 筆
 - 本週新出現：100 筆
 
+## 會議投稿截止日
+
+另一份每週更新的清單，列出頂尖會議的**截稿日、舉辦城市與會議日期**。
+
+[2026-W37 會議截稿週報](reports/conferences/2026-W37.md)
+
+```powershell
+.\.venv\Scripts\python -m scripts.fetch_conferences
+```
+
 ## 這個追蹤器怎麼保證不亂報
 
 - **截稿日只從該筆徵稿自己的區塊擷取**，而且必須緊接在 `submission deadline` / `截稿`
@@ -41,7 +51,7 @@ python -m venv .venv
 本機每週自動跑：
 
 ```powershell
-.\scripts\install_windows_task.ps1 -RepositoryPath "/home/runner/work/specialIssueSurvey/specialIssueSurvey"
+.\scripts\install_windows_task.ps1 -RepositoryPath "Y:\yabilab\specialIssueSurvey"
 ```
 
 設定 `NCBI_API_KEY` 環境變數可提高 PubMed 趨勢查詢的速率上限（非必要）。

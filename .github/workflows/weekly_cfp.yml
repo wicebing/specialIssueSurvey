@@ -41,11 +41,14 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -q
 
-      - name: Generate weekly report
+      - name: Generate weekly journal report
         env:
           # Optional: raises the PubMed rate limit from 3/sec to 10/sec.
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: python -m scripts.fetch_cfps
+
+      - name: Generate weekly conference deadlines
+        run: python -m scripts.fetch_conferences
 
       - name: Commit report changes
         run: |
