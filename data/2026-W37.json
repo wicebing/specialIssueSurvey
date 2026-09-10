@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-10T09:15:05.026268+00:00",
+  "generated_at": "2026-09-10T15:51:21.202508+00:00",
   "stats": {
     "open_calls": 100,
     "core_calls": 51,
@@ -202,12 +202,12 @@
       {
         "term": "deep learning",
         "label": "深度學習",
-        "recent_count": 252,
+        "recent_count": 253,
         "baseline_count": 212,
-        "growth_ratio": 1.149,
-        "momentum": 0.2,
-        "volume_weight": 5.533,
-        "score": 7.53,
+        "growth_ratio": 1.153,
+        "momentum": 0.206,
+        "volume_weight": 5.537,
+        "score": 7.59,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -963,46 +963,6 @@
       "last_verified": ""
     },
     {
-      "journal": "Critical Care",
-      "title": "Next-Generation Neurological Monitoring and CNS Therapeutic Devices",
-      "url": "https://link.springer.com/collections/ajifbdeihi",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis, monitoring, and treatment of central nervous system (CNS) disorders. E...",
-      "deadline": {
-        "date": "2027-03-16",
-        "text": "16 March 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 16 March 2027. Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligenc",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 187
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "artificial intelligence"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 90,
-      "fingerprint": "fff2cc24f59f3176",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
       "journal": "npj Digital Medicine",
       "title": "Prospective and Interventional Clinical Evidence in Medical AI Research",
       "url": "https://www.nature.com/collections/gdagbfjdah",
@@ -1253,6 +1213,46 @@
       "last_verified": ""
     },
     {
+      "journal": "Critical Care",
+      "title": "Next-Generation Neurological Monitoring and CNS Therapeutic Devices",
+      "url": "https://link.springer.com/collections/ajifbdeihi",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis, monitoring, and treatment of central nervous system (CNS) disorders. E...",
+      "deadline": {
+        "date": "2027-03-16",
+        "text": "16 March 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 16 March 2027. Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligenc",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 187
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 85,
+      "fingerprint": "fff2cc24f59f3176",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
       "journal": "IEEE Journal of Biomedical and Health Informatics",
       "title": "Emerging AI Paradigms for Next-Generation Medicine: Safety and Reliability in Vision-Language Models, Agentic Systems, and Digital Twins",
       "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/08/Emerging-AI-Paradigms-for-Next-Generation-Medicine-Safety-and-Reliability-in-Vision-Language-Models-Agentic-Systems-and-Digital-Twins_extended.pdf",
@@ -1365,7 +1365,7 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 80,
+      "score": 75,
       "fingerprint": "d7b8089ae719405d",
       "is_new": true,
       "tier": "core",
@@ -1405,7 +1405,7 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "急診醫學 / 創傷復甦",
-      "score": 80,
+      "score": 75,
       "fingerprint": "989eac044b952fc9",
       "is_new": true,
       "tier": "core",
@@ -1445,7 +1445,7 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 80,
+      "score": 75,
       "fingerprint": "462c21efb95dbd6c",
       "is_new": true,
       "tier": "core",
@@ -1486,7 +1486,7 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 80,
+      "score": 75,
       "fingerprint": "e8d2720d82b92bd1",
       "is_new": true,
       "tier": "core",
@@ -1526,7 +1526,7 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 80,
+      "score": 75,
       "fingerprint": "3b9905ed13ad1ad2",
       "is_new": true,
       "tier": "core",
@@ -1566,7 +1566,7 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 80,
+      "score": 75,
       "fingerprint": "96443158fa68010a",
       "is_new": true,
       "tier": "core",
@@ -1774,47 +1774,6 @@
       "last_verified": ""
     },
     {
-      "journal": "Critical Care",
-      "title": "Extracorporeal Blood Purification",
-      "url": "https://link.springer.com/collections/jccbjddchf",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, especially in the management of critically ill patients with systemic inflammation, sepsis, multi-organ ...",
-      "deadline": {
-        "date": "2026-09-25",
-        "text": "25 September 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 25 September 2026. Extracorporeal Blood Purification Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, es",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 15
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "intensive care",
-            "sepsis"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 71,
-      "fingerprint": "c5b30fcf55004974",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
       "journal": "JMIR Bioinformatics and Biotechnology",
       "title": "Call for Papers: Bridging Data, AI, and Innovation to Transform Health",
       "url": "https://www.jmir.org/announcements/645",
@@ -1937,6 +1896,47 @@
       "last_verified": ""
     },
     {
+      "journal": "Critical Care",
+      "title": "Extracorporeal Blood Purification",
+      "url": "https://link.springer.com/collections/jccbjddchf",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, especially in the management of critically ill patients with systemic inflammation, sepsis, multi-organ ...",
+      "deadline": {
+        "date": "2026-09-25",
+        "text": "25 September 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 25 September 2026. Extracorporeal Blood Purification Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, es",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 15
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "intensive care",
+            "sepsis"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 66,
+      "fingerprint": "c5b30fcf55004974",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
       "journal": "JMIR Aging",
       "title": "Call for Papers Theme Issue: Next-Generation Ambient Intelligence",
       "url": "https://www.jmir.org/announcements/730",
@@ -1978,6 +1978,46 @@
       "journal_category": "醫學資訊 / 數位醫療",
       "score": 61,
       "fingerprint": "5c326bf995459bbd",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "JMIR Mental Health",
+      "title": "Call for Papers: Does It Work, Does It Translate, and Does It Help or Harm?",
+      "url": "https://www.jmir.org/announcements/726",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "JMIR Mental Health invites submissions for an upcoming theme issue focused on building a holistic, accountable, and translation-focused research agenda for digital mental health interventions (DMHIs). While clinical trials have validated the underlying capabilities of various digital mental health therapeutics, apps, and AI-driven tools, the field often overlooks the messy realities of real-world ",
+      "deadline": {
+        "date": "2027-01-31",
+        "text": "January 31, 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
+        "days_left": 143
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 56,
+      "fingerprint": "a3c6675e122053e8",
       "is_new": true,
       "tier": "core",
       "carried_forward": false,
@@ -2031,7 +2071,7 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 61,
+      "score": 56,
       "fingerprint": "f1e576c90dfb280a",
       "is_new": true,
       "tier": "other",
@@ -2078,7 +2118,7 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 59,
+      "score": 54,
       "fingerprint": "aeeeb4eab64aff1b",
       "is_new": true,
       "tier": "other",
@@ -2125,703 +2165,10 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 59,
+      "score": 54,
       "fingerprint": "2fc45ca3cf055ecc",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "JMIR Mental Health",
-      "title": "Call for Papers: Does It Work, Does It Translate, and Does It Help or Harm?",
-      "url": "https://www.jmir.org/announcements/726",
-      "publisher": "JMIR Publications",
-      "source_id": "jmir_family",
-      "source_label": "JMIR Publications (all journals)",
-      "summary": "JMIR Mental Health invites submissions for an upcoming theme issue focused on building a holistic, accountable, and translation-focused research agenda for digital mental health interventions (DMHIs). While clinical trials have validated the underlying capabilities of various digital mental health therapeutics, apps, and AI-driven tools, the field often overlooks the messy realities of real-world ",
-      "deadline": {
-        "date": "2027-01-31",
-        "text": "January 31, 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
-        "days_left": 143
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1_mixed_verify",
-      "journal_priority": 4,
-      "journal_category": "醫學資訊 / 數位醫療",
-      "score": 56,
-      "fingerprint": "a3c6675e122053e8",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Explainable AI for clinical documentation",
-      "url": "https://link.springer.com/collections/fjhejdiebh",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Explainable AI for clinical documentation. The rise of Artificial Intelligence (AI) in healthcare has brought promi...",
-      "deadline": {
-        "date": "2027-06-10",
-        "text": "10 June 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 10 June 2027. Explainable AI for clinical documentation BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Explainabl",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 273
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "medical informatics"
-          ]
-        },
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI",
-            "artificial intelligence"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 56,
-      "fingerprint": "b5ad86fd9b3a4873",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Emergency Medicine",
-      "title": "Acute pain management in emergency medicine",
-      "url": "https://link.springer.com/collections/dfcegcjdaf",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_emerg",
-      "source_label": "BMC Emergency Medicine",
-      "summary": "BMC Emergency Medicine is calling for submissions to our Collection on acute pain management in emergency medicine. Acute pain management in emergency medicine is a critical area of practice that requires ti...",
-      "deadline": {
-        "date": "2026-10-29",
-        "text": "29 October 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 29 October 2026. Acute pain management in emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on acute pain management in e",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 49
-      },
-      "topics": [
-        {
-          "id": "emergency_medicine",
-          "label": "急診醫學 / Emergency Medicine",
-          "hits": [
-            "emergency medicine"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "急診醫學",
-      "score": 54,
-      "fingerprint": "c6cd2fd7becf1450",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Semantic interoperability",
-      "url": "https://link.springer.com/collections/edijjaacaf",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Semantic interoperability. Semantic interoperability is a crucial aspect of medical informatics, enabling diverse h...",
-      "deadline": {
-        "date": "2026-11-27",
-        "text": "27 November 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 27 November 2026. Semantic interoperability BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Semantic interoperabil",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 78
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "interoperability",
-            "medical informatics"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 54,
-      "fingerprint": "45a09bf373945596",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections",
-      "url": "https://link.springer.com/collections/jjejdiccch",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections. Antimicrobial r...",
-      "deadline": {
-        "date": "2026-11-30",
-        "text": "30 November 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 30 November 2026. Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections BMC Medical Informatics and Decision Maki",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 81
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "medical informatics"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 54,
-      "fingerprint": "6f61d33c53d98f31",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Emergency Medicine",
-      "title": "Radiation emergency medicine",
-      "url": "https://link.springer.com/collections/igjfbfibaf",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_emerg",
-      "source_label": "BMC Emergency Medicine",
-      "summary": "BMC Emergency Medicine is calling for submissions to our Collection on radiation emergency medicine. Radiation emergencies, whether due to nuclear accidents, radiological dispersal devices, or medical mishap...",
-      "deadline": {
-        "date": "2026-12-30",
-        "text": "30 December 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 30 December 2026. Radiation emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on radiation emergency medicine. Radiation",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 111
-      },
-      "topics": [
-        {
-          "id": "emergency_medicine",
-          "label": "急診醫學 / Emergency Medicine",
-          "hits": [
-            "emergency medicine"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "急診醫學",
-      "score": 54,
-      "fingerprint": "de7216ea5d8d65d0",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Emergency Medicine",
-      "title": "Climate change and its impact on emergency and disaster medicine",
-      "url": "https://link.springer.com/collections/gcfiehifcg",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_emerg",
-      "source_label": "BMC Emergency Medicine",
-      "summary": "BMC Emergency Medicine is calling for submissions to our Collection on climate change and its impact on emergency and disaster medicine. The intersection of climate change and emergency medicine is becoming ...",
-      "deadline": {
-        "date": "2027-01-04",
-        "text": "04 January 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 04 January 2027. Climate change and its impact on emergency and disaster medicine BMC Emergency Medicine is calling for submissions to our Collection on clima",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 116
-      },
-      "topics": [
-        {
-          "id": "emergency_medicine",
-          "label": "急診醫學 / Emergency Medicine",
-          "hits": [
-            "emergency medicine"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "急診醫學",
-      "score": 54,
-      "fingerprint": "430bdc17775b621f",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Equity in health informatics",
-      "url": "https://link.springer.com/collections/dhfihfjfcj",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Equity in health informatics. Health informatics plays a critical role in shaping healthcare delivery and improving...",
-      "deadline": {
-        "date": "2027-01-17",
-        "text": "17 January 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 17 January 2027. Equity in health informatics BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Equity in health inf",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 129
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "health informatics",
-            "medical informatics"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 54,
-      "fingerprint": "3a6abf7c7df76214",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Infectious disease outbreak detection and prevention",
-      "url": "https://link.springer.com/collections/aggjdhcaae",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Infectious disease outbreak detection and prevention. The emergence and re-emergence of infectious diseases have hi...",
-      "deadline": {
-        "date": "2027-02-18",
-        "text": "18 February 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 18 February 2027. Infectious disease outbreak detection and prevention BMC Medical Informatics and Decision Making is calling for submissions to our Collectio",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 161
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "medical informatics"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 54,
-      "fingerprint": "c5a1d1ced0bb59f6",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Advances in open-source medical software",
-      "url": "https://link.springer.com/collections/bjiijjbfbj",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Advances in open-source medical software. The development of open-source medical software bears a potential to tran...",
-      "deadline": {
-        "date": "2027-03-26",
-        "text": "26 March 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 26 March 2027. Advances in open-source medical software BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Advances i",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 197
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "medical informatics"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 54,
-      "fingerprint": "8953c85d2c326d2c",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Critical Care",
-      "title": "The future of Intensive Care Medicine",
-      "url": "https://link.springer.com/collections/fgbibchhgj",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "This new Thematic Series focus on all aspects related to the future of Intensive Care Medicine, including but not limited to: organization, staffing, monitoring systems, new therapies, future organ support s...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "dc1ac912749895b4",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Critical Care",
-      "title": "Personalized medicine in the ICU",
-      "url": "https://link.springer.com/collections/bichhgecfe",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "Thematic Series After so many negative randomized, controlled trials, that have evaluated a number of simplified therapeutic interventions that could be applied to large patient populations, people are turni...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "fbadd3e614d6b52b",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "Perioperative Care in the ICU",
-      "url": "https://link.springer.com/collections/jijhfcfgdb",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "“Perioperative Care in the ICU” brings together expert perspectives on managing high-risk surgical patients before, during and after their time in intensive care. The collection explores evolving protocols, ...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU",
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "196d7d34cdf3f779",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "Physiology in Critical Illness",
-      "url": "https://link.springer.com/collections/hiibadhdec",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "This new ICM series brings physiology and pathophysiology back where they matter most: to the bedside. Our goal is simple—to revisit key physiological principles through the lens of real-life intensive care ...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "765d37adc9bee979",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "Standard of Care in the Intensive Care Unit",
-      "url": "https://link.springer.com/collections/cbeijehfjc",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "The Standard of Care in the ICU collection examines the level of care that a competent and prudent intensivist would provide in an intensive care setting. In essence, it defines the baseline standard of care...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU",
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "d0119d87da9226b8",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "ICU Toolbox",
-      "url": "https://link.springer.com/collections/dajidfabgi",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "The “ICU Toolbox” collection provides practical advice on a range of special focus topics. It aims to be a beacon of practical insights, offering concise and insightful hands-on guidance for healthcare profe...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "dc497294b3e17bec",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "My Green ICU",
-      "url": "https://link.springer.com/collections/aefebhegjj",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "Healthcare pollutes the earth’s air, land, and water, contributing approximately 5% of worldwide anthropogenic greenhouse gases (GHGs). Critical care medicine is a hospital carbon hotspot with continuous sta...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "critical care",
-            "ICU"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 53,
-      "fingerprint": "11e943bf2783145d",
-      "is_new": true,
-      "tier": "core",
       "carried_forward": true,
       "last_verified": "2026-W37"
     },
@@ -2890,13 +2237,383 @@
       "last_verified": ""
     },
     {
-      "journal": "Intensive Care Medicine",
-      "title": "The Brain in the Line of Fire",
-      "url": "https://link.springer.com/collections/aeedagfjab",
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Explainable AI for clinical documentation",
+      "url": "https://link.springer.com/collections/fjhejdiebh",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Explainable AI for clinical documentation. The rise of Artificial Intelligence (AI) in healthcare has brought promi...",
+      "deadline": {
+        "date": "2027-06-10",
+        "text": "10 June 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 10 June 2027. Explainable AI for clinical documentation BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Explainabl",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 273
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "medical informatics"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 51,
+      "fingerprint": "b5ad86fd9b3a4873",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Emergency Medicine",
+      "title": "Acute pain management in emergency medicine",
+      "url": "https://link.springer.com/collections/dfcegcjdaf",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_emerg",
+      "source_label": "BMC Emergency Medicine",
+      "summary": "BMC Emergency Medicine is calling for submissions to our Collection on acute pain management in emergency medicine. Acute pain management in emergency medicine is a critical area of practice that requires ti...",
+      "deadline": {
+        "date": "2026-10-29",
+        "text": "29 October 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 29 October 2026. Acute pain management in emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on acute pain management in e",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 49
+      },
+      "topics": [
+        {
+          "id": "emergency_medicine",
+          "label": "急診醫學 / Emergency Medicine",
+          "hits": [
+            "emergency medicine"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "急診醫學",
+      "score": 49,
+      "fingerprint": "c6cd2fd7becf1450",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Semantic interoperability",
+      "url": "https://link.springer.com/collections/edijjaacaf",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Semantic interoperability. Semantic interoperability is a crucial aspect of medical informatics, enabling diverse h...",
+      "deadline": {
+        "date": "2026-11-27",
+        "text": "27 November 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 27 November 2026. Semantic interoperability BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Semantic interoperabil",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 78
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "interoperability",
+            "medical informatics"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 49,
+      "fingerprint": "45a09bf373945596",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections",
+      "url": "https://link.springer.com/collections/jjejdiccch",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections. Antimicrobial r...",
+      "deadline": {
+        "date": "2026-11-30",
+        "text": "30 November 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 30 November 2026. Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections BMC Medical Informatics and Decision Maki",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 81
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "medical informatics"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 49,
+      "fingerprint": "6f61d33c53d98f31",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Emergency Medicine",
+      "title": "Radiation emergency medicine",
+      "url": "https://link.springer.com/collections/igjfbfibaf",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_emerg",
+      "source_label": "BMC Emergency Medicine",
+      "summary": "BMC Emergency Medicine is calling for submissions to our Collection on radiation emergency medicine. Radiation emergencies, whether due to nuclear accidents, radiological dispersal devices, or medical mishap...",
+      "deadline": {
+        "date": "2026-12-30",
+        "text": "30 December 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 30 December 2026. Radiation emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on radiation emergency medicine. Radiation",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 111
+      },
+      "topics": [
+        {
+          "id": "emergency_medicine",
+          "label": "急診醫學 / Emergency Medicine",
+          "hits": [
+            "emergency medicine"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "急診醫學",
+      "score": 49,
+      "fingerprint": "de7216ea5d8d65d0",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Emergency Medicine",
+      "title": "Climate change and its impact on emergency and disaster medicine",
+      "url": "https://link.springer.com/collections/gcfiehifcg",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_emerg",
+      "source_label": "BMC Emergency Medicine",
+      "summary": "BMC Emergency Medicine is calling for submissions to our Collection on climate change and its impact on emergency and disaster medicine. The intersection of climate change and emergency medicine is becoming ...",
+      "deadline": {
+        "date": "2027-01-04",
+        "text": "04 January 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 04 January 2027. Climate change and its impact on emergency and disaster medicine BMC Emergency Medicine is calling for submissions to our Collection on clima",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 116
+      },
+      "topics": [
+        {
+          "id": "emergency_medicine",
+          "label": "急診醫學 / Emergency Medicine",
+          "hits": [
+            "emergency medicine"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "急診醫學",
+      "score": 49,
+      "fingerprint": "430bdc17775b621f",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Equity in health informatics",
+      "url": "https://link.springer.com/collections/dhfihfjfcj",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Equity in health informatics. Health informatics plays a critical role in shaping healthcare delivery and improving...",
+      "deadline": {
+        "date": "2027-01-17",
+        "text": "17 January 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 17 January 2027. Equity in health informatics BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Equity in health inf",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 129
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "health informatics",
+            "medical informatics"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 49,
+      "fingerprint": "3a6abf7c7df76214",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Infectious disease outbreak detection and prevention",
+      "url": "https://link.springer.com/collections/aggjdhcaae",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Infectious disease outbreak detection and prevention. The emergence and re-emergence of infectious diseases have hi...",
+      "deadline": {
+        "date": "2027-02-18",
+        "text": "18 February 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 18 February 2027. Infectious disease outbreak detection and prevention BMC Medical Informatics and Decision Making is calling for submissions to our Collectio",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 161
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "medical informatics"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 49,
+      "fingerprint": "c5a1d1ced0bb59f6",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Advances in open-source medical software",
+      "url": "https://link.springer.com/collections/bjiijjbfbj",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Advances in open-source medical software. The development of open-source medical software bears a potential to tran...",
+      "deadline": {
+        "date": "2027-03-26",
+        "text": "26 March 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 26 March 2027. Advances in open-source medical software BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Advances i",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 197
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "medical informatics"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 49,
+      "fingerprint": "8953c85d2c326d2c",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Critical Care",
+      "title": "The future of Intensive Care Medicine",
+      "url": "https://link.springer.com/collections/fgbibchhgj",
       "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "Brain function depends on a continuous supply of oxygen and glucose, while secondary brain dysfunction and damage in critical illness arises from intra- and extracranial factors that act on inflammation, nut...",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "This new Thematic Series focus on all aspects related to the future of Intensive Care Medicine, including but not limited to: organization, staffing, monitoring systems, new therapies, future organ support s...",
       "deadline": {
         "date": null,
         "text": "",
@@ -2910,12 +2627,263 @@
         "evidence": "open",
         "days_left": null
       },
-      "topics": [],
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "intensive care"
+          ]
+        }
+      ],
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
       "score": 48,
-      "fingerprint": "67f31bcc7c3b8e4d",
+      "fingerprint": "dc1ac912749895b4",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Critical Care",
+      "title": "Personalized medicine in the ICU",
+      "url": "https://link.springer.com/collections/bichhgecfe",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "Thematic Series After so many negative randomized, controlled trials, that have evaluated a number of simplified therapeutic interventions that could be applied to large patient populations, people are turni...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 48,
+      "fingerprint": "fbadd3e614d6b52b",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "Perioperative Care in the ICU",
+      "url": "https://link.springer.com/collections/jijhfcfgdb",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "“Perioperative Care in the ICU” brings together expert perspectives on managing high-risk surgical patients before, during and after their time in intensive care. The collection explores evolving protocols, ...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU",
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 48,
+      "fingerprint": "196d7d34cdf3f779",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "Physiology in Critical Illness",
+      "url": "https://link.springer.com/collections/hiibadhdec",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "This new ICM series brings physiology and pathophysiology back where they matter most: to the bedside. Our goal is simple—to revisit key physiological principles through the lens of real-life intensive care ...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 48,
+      "fingerprint": "765d37adc9bee979",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "Standard of Care in the Intensive Care Unit",
+      "url": "https://link.springer.com/collections/cbeijehfjc",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "The Standard of Care in the ICU collection examines the level of care that a competent and prudent intensivist would provide in an intensive care setting. In essence, it defines the baseline standard of care...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU",
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 48,
+      "fingerprint": "d0119d87da9226b8",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "ICU Toolbox",
+      "url": "https://link.springer.com/collections/dajidfabgi",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "The “ICU Toolbox” collection provides practical advice on a range of special focus topics. It aims to be a beacon of practical insights, offering concise and insightful hands-on guidance for healthcare profe...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 48,
+      "fingerprint": "dc497294b3e17bec",
+      "is_new": true,
+      "tier": "core",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "My Green ICU",
+      "url": "https://link.springer.com/collections/aefebhegjj",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "Healthcare pollutes the earth’s air, land, and water, contributing approximately 5% of worldwide anthropogenic greenhouse gases (GHGs). Critical care medicine is a hospital carbon hotspot with continuous sta...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care",
+            "ICU"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 48,
+      "fingerprint": "11e943bf2783145d",
       "is_new": true,
       "tier": "core",
       "carried_forward": true,
@@ -2970,49 +2938,34 @@
       "last_verified": ""
     },
     {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Natural language processing in medical informatics – Part II",
-      "url": "https://link.springer.com/collections/bcihcbcbgi",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Natural language processing in medical informatics – Part II. Recent developments in \"Natural Language Processing i...",
+      "journal": "Intensive Care Medicine",
+      "title": "The Brain in the Line of Fire",
+      "url": "https://link.springer.com/collections/aeedagfjab",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "Brain function depends on a continuous supply of oxygen and glucose, while secondary brain dysfunction and damage in critical illness arises from intra- and extracranial factors that act on inflammation, nut...",
       "deadline": {
-        "date": "2027-05-11",
-        "text": "11 May 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 11 May 2027. Natural language processing in medical informatics – Part II BMC Medical Informatics and Decision Making is calling for submissions to our Collec",
-        "precision": "day"
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
       },
       "status": {
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 243
+        "days_left": null
       },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "medical informatics"
-          ]
-        },
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "natural language processing"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 44,
-      "fingerprint": "d05b663678262302",
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 43,
+      "fingerprint": "67f31bcc7c3b8e4d",
       "is_new": true,
-      "tier": "other",
+      "tier": "core",
       "carried_forward": true,
       "last_verified": "2026-W37"
     },
@@ -3056,6 +3009,53 @@
       "tier": "core",
       "carried_forward": false,
       "last_verified": ""
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Natural language processing in medical informatics – Part II",
+      "url": "https://link.springer.com/collections/bcihcbcbgi",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Natural language processing in medical informatics – Part II. Recent developments in \"Natural Language Processing i...",
+      "deadline": {
+        "date": "2027-05-11",
+        "text": "11 May 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 11 May 2027. Natural language processing in medical informatics – Part II BMC Medical Informatics and Decision Making is calling for submissions to our Collec",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 243
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "medical informatics"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "natural language processing"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 39,
+      "fingerprint": "d05b663678262302",
+      "is_new": true,
+      "tier": "other",
+      "carried_forward": true,
+      "last_verified": "2026-W37"
     },
     {
       "journal": "JMIR Medical Informatics",
