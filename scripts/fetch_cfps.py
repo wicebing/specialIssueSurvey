@@ -72,6 +72,97 @@ def historical_fingerprints(current_week: str) -> set[str]:
     return seen
 
 
+# A source that answered normally and simply had nothing is not a failure.
+# These states mean we never saw the page, so last week's findings still stand.
+FETCH_FAILURE_STATES = ("bot_challenge", "blocked_", "dead_link_", "http_", "error", "parse_error")
+
+
+def load_previous_calls() -> tuple[list[dict[str, Any]], str]:
+    """Return the most recent run's calls, for carrying past a blocked fetch."""
+    latest = DATA_DIR / "latest.json"
+    if not latest.exists():
+        return [], ""
+    try:
+        payload = json.loads(latest.read_text(encoding="utf-8"))
+    except Exception:
+        return [], ""
+    return payload.get("calls", []), payload.get("week", "")
+
+
+def carry_forward_blocked_sources(
+    reports: list[SourceReport],
+    today: date,
+    horizon_days: int,
+) -> list[CFPRecord]:
+    """Re-list still-valid calls from sources we could not reach this week.
+
+    Springer serves its bot wall to datacenter IPs, so a GitHub-hosted run loses
+    Critical Care, Intensive Care Medicine and three more journals that a run
+    from a normal connection sees fine. Dropping them would quietly shrink the
+    report; carrying them forward keeps the opportunity visible and labels it as
+    not re-checked, which is the honest middle ground.
+    """
+    blocked = {
+        report.source_id
+        for report in reports
+        if report.accepted == 0
+        and any(report.status.startswith(state) for state in FETCH_FAILURE_STATES)
+    }
+    if not blocked:
+        return []
+
+    previous, previous_week = load_previous_calls()
+    carried: list[CFPRecord] = []
+    for item in previous:
+        if item.get("source_id") not in blocked:
+            continue
+        if item.get("carried_forward") and item.get("last_verified") == previous_week:
+            # Avoid re-carrying something that was itself only ever carried.
+            pass
+        deadline_iso = (item.get("deadline") or {}).get("date")
+        if deadline_iso:
+            try:
+                deadline = date.fromisoformat(deadline_iso)
+            except ValueError:
+                continue
+            days_left = (deadline - today).days
+            if days_left < 0 or days_left > horizon_days:
+                continue
+            status = dict(item.get("status") or {})
+            status["days_left"] = days_left
+        else:
+            status = dict(item.get("status") or {})
+        record = CFPRecord(
+            journal=item.get("journal", ""),
+            title=item.get("title", ""),
+            url=item.get("url", ""),
+            publisher=item.get("publisher", ""),
+            source_id=item.get("source_id", ""),
+            source_label=item.get("source_label", ""),
+            summary=item.get("summary", ""),
+            deadline=item.get("deadline") or {},
+            status=status,
+            topics=item.get("topics") or [],
+            jcr_band=item.get("jcr_band", ""),
+            journal_priority=int(item.get("journal_priority", 1)),
+            journal_category=item.get("journal_category", ""),
+            score=max(0, int(item.get("score", 0)) - 5),
+            fingerprint=item.get("fingerprint", ""),
+            tier=item.get("tier", "other"),
+            carried_forward=True,
+            last_verified=item.get("last_verified") or previous_week,
+        )
+        carried.append(record)
+
+    for report in reports:
+        count = sum(1 for record in carried if record.source_id == report.source_id)
+        if count:
+            report.accepted = count
+            note = f"unreachable; carried {count} still-open calls from {previous_week}"
+            report.notes = f"{report.notes}; {note}" if report.notes else note
+    return carried
+
+
 def collect(
     config: dict[str, Any],
     today: date,
@@ -391,6 +482,15 @@ def run(args: argparse.Namespace) -> int:
 
     print("Collecting calls for papers...", flush=True)
     records, sources = collect(config, today, args.limit_sources, rising_terms)
+
+    horizon = int(config.get("tracking_policy", {}).get("deadline_horizon_days", 540))
+    carried = carry_forward_blocked_sources(sources, today, horizon)
+    if carried:
+        seen = {record.fingerprint for record in records}
+        added = [record for record in carried if record.fingerprint not in seen]
+        records.extend(added)
+        records.sort(key=lambda r: (-r.score, r.deadline_date or "9999-12-31", r.journal))
+        print(f"  carried forward {len(added)} calls from unreachable sources", flush=True)
 
     previous = historical_fingerprints(week_id)
     for record in records:

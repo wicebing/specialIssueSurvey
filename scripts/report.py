@@ -108,6 +108,12 @@ def render_markdown(
             "| :--- | :--- | :--- | :--- | ---: | :---: |",
         ]
         for record in sorted(records, key=lambda r: r.deadline_date or "9999-12-31"):
+            flags = []
+            if record.is_new:
+                flags.append("🆕")
+            if record.carried_forward:
+                # Never let a cached row look like one we checked today.
+                flags.append(f"📦{record.last_verified}")
             rows.append(
                 "| {deadline} | **{journal}** | [{title}]({url}) | {topics} | {score} | {new} |".format(
                     deadline=_deadline_cell(record),
@@ -116,7 +122,7 @@ def render_markdown(
                     url=record.url,
                     topics=_topic_cell(record),
                     score=record.score,
-                    new="🆕" if record.is_new else "",
+                    new=" ".join(flags),
                 )
             )
         return rows
@@ -291,6 +297,8 @@ def render_markdown(
         "`submission deadline` / `截稿` 之類的關鍵詞後面；找不到就標成滾動徵稿，不會用整頁的日期硬湊。",
         "- 已過期的徵稿會自動剔除。IEEE JBHI 的頁面不會清掉過期項目，這一層過濾特別重要。",
         "- 導覽列連結（登入、投稿須知、語言編修等）會被擋掉，不會再出現在清單裡。",
+        "- 標示 📦 的項目，是本週該來源被出版社擋住時，從上次成功抓取沿用下來的"
+        "（截稿日仍未過）。它沒有在本週重新確認，投稿前請務必自行點開。",
         "- 趨勢區塊統計的是**實際發表量**，不是徵稿數量；成長倍率用「近半年 vs 去年同期」對齊季節性。",
         "- Q1 判定以 `config/target_journals.json` 的人工白名單為準，每年 JCR 更新後仍須用 "
         "Clarivate JCR 重新核對。",

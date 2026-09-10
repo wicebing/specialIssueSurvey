@@ -77,6 +77,8 @@ class CFPRecord:
     fingerprint: str = ""
     is_new: bool = False
     tier: str = "other"
+    carried_forward: bool = False
+    last_verified: str = ""
 
     @property
     def deadline_date(self) -> str | None:
@@ -105,6 +107,8 @@ class CFPRecord:
             "fingerprint": self.fingerprint,
             "is_new": self.is_new,
             "tier": self.tier,
+            "carried_forward": self.carried_forward,
+            "last_verified": self.last_verified,
         }
 
 

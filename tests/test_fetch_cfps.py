@@ -227,3 +227,55 @@ def test_report_matches_a_rising_topic_to_an_open_call():
 def test_report_handles_an_empty_week_without_crashing():
     text = _render()
     assert "確認開放投稿" in text
+
+
+# --- carry-forward when a publisher blocks us -------------------------------
+
+
+def test_carry_forward_only_triggers_for_fetch_failures(tmp_path, monkeypatch):
+    """A source that answered fine with zero results must not be back-filled."""
+    from scripts import fetch_cfps
+    from scripts.cfp_sources import SourceReport
+
+    monkeypatch.setattr(fetch_cfps, "DATA_DIR", tmp_path)
+    (tmp_path / "latest.json").write_text(
+        json.dumps({
+            "week": "2026-W36",
+            "calls": [{
+                "source_id": "s1", "journal": "Critical Care", "title": "Sepsis",
+                "url": "https://x.org/1", "deadline": {"date": "2027-01-01"},
+                "status": {"state": "open"}, "fingerprint": "fp1", "tier": "core",
+            }],
+        }),
+        encoding="utf-8",
+    )
+
+    healthy = SourceReport("s1", "Critical Care", "u", status="ok", accepted=0)
+    assert fetch_cfps.carry_forward_blocked_sources([healthy], TODAY, 540) == []
+
+    blocked = SourceReport("s1", "Critical Care", "u", status="bot_challenge", accepted=0)
+    carried = fetch_cfps.carry_forward_blocked_sources([blocked], TODAY, 540)
+    assert len(carried) == 1
+    assert carried[0].carried_forward
+    assert carried[0].last_verified == "2026-W36"
+    assert blocked.accepted == 1
+
+
+def test_carry_forward_drops_calls_whose_deadline_passed(tmp_path, monkeypatch):
+    from scripts import fetch_cfps
+    from scripts.cfp_sources import SourceReport
+
+    monkeypatch.setattr(fetch_cfps, "DATA_DIR", tmp_path)
+    (tmp_path / "latest.json").write_text(
+        json.dumps({
+            "week": "2026-W36",
+            "calls": [{
+                "source_id": "s1", "journal": "Critical Care", "title": "Expired",
+                "url": "https://x.org/1", "deadline": {"date": "2026-08-01"},
+                "status": {"state": "open"}, "fingerprint": "fp1",
+            }],
+        }),
+        encoding="utf-8",
+    )
+    blocked = SourceReport("s1", "Critical Care", "u", status="bot_challenge", accepted=0)
+    assert fetch_cfps.carry_forward_blocked_sources([blocked], TODAY, 540) == []
