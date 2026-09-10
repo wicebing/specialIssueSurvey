@@ -38,11 +38,14 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
+      - name: Run tests
+        run: python -m pytest tests/ -q
+
       - name: Generate weekly report
         env:
-          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-        run: python scripts/fetch_cfps.py
+          # Optional: raises the PubMed rate limit from 3/sec to 10/sec.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python -m scripts.fetch_cfps
 
       - name: Commit report changes
         run: |

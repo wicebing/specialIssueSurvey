@@ -1,44 +1,229 @@
-from datetime import datetime, timezone
+"""Tests for the collection pipeline and report rendering."""
 
-from scripts.fetch_cfps import candidate_fingerprint, classify_topics, extract_deadline
+import json
+from datetime import date, datetime, timezone
+from pathlib import Path
+
+from scripts.cfp_sources import (
+    CFPRecord,
+    RawEntry,
+    dedupe,
+    fingerprint_for,
+    generic_cfp_page,
+    normalize_url,
+    score_record,
+)
+from scripts.cfp_extract import DeadlineInfo, SubmissionStatus
+from scripts.http_client import looks_like_challenge
+from scripts.report import render_markdown
+
+ROOT = Path(__file__).resolve().parents[1]
+TODAY = date(2026, 9, 10)
 
 
-def test_extract_deadline_future_english_date():
-    result = extract_deadline(
-        "Submission deadline: March 31, 2027. Papers should focus on emergency care.",
-        today=datetime(2026, 9, 10, tzinfo=timezone.utc),
+def test_config_is_valid_and_every_source_names_a_known_adapter():
+    from scripts.cfp_sources import ADAPTERS
+
+    config = json.loads((ROOT / "config" / "target_journals.json").read_text(encoding="utf-8"))
+    assert config["sources"], "no sources configured"
+    for spec in config["sources"]:
+        assert spec["adapter"] in ADAPTERS, f"{spec['id']} uses unknown adapter {spec['adapter']}"
+        assert spec["url"].startswith("https://")
+        assert spec["id"]
+
+
+def test_trend_engine_config_is_present():
+    config = json.loads((ROOT / "config" / "target_journals.json").read_text(encoding="utf-8"))
+    engine = config["trend_engine"]
+    assert engine["pubmed_journals"]
+    assert engine["tracked_terms"]
+    assert all("term" in t for t in engine["tracked_terms"])
+
+
+def test_blocked_publishers_are_listed_rather_than_silently_dropped():
+    """A journal we cannot fetch must still be named, or its absence misleads."""
+    config = json.loads((ROOT / "config" / "target_journals.json").read_text(encoding="utf-8"))
+    names = {item["journal"] for item in config["manual_watchlist"]}
+    for journal in ["Resuscitation", "JAMA Network Open", "The Lancet Digital Health"]:
+        assert journal in names
+
+
+# --- fingerprinting and dedupe ---------------------------------------------
+
+
+def test_fingerprint_ignores_tracking_parameters():
+    one = fingerprint_for("JAMIA", "Call for Papers", "https://x.org/cfp?utm_source=a&id=1")
+    two = fingerprint_for("JAMIA", "Call for Papers", "https://x.org/cfp?id=1&utm_campaign=b")
+    assert one == two
+
+
+def test_normalize_url_strips_trailing_slash_and_fragment():
+    assert normalize_url("https://X.org/a/b/#frag") == "https://x.org/a/b"
+
+
+def test_dedupe_keeps_the_higher_scoring_duplicate():
+    low = CFPRecord(journal="J", title="T", url="https://x.org/1", score=10, fingerprint="f1")
+    high = CFPRecord(journal="J", title="T", url="https://x.org/1", score=80, fingerprint="f1")
+    assert dedupe([low, high])[0].score == 80
+
+
+# --- scoring ----------------------------------------------------------------
+
+
+def _score(days_left, priority=5, band="Q1/top20_watchlist", topics=(), terms=(), text=""):
+    deadline = DeadlineInfo(date=TODAY, text="x") if days_left is not None else DeadlineInfo()
+    status = SubmissionStatus(
+        state="open" if days_left is not None else "unknown", days_left=days_left
     )
-    assert result["kind"] == "date"
-    assert result["date"] == "2027-03-31"
+    return score_record(deadline, status, topics, priority, band, terms, text)
 
 
-def test_extract_deadline_rolling():
-    result = extract_deadline("This theme issue accepts rolling submissions.")
-    assert result["kind"] == "rolling"
+def test_comfortable_runway_scores_above_a_call_closing_in_days():
+    assert _score(90) > _score(5)
 
 
-def test_topic_classification_matches_aliases():
-    topics = [
-        {
-            "id": "digital_health_telecare",
-            "label": "遠距照護與數位醫療 / Telecare & Digital Health",
-            "keywords": ["telemedicine", "remote monitoring"],
-        }
-    ]
-    matched = classify_topics("Special issue on telemedicine in emergency departments", topics)
-    assert matched[0]["id"] == "digital_health_telecare"
+def test_watchlist_journal_scores_above_an_unverified_one():
+    assert _score(90, band="Q1/top20_watchlist") > _score(90, band="unverified_candidate")
 
 
-def test_candidate_fingerprint_is_stable_against_tracking_query():
-    one = {
-        "url": "https://example.org/cfp?utm_source=x&id=1",
-        "journal": "JAMIA",
-        "title": "Call for Papers",
+def test_matching_a_rising_topic_raises_the_score():
+    plain = _score(90, text="a study of sepsis")
+    boosted = _score(90, terms=["large language model"], text="a large language model study")
+    assert boosted > plain
+
+
+def test_score_is_bounded():
+    assert 0 <= _score(90, priority=99, topics=[{}] * 9) <= 100
+
+
+# --- challenge detection ----------------------------------------------------
+
+
+def test_springer_style_challenge_page_is_detected():
+    page = "<html><head><title>Client Challenge</title></head><body><noscript>x</noscript></body></html>"
+    assert looks_like_challenge(page)
+
+
+def test_real_listing_page_is_not_flagged_as_a_challenge():
+    page = "<html><body>" + ("<article>Special Issue on Sepsis</article>" * 400) + "</body></html>"
+    assert not looks_like_challenge(page)
+
+
+def test_json_payload_is_never_flagged():
+    assert not looks_like_challenge('{"results": []}', content_type="application/json")
+
+
+# --- generic adapter stays strict -------------------------------------------
+
+
+class _FakeSession:
+    def __init__(self, html_text):
+        self.html = html_text
+        self.contact_email = ""
+
+    def get(self, url, params=None, use_cache=True, allow_curl_fallback=True):
+        from scripts.http_client import FetchResult
+
+        return FetchResult(url=url, final_url=url, status_code=200, text=self.html, ok=True)
+
+
+def test_generic_adapter_ignores_navigation_even_when_page_mentions_special_issues():
+    """The exact shape of the original bug: chrome links on a CFP-ish page."""
+    page = """
+    <html><body>
+      <h1>Calls for papers</h1>
+      <a href="/login">Log in</a>
+      <a href="#main">Skip to main content</a>
+      <a href="/journal/x/submission-guidelines">Submission guidelines</a>
+      <a href="/collections/abc">Special Issue on Prehospital Triage</a>
+    </body></html>
+    """
+    entries, report = generic_cfp_page(_FakeSession(page), {"id": "s", "url": "https://x.org/p"})
+    titles = [entry.title for entry in entries]
+    assert titles == ["Special Issue on Prehospital Triage"]
+    assert report.found == 1
+
+
+# --- report rendering -------------------------------------------------------
+
+
+def _record(**kwargs):
+    base = dict(
+        journal="Critical Care",
+        title="Special Issue on Sepsis Phenotyping",
+        url="https://x.org/c/1",
+        summary="sepsis phenotyping with large language model methods",
+        deadline={"date": "2026-12-01", "text": "1 December 2026"},
+        status={"state": "open", "days_left": 82, "reason": "deadline is in the future"},
+        topics=[{"id": "t", "label": "重症 / Critical Care"}],
+        score=90,
+        fingerprint="fp1",
+    )
+    base.update(kwargs)
+    return CFPRecord(**base)
+
+
+def _render(dated=(), undated=(), trends=None, manual=()):
+    return render_markdown(
+        week_id="2026-W37",
+        generated_at=datetime(2026, 9, 10, tzinfo=timezone.utc),
+        dated=list(dated),
+        undated=list(undated),
+        trends=trends or {},
+        sources=[],
+        manual_watchlist=list(manual),
+        config={},
+    )
+
+
+def test_report_lists_a_dated_open_call_with_its_deadline():
+    text = _render(dated=[_record()])
+    assert "Special Issue on Sepsis Phenotyping" in text
+    assert "2026-12-01" in text
+    assert "82 天" in text
+
+
+def test_report_flags_an_imminent_deadline():
+    urgent = _record(deadline={"date": "2026-09-18"}, status={"state": "open", "days_left": 8})
+    assert "⚠️" in _render(dated=[urgent])
+
+
+def test_report_separates_rolling_calls_from_dated_ones():
+    rolling = _record(
+        deadline={}, status={"state": "open", "reason": "page says 'open for submissions'"}
+    )
+    text = _render(undated=[rolling])
+    assert "滾動徵稿" in text
+
+
+def test_report_names_blocked_publishers():
+    text = _render(manual=[{"journal": "Resuscitation", "publisher": "Elsevier", "block": "captcha", "url": "https://x"}])
+    assert "Resuscitation" in text
+    assert "不代表沒有徵稿" in text
+
+
+def test_report_matches_a_rising_topic_to_an_open_call():
+    trends = {
+        "tracked_terms": [
+            {
+                "term": "large language model",
+                "label": "大型語言模型 / LLM",
+                "stage": "rising",
+                "recent_count": 120,
+                "baseline_count": 25,
+                "growth_ratio": 4.4,
+            }
+        ],
+        "discovered_terms": [],
+        "windows": {},
+        "corpus": {},
+        "journals_tracked": [],
     }
-    two = {
-        "url": "https://example.org/cfp?id=1&utm_campaign=y",
-        "journal": "JAMIA",
-        "title": "Call for Papers",
-    }
-    assert candidate_fingerprint(one) == candidate_fingerprint(two)
+    text = _render(dated=[_record()], trends=trends)
+    assert "建議切入點" in text
+    assert "大型語言模型" in text
 
+
+def test_report_handles_an_empty_week_without_crashing():
+    text = _render()
+    assert "確認開放投稿" in text

@@ -1,6 +1,6 @@
 param(
     [switch]$NoPush,
-    [switch]$Offline,
+    [switch]$SkipTrends,
     [string]$Python = ""
 )
 
@@ -52,8 +52,8 @@ $VenvPython = Join-Path $RepoRoot ".venv\Scripts\python.exe"
 & $VenvPython -m pip install -r requirements.txt
 
 $Args = @("scripts\fetch_cfps.py")
-if ($Offline) {
-    $Args += "--offline"
+if ($SkipTrends) {
+    $Args += "--skip-trends"
 }
 & $VenvPython @Args
 

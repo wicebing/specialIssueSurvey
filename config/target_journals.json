@@ -2,14 +2,14 @@
   "tracking_policy": {
     "project_name": "Academic CFP Tracker",
     "report_timezone": "Asia/Taipei",
-    "deadline_horizon_days": 210,
+    "deadline_horizon_days": 540,
     "minimum_topic_hits": 1,
     "include_unknown_deadline": true,
     "include_unverified_q1_candidates": true,
     "direct_source_timeout_seconds": 25,
     "max_search_results_per_query": 8,
     "user_agent": "AcademicCFPTracker/1.0 (+https://github.com/your-org/academic-cfp-tracker)",
-    "q1_rule": "Treat configured journals as the curated JCR Q1 / top-20% watchlist. Re-check Clarivate JCR yearly; use SCImago only as a secondary public signal.",
+    "q1_rule": "Treat configured journals as the curated JCR Q1 / top-20% watchlist. Re-check Clarivate JCR yearly; SCImago is only a secondary public signal.",
     "candidate_phrases": [
       "call for papers",
       "calls for papers",
@@ -24,7 +24,8 @@
       "topical collection",
       "submission deadline",
       "manuscript deadline"
-    ]
+    ],
+    "contact_email": "wicebing@gmail.com"
   },
   "topic_taxonomy": [
     {
@@ -150,7 +151,9 @@
   "journals": [
     {
       "journal": "Annals of Emergency Medicine",
-      "aliases": ["Ann Emerg Med"],
+      "aliases": [
+        "Ann Emerg Med"
+      ],
       "category": "急診醫學",
       "publisher": "Elsevier",
       "priority": 5,
@@ -160,7 +163,9 @@
     },
     {
       "journal": "Resuscitation",
-      "aliases": ["Resuscitation journal"],
+      "aliases": [
+        "Resuscitation journal"
+      ],
       "category": "急診醫學 / 急救復甦",
       "publisher": "Elsevier",
       "priority": 5,
@@ -170,7 +175,10 @@
     },
     {
       "journal": "Academic Emergency Medicine",
-      "aliases": ["AEM", "Acad Emerg Med"],
+      "aliases": [
+        "AEM",
+        "Acad Emerg Med"
+      ],
       "category": "急診醫學",
       "publisher": "Wiley",
       "priority": 5,
@@ -180,7 +188,10 @@
     },
     {
       "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
-      "aliases": ["SJTREM", "Scand J Trauma Resusc Emerg Med"],
+      "aliases": [
+        "SJTREM",
+        "Scand J Trauma Resusc Emerg Med"
+      ],
       "category": "急診醫學 / 創傷急救",
       "publisher": "Springer Nature / BMC",
       "priority": 5,
@@ -190,7 +201,9 @@
     },
     {
       "journal": "Emergency Medicine Journal",
-      "aliases": ["EMJ"],
+      "aliases": [
+        "EMJ"
+      ],
       "category": "急診醫學",
       "publisher": "BMJ",
       "priority": 4,
@@ -200,7 +213,10 @@
     },
     {
       "journal": "The American Journal of Emergency Medicine",
-      "aliases": ["American Journal of Emergency Medicine", "AJEM"],
+      "aliases": [
+        "American Journal of Emergency Medicine",
+        "AJEM"
+      ],
       "category": "急診醫學",
       "publisher": "Elsevier",
       "priority": 4,
@@ -210,7 +226,9 @@
     },
     {
       "journal": "Intensive Care Medicine",
-      "aliases": ["ICM"],
+      "aliases": [
+        "ICM"
+      ],
       "category": "重症醫學",
       "publisher": "Springer Nature",
       "priority": 5,
@@ -220,7 +238,9 @@
     },
     {
       "journal": "Critical Care",
-      "aliases": ["Critical Care journal"],
+      "aliases": [
+        "Critical Care journal"
+      ],
       "category": "重症醫學",
       "publisher": "Springer Nature / BMC",
       "priority": 5,
@@ -230,7 +250,9 @@
     },
     {
       "journal": "CHEST",
-      "aliases": ["Chest journal"],
+      "aliases": [
+        "Chest journal"
+      ],
       "category": "重症醫學 / 呼吸重症",
       "publisher": "Elsevier",
       "priority": 4,
@@ -240,7 +262,10 @@
     },
     {
       "journal": "Critical Care Medicine",
-      "aliases": ["CCM", "Crit Care Med"],
+      "aliases": [
+        "CCM",
+        "Crit Care Med"
+      ],
       "category": "重症醫學",
       "publisher": "Wolters Kluwer / LWW",
       "priority": 4,
@@ -250,7 +275,9 @@
     },
     {
       "journal": "npj Digital Medicine",
-      "aliases": ["Nature npj Digital Medicine"],
+      "aliases": [
+        "Nature npj Digital Medicine"
+      ],
       "category": "醫療資訊 / 數位醫療",
       "publisher": "Nature Portfolio",
       "priority": 5,
@@ -260,7 +287,9 @@
     },
     {
       "journal": "Journal of the American Medical Informatics Association",
-      "aliases": ["JAMIA"],
+      "aliases": [
+        "JAMIA"
+      ],
       "category": "醫療資訊",
       "publisher": "Oxford Academic",
       "priority": 5,
@@ -270,7 +299,10 @@
     },
     {
       "journal": "IEEE Journal of Biomedical and Health Informatics",
-      "aliases": ["IEEE JBHI", "JBHI"],
+      "aliases": [
+        "IEEE JBHI",
+        "JBHI"
+      ],
       "category": "醫療資訊 / 生醫工程",
       "publisher": "IEEE",
       "priority": 5,
@@ -280,7 +312,10 @@
     },
     {
       "journal": "Artificial Intelligence in Medicine",
-      "aliases": ["AI in Medicine", "AIIM"],
+      "aliases": [
+        "AI in Medicine",
+        "AIIM"
+      ],
       "category": "醫療資訊 / AI 醫療",
       "publisher": "Elsevier",
       "priority": 5,
@@ -290,7 +325,9 @@
     },
     {
       "journal": "International Journal of Medical Informatics",
-      "aliases": ["IJMI"],
+      "aliases": [
+        "IJMI"
+      ],
       "category": "醫療資訊",
       "publisher": "Elsevier",
       "priority": 5,
@@ -300,7 +337,9 @@
     },
     {
       "journal": "Journal of Medical Internet Research",
-      "aliases": ["JMIR"],
+      "aliases": [
+        "JMIR"
+      ],
       "category": "醫療資訊 / 遠距醫療",
       "publisher": "JMIR Publications",
       "priority": 5,
@@ -310,7 +349,10 @@
     },
     {
       "journal": "JMIR Medical Informatics",
-      "aliases": ["JMIR Med Inform", "JMIR MedInform"],
+      "aliases": [
+        "JMIR Med Inform",
+        "JMIR MedInform"
+      ],
       "category": "醫療資訊",
       "publisher": "JMIR Publications",
       "priority": 5,
@@ -320,7 +362,9 @@
     },
     {
       "journal": "The Lancet Digital Health",
-      "aliases": ["Lancet Digital Health"],
+      "aliases": [
+        "Lancet Digital Health"
+      ],
       "category": "數位醫療 / 醫療資訊",
       "publisher": "Elsevier / The Lancet",
       "priority": 5,
@@ -330,7 +374,9 @@
     },
     {
       "journal": "JAMA Network Open",
-      "aliases": ["JAMA Netw Open"],
+      "aliases": [
+        "JAMA Netw Open"
+      ],
       "category": "臨床醫學 / 公衛資訊",
       "publisher": "JAMA Network",
       "priority": 4,
@@ -340,7 +386,9 @@
     },
     {
       "journal": "PLOS Digital Health",
-      "aliases": ["PLOS Digit Health"],
+      "aliases": [
+        "PLOS Digit Health"
+      ],
       "category": "數位醫療 / 公衛資訊",
       "publisher": "PLOS",
       "priority": 3,
@@ -351,85 +399,353 @@
   ],
   "sources": [
     {
-      "id": "springer_open_calls",
-      "label": "Springer Nature Open Calls for Papers",
-      "type": "page",
+      "id": "springer_critical_care",
+      "adapter": "springer_collections",
+      "label": "Critical Care",
+      "journal": "Critical Care",
       "publisher": "Springer Nature",
-      "url": "https://www.springernature.com/gp/authors/campaigns/call-for-papers",
-      "official": true
+      "url": "https://link.springer.com/journal/13054/collections?filter=Open",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "category": "重症醫學"
     },
     {
-      "id": "taylor_francis_calls",
-      "label": "Taylor & Francis Calls for Papers",
-      "type": "page",
-      "publisher": "Taylor & Francis",
-      "url": "https://think.taylorandfrancis.com/calls-for-papers/",
-      "official": true
+      "id": "springer_icm",
+      "adapter": "springer_collections",
+      "label": "Intensive Care Medicine",
+      "journal": "Intensive Care Medicine",
+      "publisher": "Springer Nature",
+      "url": "https://link.springer.com/journal/134/collections?filter=Open",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "category": "重症醫學"
     },
     {
-      "id": "wiley_special_issues",
-      "label": "Wiley Special Issues and Calls for Papers",
-      "type": "page",
-      "publisher": "Wiley",
-      "url": "https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/special-issues.html",
-      "official": true
+      "id": "springer_sjtrem",
+      "adapter": "springer_collections",
+      "label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "publisher": "Springer Nature",
+      "url": "https://link.springer.com/journal/13049/collections?filter=Open",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "category": "急診醫學 / 創傷復甦"
     },
     {
-      "id": "mdpi_special_issues",
-      "label": "MDPI Special Issues Search",
-      "type": "page",
-      "publisher": "MDPI",
-      "url": "https://www.mdpi.com/special_issues",
-      "official": true
+      "id": "springer_bmc_emerg",
+      "adapter": "springer_collections",
+      "label": "BMC Emergency Medicine",
+      "journal": "BMC Emergency Medicine",
+      "publisher": "Springer Nature / BMC",
+      "url": "https://link.springer.com/journal/12873/collections?filter=Open",
+      "priority": 3,
+      "jcr_band": "Q2_candidate_verify",
+      "category": "急診醫學"
     },
     {
-      "id": "rsc_calls",
-      "label": "Royal Society of Chemistry Calls for Papers",
-      "type": "page",
-      "publisher": "Royal Society of Chemistry",
-      "url": "https://www.rsc.org/journals-books-databases/about-journals/journals-information/calls-for-papers/",
-      "official": true
+      "id": "springer_bmc_informatics",
+      "adapter": "springer_collections",
+      "label": "BMC Medical Informatics and Decision Making",
+      "journal": "BMC Medical Informatics and Decision Making",
+      "publisher": "Springer Nature / BMC",
+      "url": "https://link.springer.com/journal/12911/collections?filter=Open",
+      "priority": 3,
+      "jcr_band": "Q2_candidate_verify",
+      "category": "醫學資訊"
     },
     {
-      "id": "bmj_collections",
-      "label": "BMJ Journals Special Issues and Collections",
-      "type": "page",
-      "publisher": "BMJ",
-      "url": "https://www.bmj.com/company/journals/",
-      "official": true
+      "id": "nature_npjdigitalmed",
+      "adapter": "nature_calls",
+      "label": "npj Digital Medicine",
+      "journal": "npj Digital Medicine",
+      "publisher": "Nature Portfolio",
+      "url": "https://www.nature.com/npjdigitalmed/calls-for-papers",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "category": "數位醫療 / 醫學資訊",
+      "max_pages": 3
+    },
+    {
+      "id": "nature_commsmed",
+      "adapter": "nature_calls",
+      "label": "Communications Medicine",
+      "journal": "Communications Medicine",
+      "publisher": "Nature Portfolio",
+      "url": "https://www.nature.com/commsmed/calls-for-papers",
+      "priority": 4,
+      "jcr_band": "Q1_candidate_verify",
+      "category": "臨床醫學",
+      "max_pages": 3,
+      "require_topic_match": true
+    },
+    {
+      "id": "embs_jbhi",
+      "adapter": "embs_special_issues",
+      "label": "IEEE Journal of Biomedical and Health Informatics",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "publisher": "IEEE",
+      "url": "https://www.embs.org/jbhi/special-issues/",
+      "priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "category": "醫學資訊 / 生醫工程"
+    },
+    {
+      "id": "embs_rbme",
+      "adapter": "embs_special_issues",
+      "label": "IEEE Reviews in Biomedical Engineering",
+      "journal": "IEEE Reviews in Biomedical Engineering",
+      "publisher": "IEEE",
+      "url": "https://www.embs.org/rbme/call-for-papers2/",
+      "priority": 4,
+      "jcr_band": "Q1_candidate_verify",
+      "category": "生醫工程"
+    },
+    {
+      "id": "jmir_family",
+      "adapter": "jmir_api",
+      "label": "JMIR Publications (all journals)",
+      "journal": "",
+      "publisher": "JMIR Publications",
+      "url": "https://www.jmir.org",
+      "priority": 4,
+      "jcr_band": "Q1_mixed_verify",
+      "category": "醫學資訊 / 數位醫療",
+      "max_detail_fetches": 40,
+      "core_journals": [
+        "Journal of Medical Internet Research",
+        "JMIR mHealth and uHealth",
+        "JMIR Public Health and Surveillance",
+        "JMIR Mental Health",
+        "JMIR Medical Informatics",
+        "JMIR Aging"
+      ]
     }
   ],
-  "search_queries": [
+  "manual_watchlist": [
     {
-      "id": "emergency_medicine_special_issue",
-      "query": "\"call for papers\" \"special issue\" \"emergency medicine\" deadline",
-      "category_hint": "急診醫學"
+      "journal": "Resuscitation",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha on sciencedirect.com",
+      "url": "https://www.sciencedirect.com/journal/resuscitation/about/call-for-papers"
     },
     {
-      "id": "critical_care_special_issue",
-      "query": "\"special issue\" \"critical care\" \"submission deadline\" journal",
-      "category_hint": "重症醫學"
+      "journal": "Annals of Emergency Medicine",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha",
+      "url": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine/about/call-for-papers"
     },
     {
-      "id": "medical_informatics_special_issue",
-      "query": "\"call for papers\" \"medical informatics\" \"special issue\"",
-      "category_hint": "醫療資訊"
+      "journal": "The American Journal of Emergency Medicine",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha",
+      "url": "https://www.sciencedirect.com/journal/american-journal-of-emergency-medicine/about/call-for-papers"
     },
     {
-      "id": "digital_health_telemedicine_special_issue",
-      "query": "\"special issue\" telemedicine OR telehealth \"call for papers\" journal",
-      "category_hint": "遠距照護與數位醫療"
+      "journal": "Artificial Intelligence in Medicine",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha",
+      "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/call-for-papers"
     },
     {
-      "id": "generative_ai_healthcare_special_issue",
-      "query": "\"generative AI\" healthcare \"special issue\" \"call for papers\"",
-      "category_hint": "AI 醫療"
+      "journal": "International Journal of Medical Informatics",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/call-for-papers"
     },
     {
-      "id": "health_misinformation_special_issue",
-      "query": "\"health misinformation\" OR infodemic \"special issue\" \"call for papers\"",
-      "category_hint": "醫療假訊息"
+      "journal": "Journal of Biomedical Informatics",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha",
+      "url": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics/about/call-for-papers"
+    },
+    {
+      "journal": "The Lancet Digital Health",
+      "publisher": "Elsevier / Lancet",
+      "block": "Cloudflare on thelancet.com",
+      "url": "https://www.thelancet.com/journals/landig/home"
+    },
+    {
+      "journal": "CHEST",
+      "publisher": "Elsevier",
+      "block": "Cloudflare/captcha",
+      "url": "https://journal.chestnet.org/"
+    },
+    {
+      "journal": "Journal of the American Medical Informatics Association",
+      "publisher": "Oxford University Press",
+      "block": "bot challenge on academic.oup.com",
+      "url": "https://academic.oup.com/jamia/pages/call-for-papers"
+    },
+    {
+      "journal": "Academic Emergency Medicine",
+      "publisher": "Wiley",
+      "block": "bot challenge on onlinelibrary.wiley.com",
+      "url": "https://onlinelibrary.wiley.com/journal/15532712"
+    },
+    {
+      "journal": "JAMA Network Open",
+      "publisher": "JAMA Network",
+      "block": "Cloudflare managed challenge; JAMA has no central calls-for-papers page",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen"
+    },
+    {
+      "journal": "Critical Care Medicine",
+      "publisher": "Wolters Kluwer / LWW",
+      "block": "403 on journals.lww.com",
+      "url": "https://journals.lww.com/ccmjournal/pages/callforpapers.aspx"
+    },
+    {
+      "journal": "Emergency Medicine Journal",
+      "publisher": "BMJ",
+      "block": "collections page renders no call-for-papers content to a fetcher",
+      "url": "https://emj.bmj.com/pages/special-issues-and-collections"
     }
-  ]
+  ],
+  "trend_engine": {
+    "window_days": 180,
+    "title_sample_size": 1000,
+    "pubmed_journals": [
+      "Resuscitation",
+      "Ann Emerg Med",
+      "Acad Emerg Med",
+      "Emerg Med J",
+      "Am J Emerg Med",
+      "Scand J Trauma Resusc Emerg Med",
+      "Intensive Care Med",
+      "Crit Care",
+      "Crit Care Med",
+      "Chest",
+      "NPJ Digit Med",
+      "J Am Med Inform Assoc",
+      "Artif Intell Med",
+      "Int J Med Inform",
+      "J Med Internet Res",
+      "JMIR Med Inform",
+      "Lancet Digit Health",
+      "JAMA Netw Open",
+      "J Biomed Inform"
+    ],
+    "tracked_terms": [
+      {
+        "term": "large language model",
+        "label": "大型語言模型 / LLM"
+      },
+      {
+        "term": "generative artificial intelligence",
+        "label": "生成式 AI"
+      },
+      {
+        "term": "artificial intelligence",
+        "label": "人工智慧"
+      },
+      {
+        "term": "machine learning",
+        "label": "機器學習"
+      },
+      {
+        "term": "deep learning",
+        "label": "深度學習"
+      },
+      {
+        "term": "foundation model",
+        "label": "基礎模型"
+      },
+      {
+        "term": "clinical decision support",
+        "label": "臨床決策支援"
+      },
+      {
+        "term": "ambient documentation",
+        "label": "環境式病歷紀錄"
+      },
+      {
+        "term": "federated learning",
+        "label": "聯邦式學習"
+      },
+      {
+        "term": "digital twin",
+        "label": "數位分身"
+      },
+      {
+        "term": "explainable",
+        "label": "可解釋 AI"
+      },
+      {
+        "term": "prehospital",
+        "label": "到院前救護"
+      },
+      {
+        "term": "triage",
+        "label": "檢傷分類"
+      },
+      {
+        "term": "emergency department crowding",
+        "label": "急診壅塞"
+      },
+      {
+        "term": "cardiac arrest",
+        "label": "心跳停止"
+      },
+      {
+        "term": "extracorporeal",
+        "label": "體外循環 / ECMO"
+      },
+      {
+        "term": "sepsis",
+        "label": "敗血症"
+      },
+      {
+        "term": "phenotyping",
+        "label": "表型分群"
+      },
+      {
+        "term": "mechanical ventilation",
+        "label": "機械通氣"
+      },
+      {
+        "term": "point-of-care ultrasound",
+        "label": "即時超音波"
+      },
+      {
+        "term": "telehealth",
+        "label": "遠距醫療"
+      },
+      {
+        "term": "remote monitoring",
+        "label": "遠距監測"
+      },
+      {
+        "term": "wearable",
+        "label": "穿戴裝置"
+      },
+      {
+        "term": "hospital at home",
+        "label": "居家住院"
+      },
+      {
+        "term": "misinformation",
+        "label": "健康假訊息"
+      },
+      {
+        "term": "infodemic",
+        "label": "資訊疫情"
+      },
+      {
+        "term": "health equity",
+        "label": "健康公平"
+      },
+      {
+        "term": "electronic health record",
+        "label": "電子病歷"
+      },
+      {
+        "term": "natural language processing",
+        "label": "自然語言處理"
+      },
+      {
+        "term": "multimodal",
+        "label": "多模態"
+      }
+    ]
+  }
 }
-
