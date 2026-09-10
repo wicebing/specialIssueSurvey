@@ -1,248 +1,1683 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-10T06:21:07.484198+00:00",
-  "offline": true,
+  "generated_at": "2026-09-10T06:50:11.892020+00:00",
+  "offline": false,
   "stats": {
-    "candidates": 0,
-    "new": 0,
-    "high_priority": 0,
-    "sources": 26
+    "candidates": 42,
+    "new": 42,
+    "high_priority": 38,
+    "sources": 32
   },
-  "trends": [],
-  "candidates": [],
+  "trends": [
+    {
+      "topic_id": "ai_data_science",
+      "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+      "count": 18,
+      "example": "Sign up for alerts Get notified when new articles are published."
+    },
+    {
+      "topic_id": "resuscitation_critical_care",
+      "label": "急救復甦與重症 / Resuscitation & Critical Care",
+      "count": 7,
+      "example": "Sign up for alerts Get notified when new articles are published."
+    },
+    {
+      "topic_id": "misinformation_public_health",
+      "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+      "count": 6,
+      "example": "Skip to main content"
+    },
+    {
+      "topic_id": "emergency_medicine",
+      "label": "急診醫學 / Emergency Medicine",
+      "count": 2,
+      "example": "Skip to main content"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Sign up for alerts Get notified when new articles are published.",
+      "url": "https://journal-alerts.springernature.com/subscribe?journal_id=13054&type=BMC",
+      "description": "Calls for papers Collection The Logic of Critical Care: Integrating Physiology and Evidence This Collection aims to integrate physiology, evidence, and bedside decision-making in critical care. Status Open for submissions Submission deadline 22 March 2027 Collection Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis,... Status Open for submissions Submission deadline 16 March 2027 Collection Critical Care in War and Disaster Areas This Collection aims to explore the unique challenges, innovations, and lessons learned in the field of critical care during armed conflict and... Status Open for submissions Submission deadline 24 October 2026 View all calls for papers Latest articles Optimising tazobactam dosing in critically ill adult patients without renal replacement therapy: a population pharmacokinetic analysis of individual patient data pooled from multiple clinical studies Getnet M Assefa Jason A. Roberts Fekade B. Sime Research Open access 09 September 2026 Part of 1 collection: Personalized medicine in the ICU Heterogeneous cardiovascular responses to acute mean arterial pressure augmentation in septic shock: the role of ventriculo-arterial coupling and venous return Emilio Daniel Valenzuela Pablo Mercado Jaime Retamal Research Open access 09 September 2026 Part of 1 collection: Personalized medicine in the ICU Individualising blood glucose control in ICU patients: evidence and practical implementations Jan Gunst James S. Krinsley Greet Van den Berghe Review Open access 09 September 2026 Part of 1 collection: Personalised Metabolic and Nutritional Management: From Guidelines to Tailored Interventions Strengthening anesthesia capacity in war and disaster areas: a critical care priority Hodo Aideed Asowe Correspondence Open access 07 September 2026 Article: 465 Part of 1 collection: Critical Care in War and Disaster Areas Beyond similar inspiratory effort: interpreting tracheal high-flow during spontaneous breathing trials Li-Xia Xu Matters Arising Open access 07 September 2026 Article: 464 View all articles J",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care",
+            "ICU",
+            "shock"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "22 March 2027",
+        "date": "2027-03-22",
+        "kind": "date"
+      },
+      "fingerprint": "7c6b6beb1d093dda",
+      "score": 93,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Skip to main content",
+      "url": "https://link.springer.com/journal/13049#main",
+      "description": "Skip to main content BMC journals have moved to Springer Nature Link. Learn more about website changes. Log in Menu Find a journal Publish with us Track your research Search Saved research Cart Home Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine Publishing model : Open access Submit your manuscript Save journal View saved research Explore open access funding Select institution Journal menu About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Overview Uniquely focussed on the multidisciplinary aspects of the chain of survival, Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine (SJTREM) is an essential resource for emergency medical technicians, trauma nurse practitioners, emergency surgeons and anesthesiologists. Encompassing all aspects of anesthesiology, emergency medicine, resuscitation and trauma, SJTREM is one of the top journals in its field and is the respected official journal of Norwegian Air Ambulance Foundation. Editor-in-Chief Marius Rehn MD, PhD Co-Editors-in-Chief David Lockey MBBS, MD(Res), FFICM, FIMC, RCS(Ed), FRCA, FFSEM, ACIArb Julian Thompson MA(Oxon), BMBCh, MD(Res), MRCP, FRCA, FFICM, EDIC, DMCC, DipIMC, RCSEd View all editors Societies and partnerships Norwegian Air Ambulance Foundation Danish Resuscitation Council Scandinavian Neurotrauma Committee First 60 Italian Resuscitation Council IMPACT Journal metrics Journal Impact Factor 3.6 (2025) 5-year Journal Impact Factor 3.8 (2025) Submission to first decision (median) 2 days Downloads 2M (2025) Call for papers Collection Avalanche, Hypothermia, and Cold Injuries: Advances in Prevention, Rescue, and Care This collection aim",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "emergency_medicine",
+          "label": "急診醫學 / Emergency Medicine",
+          "hits": [
+            "emergency medicine"
+          ]
+        },
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "resuscitation",
+            "trauma"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "an",
+        "date": "2026-09-10",
+        "kind": "date"
+      },
+      "fingerprint": "ce53c5dbc267e493",
+      "score": 88,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Log in",
+      "url": "https://idp.springer.com/auth/personal/springernature?redirect_uri=https://link.springer.com/journal/13049",
+      "description": "Skip to main content BMC journals have moved to Springer Nature Link. Learn more about website changes. Log in Menu Find a journal Publish with us Track your research Search Saved research Cart Home Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine Publishing model : Open access Submit your manuscript Save journal View saved research Explore open access funding Select institution Journal menu About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Overview Uniquely focussed on the multidisciplinary aspects of the chain of survival, Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine (SJTREM) is an essential resource for emergency medical technicians, trauma nurse practitioners, emergency surgeons and anesthesiologists. Encompassing all aspects of anesthesiology, emergency medicine, resuscitation and trauma, SJTREM is one of the top journals in its field and is the respected official journal of Norwegian Air Ambulance Foundation. Editor-in-Chief Marius Rehn MD, PhD Co-Editors-in-Chief David Lockey MBBS, MD(Res), FFICM, FIMC, RCS(Ed), FRCA, FFSEM, ACIArb Julian Thompson MA(Oxon), BMBCh, MD(Res), MRCP, FRCA, FFICM, EDIC, DMCC, DipIMC, RCSEd View all editors Societies and partnerships Norwegian Air Ambulance Foundation Danish Resuscitation Council Scandinavian Neurotrauma Committee First 60 Italian Resuscitation Council IMPACT Journal metrics Journal Impact Factor 3.6 (2025) 5-year Journal Impact Factor 3.8 (2025) Submission to first decision (median) 2 days Downloads 2M (2025) Call for papers Collection Avalanche, Hypothermia, and Cold Injuries: Advances in Prevention, Rescue, and Care This collection aim",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "emergency_medicine",
+          "label": "急診醫學 / Emergency Medicine",
+          "hits": [
+            "emergency medicine"
+          ]
+        },
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "resuscitation",
+            "trauma"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "an",
+        "date": "2026-09-10",
+        "kind": "date"
+      },
+      "fingerprint": "3f4bcb727920f094",
+      "score": 88,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Skip to main content",
+      "url": "https://link.springer.com/journal/134/updates#main",
+      "description": "Skip to main content Log in Menu Find a journal Publish with us Track your research Search Saved research Cart Home Intensive Care Medicine Journal updates Intensive Care Medicine Intensive Care Medicine Publishing model : Hybrid Submit your manuscript Save journal View saved research Explore open access funding Select institution Journal menu About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Journal updates Intensive Care Medicine on Social Media Follow ICM on LinkedIn , Facebook , Instagram and Bluesky . Supporting the Sustainable Development Goals We are proud to acknowledge that over 50% of the articles published in this journal in 2025 were related to one or more of the 17 Sustainable Development Goals (SDGs). Springer Nature Editor of Distinction Awards 2026 Editor's picks Stay updated! Explore the Editor-in-Chief's curated selection of the most impactful articles from ICM each month ICMx Open Access sister journal to ICM ICMx is an open access journal dedicated to translational research and uniquely positioned at the intersection of clinical and basic science with a primary focus on critical care medicine. Journal navigation About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Journal updates Search Search by keyword or author Search Navigation Find a journal Publish with us Track your research Footer Navigation Discover content Journals A-Z Books A-Z Subjects A-Z Publish with us Journal finder Publish your research Langua",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care",
+            "intensive care"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        },
+        {
+          "id": "misinformation_public_health",
+          "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+          "hits": [
+            "social media"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "82e35e1845fb1411",
+      "score": 88,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Log in",
+      "url": "https://idp.springer.com/auth/personal/springernature?redirect_uri=https://link.springer.com/journal/134/updates",
+      "description": "Skip to main content Log in Menu Find a journal Publish with us Track your research Search Saved research Cart Home Intensive Care Medicine Journal updates Intensive Care Medicine Intensive Care Medicine Publishing model : Hybrid Submit your manuscript Save journal View saved research Explore open access funding Select institution Journal menu About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Journal updates Intensive Care Medicine on Social Media Follow ICM on LinkedIn , Facebook , Instagram and Bluesky . Supporting the Sustainable Development Goals We are proud to acknowledge that over 50% of the articles published in this journal in 2025 were related to one or more of the 17 Sustainable Development Goals (SDGs). Springer Nature Editor of Distinction Awards 2026 Editor's picks Stay updated! Explore the Editor-in-Chief's curated selection of the most impactful articles from ICM each month ICMx Open Access sister journal to ICM ICMx is an open access journal dedicated to translational research and uniquely positioned at the intersection of clinical and basic science with a primary focus on critical care medicine. Journal navigation About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Journal updates Search Search by keyword or author Search Navigation Find a journal Publish with us Track your research Footer Navigation Discover content Journals A-Z Books A-Z Subjects A-Z Publish with us Journal finder Publish your research Langua",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care",
+            "intensive care"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        },
+        {
+          "id": "misinformation_public_health",
+          "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+          "hits": [
+            "social media"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "de46cf0937dbad8c",
+      "score": 88,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Skip to main content",
+      "url": "https://link.springer.com/journal/13054#main",
+      "description": "Skip to main content BMC journals have moved to Springer Nature Link. Learn more about website changes. Log in Menu Find a journal Publish with us Track your research Search Saved research Cart Home Critical Care Critical Care Critical Care Publishing model : Open access Submit your manuscript Save journal View saved research Explore open access funding Select institution Journal menu About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Overview Critical Care , the top open access journal in critical care medicine, advances critically ill patient care with high-quality, evidence-based insights. Prestigious editorial board featuring some of the world’s leading voices in the field. Swift and rigorous peer review. High visibility for your work through open access. Editor-in-Chief Jean-Louis Vincent MD, PhD View all editors Journal metrics Journal Impact Factor 11.4 (2025) 5-year Journal Impact Factor 11.0 (2025) Submission to first decision (median) 5 days Downloads 14.1M (2025) Calls for papers Collection The Logic of Critical Care: Integrating Physiology and Evidence This Collection aims to integrate physiology, evidence, and bedside decision-making in critical care. Status Open for submissions Submission deadline 22 March 2027 Collection Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis,... Status Open for submissions Submission deadline 16 March 2027 Collection Critical Care in War and Disaster Areas This Collection aims to explore the unique challenges, innovations, and lessons learned in the field of critical care during armed conflict and... Status Open for submissions Submission deadline 24 October 2026 View all c",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "5 days",
+        "date": "2026-09-15",
+        "kind": "date"
+      },
+      "fingerprint": "f96230a01aa26f86",
+      "score": 83,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Log in",
+      "url": "https://idp.springer.com/auth/personal/springernature?redirect_uri=https://link.springer.com/journal/13054",
+      "description": "Skip to main content BMC journals have moved to Springer Nature Link. Learn more about website changes. Log in Menu Find a journal Publish with us Track your research Search Saved research Cart Home Critical Care Critical Care Critical Care Publishing model : Open access Submit your manuscript Save journal View saved research Explore open access funding Select institution Journal menu About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates Overview Critical Care , the top open access journal in critical care medicine, advances critically ill patient care with high-quality, evidence-based insights. Prestigious editorial board featuring some of the world’s leading voices in the field. Swift and rigorous peer review. High visibility for your work through open access. Editor-in-Chief Jean-Louis Vincent MD, PhD View all editors Journal metrics Journal Impact Factor 11.4 (2025) 5-year Journal Impact Factor 11.0 (2025) Submission to first decision (median) 5 days Downloads 14.1M (2025) Calls for papers Collection The Logic of Critical Care: Integrating Physiology and Evidence This Collection aims to integrate physiology, evidence, and bedside decision-making in critical care. Status Open for submissions Submission deadline 22 March 2027 Collection Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis,... Status Open for submissions Submission deadline 16 March 2027 Collection Critical Care in War and Disaster Areas This Collection aims to explore the unique challenges, innovations, and lessons learned in the field of critical care during armed conflict and... Status Open for submissions Submission deadline 24 October 2026 View all c",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "5 days",
+        "date": "2026-09-15",
+        "kind": "date"
+      },
+      "fingerprint": "f87c0ed3144adfef",
+      "score": 83,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Theme Issue 2024: Health Natural Language Processing and Applications with Large Language Models",
+      "url": "https://medinform.jmir.org/announcements/533",
+      "description": "Theme Issue 2024: Health Natural Language Processing and Applications with Large Language Models Published Date: 2024-12-30, 3:24 pm Read more",
+      "source_id": "journal_jmir_medical_informatics",
+      "source_label": "JMIR Medical Informatics CFP",
+      "source_url": "https://medinform.jmir.org/announcements",
+      "publisher": "JMIR Publications",
+      "official_source": true,
+      "category_hint": "醫療資訊",
+      "journal": "JMIR Medical Informatics",
+      "journal_category": "醫療資訊",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top medical informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "large language model",
+            "natural language processing"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "more",
+        "date": "2026-09-11",
+        "kind": "date"
+      },
+      "fingerprint": "81fc5520b44ec334",
+      "score": 78,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Journal updates",
+      "url": "https://link.springer.com/journal/13054/updates",
+      "description": "About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "5e5ad2551060cdb8",
+      "score": 78,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Language editing",
+      "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_SpringerLink&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "19567febe37f4bf8",
+      "score": 78,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Language editing",
+      "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_SpringerLink&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "8e14cd50284e63cc",
+      "score": 78,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Journal updates",
+      "url": "https://link.springer.com/journal/13049/updates",
+      "description": "About this journal Articles For authors Journal updates About this journal Aims and scope Editorial board Editorial policies Ethics and disclosures Rights and permissions Contact the journal Articles Articles Collections Volumes and issues Online first articles Sign up for alerts For authors Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript Journal updates",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "96e2a64d0baeaa56",
+      "score": 78,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Language editing",
+      "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_SpringerLink&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "3234797400526b01",
+      "score": 78,
+      "priority_label": "High",
+      "is_new": true
+    },
+    {
+      "title": "Featured Articles",
+      "url": "https://www.embs.org/jbhi/featured-articles/",
+      "description": "Featured Articles Current Issue Popular Articles Special Issues Accepting Submissions Past Special Issues Past Call for Special Issues JBHI on Xplore",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "on",
+        "date": "2026-09-16",
+        "kind": "date"
+      },
+      "fingerprint": "6d8c5c110dc7c898",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Current Issue",
+      "url": "https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6221020",
+      "description": "Featured Articles Current Issue Popular Articles Special Issues Accepting Submissions Past Special Issues Past Call for Special Issues JBHI on Xplore",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "on",
+        "date": "2026-09-16",
+        "kind": "date"
+      },
+      "fingerprint": "58b584eebceb8744",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Popular Articles",
+      "url": "https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=6221020",
+      "description": "Featured Articles Current Issue Popular Articles Special Issues Accepting Submissions Past Special Issues Past Call for Special Issues JBHI on Xplore",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "on",
+        "date": "2026-09-16",
+        "kind": "date"
+      },
+      "fingerprint": "ba027652006f9da2",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Past Call for Special Issues",
+      "url": "https://www.embs.org/jbhi/past-call-for-special-issues/",
+      "description": "Featured Articles Current Issue Popular Articles Special Issues Accepting Submissions Past Special Issues Past Call for Special Issues JBHI on Xplore",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "on",
+        "date": "2026-09-16",
+        "kind": "date"
+      },
+      "fingerprint": "5336161b6dd3f901",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "JBHI on Xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020",
+      "description": "Featured Articles Current Issue Popular Articles Special Issues Accepting Submissions Past Special Issues Past Call for Special Issues JBHI on Xplore",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "on",
+        "date": "2026-09-16",
+        "kind": "date"
+      },
+      "fingerprint": "bb63f4144dbc8129",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Pre-submission checklist",
+      "url": "https://link.springer.com/pre-submission?journalId=13054",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "892942b48533486b",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Submission guidelines",
+      "url": "https://link.springer.com/journal/13054/submission-guidelines",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "bba78ca7de198bce",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "How to publish with us",
+      "url": "https://link.springer.com/journal/13054/how-to-publish-with-us",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "3d8b0f45a888c5d8",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Calls for papers",
+      "url": "https://link.springer.com/journal/13054/collections?filter=Open",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "bf8ee2e0b1cd7ba8",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Submit your manuscript",
+      "url": "https://submission.nature.com/new-submission/13054/3",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_critical_care",
+      "source_label": "Critical Care CFP",
+      "source_url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Critical Care",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "671b7097c1512c24",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Pre-submission checklist",
+      "url": "https://link.springer.com/pre-submission?journalId=134",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "0139569de7cbcfe4",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Submission guidelines",
+      "url": "https://link.springer.com/journal/134/submission-guidelines",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "1610f8f58c05f48d",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "How to publish with us",
+      "url": "https://link.springer.com/journal/134/how-to-publish-with-us",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "5de772b2e90c11e1",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Calls for papers",
+      "url": "https://link.springer.com/journal/134/collections?filter=Open",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "744ab3b62e60bc8b",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Submit your manuscript",
+      "url": "https://www.editorialmanager.com/icme",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_intensive_care_medicine",
+      "source_label": "Intensive Care Medicine CFP",
+      "source_url": "https://link.springer.com/journal/134/updates",
+      "publisher": "Springer Nature",
+      "official_source": true,
+      "category_hint": "重症醫學",
+      "journal": "Intensive Care Medicine",
+      "journal_category": "重症醫學",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top critical care watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "cb5f4d2001a20d94",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Pre-submission checklist",
+      "url": "https://link.springer.com/pre-submission?journalId=13049",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "f198bba37f53c593",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Submission guidelines",
+      "url": "https://link.springer.com/journal/13049/submission-guidelines",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "63479204768149d1",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "How to publish with us",
+      "url": "https://link.springer.com/journal/13049/how-to-publish-with-us",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "c430694802b9f498",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Calls for papers",
+      "url": "https://link.springer.com/journal/13049/collections?filter=Open",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "c623a01e1abca190",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Submit your manuscript",
+      "url": "https://submission.springernature.com/new-submission/13049/3",
+      "description": "Pre-submission checklist Submission guidelines How to publish with us Fees and funding Calls for papers Language editing Submit your manuscript",
+      "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
+      "source_label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
+      "source_url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
+      "publisher": "Springer Nature / BMC",
+      "official_source": true,
+      "category_hint": "急診醫學 / 創傷急救",
+      "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+      "journal_category": "急診醫學 / 創傷急救",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top emergency and trauma watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "09e44250efa97b95",
+      "score": 73,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Call for Papers - Theme Issue: Ambient AI Scribes and AI-Driven Documentation Technologies",
+      "url": "https://medinform.jmir.org/announcements/601",
+      "description": "Call for Papers - Theme Issue: Ambient AI Scribes and AI-Driven Documentation Technologies",
+      "source_id": "journal_jmir_medical_informatics",
+      "source_label": "JMIR Medical Informatics CFP",
+      "source_url": "https://medinform.jmir.org/announcements",
+      "publisher": "JMIR Publications",
+      "official_source": true,
+      "category_hint": "醫療資訊",
+      "journal": "JMIR Medical Informatics",
+      "journal_category": "醫療資訊",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top medical informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "Deadline not found - verify source page",
+        "date": null,
+        "kind": "unknown"
+      },
+      "fingerprint": "b3b1fc91346df2e2",
+      "score": 66,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Explore JBHI",
+      "url": "https://www.embs.org/jbhi/",
+      "description": "Explore JBHI Home About Scope Fast Facts Conferences Research Highlights Featured Articles Current Issue Popular Articles Special Issues Accepting Submissions Past Special Issues Past Call for Special Issues JBHI on Xplore Editorial Board Editor-in-Chief Editorial Office Associate Editors Advisory Board Sponsoring Societies Instructions for Editors Guidelines for Prospective Guest Editors Editor-Guide for ScholarOne Authors General Information for Authors Prepare and Submit Your Manuscript Editorial Policy Review Process JBHI Forms Submit Multimedia Materials Open Access Publications Author Guide FAQ for Authors Reviewers Instructions for Reviewers Reviewer Guide Best Reviewers FAQs for Reviewers",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "Deadline not found - verify source page",
+        "date": null,
+        "kind": "unknown"
+      },
+      "fingerprint": "757418587ba72289",
+      "score": 61,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Accepting Submissions",
+      "url": "https://www.embs.org/jbhi/special-issues/",
+      "description": "Accepting Submissions",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "Deadline not found - verify source page",
+        "date": null,
+        "kind": "unknown"
+      },
+      "fingerprint": "ec89a640112783a1",
+      "score": 61,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Past Special Issues",
+      "url": "https://www.embs.org/jbhi/past-special-issues/",
+      "description": "Past Special Issues",
+      "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics CFP",
+      "source_url": "https://jbhi.embs.org/special-issues/",
+      "publisher": "IEEE",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 生醫工程",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "journal_category": "醫療資訊 / 生醫工程",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top biomedical and health informatics watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "Deadline not found - verify source page",
+        "date": null,
+        "kind": "unknown"
+      },
+      "fingerprint": "6d2adad824c20c33",
+      "score": 61,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "Call for Papers: Digital Inclusion in the Global South",
+      "url": "https://www.jmir.org/announcements/677",
+      "description": "Call for Papers: Digital Inclusion in the Global South",
+      "source_id": "journal_journal_of_medical_internet_research",
+      "source_label": "Journal of Medical Internet Research CFP",
+      "source_url": "https://www.jmir.org/announcements",
+      "publisher": "JMIR Publications",
+      "official_source": true,
+      "category_hint": "醫療資訊 / 遠距醫療",
+      "journal": "Journal of Medical Internet Research",
+      "journal_category": "醫療資訊 / 遠距醫療",
+      "journal_priority": 5,
+      "jcr_band": "Q1/top20_watchlist",
+      "q1_evidence": "User-provided JCR Q1/top digital health watchlist; verify yearly in Clarivate JCR.",
+      "topics": [],
+      "deadline": {
+        "label": "Deadline not found - verify source page",
+        "date": null,
+        "kind": "unknown"
+      },
+      "fingerprint": "daa3c336da19b997",
+      "score": 61,
+      "priority_label": "Medium",
+      "is_new": true
+    },
+    {
+      "title": "The BMJ special issue on the climate emergency",
+      "url": "https://www.bmj.com/company/newsroom/the-bmj-special-issue-on-the-climate-emergency/",
+      "description": "‘Back to school asthma’ linked to tripling in rate of health service appointments ‘Climate cardiology’ needed to tackle links between climate change and heart health ‘Diseases of despair’ have soared over past decade in US ‘Fat suit’ role play may help uncover medical student prejudices against obesity ‘Foreign disinformation’ social media campaigns linked to falling vaccination rates ‘Frequent attenders’ comprise 4 in every 10 family doctor consultations in England ‘Ice’ flavoured e-cig use may be linked to nicotine dependence among the young ‘Invisible’ stool blood linked to heightened risk of death from all causes ‘Mass testing’ linked to 25% cut in covid-19 related hospital admissions ‘Mum test’ not enough to convince people to get the COVID-19 jab ‘Natural disasters’ increase triggers for violence against women and girls ‘Night owls’ may be twice as likely as morning ‘larks’ to underperform at work ‘Significant’ racial disparities in care of heart patients during first pandemic wave ‘Spin’ found in over half of clinical trial abstracts published in top psychiatry journals “Cardio” exercise linked to much lower risk of flu or pneumonia death “Cardio”exercise linked to much lower risk of flu or pneumonia death “Extensive gender discrimination in healthcare access” for women in India “Good evidence” that ADHD drugs might also treat Alzheimer’s disease “Modest” increase in heart attack hospitalisation rates after years of decline “Promising evidence” that osteopathy may relieve musculoskeletal pain “Significant unmet needs” common among dying in UK hospitals 1 billion + young people potentially at risk of hearing loss from loud music 1 g cut in daily salt intake could ward off nearly 9 million cases of stroke/heart disease in China 1 in 10 cardiology trainee doctors in UK say they have been bullied 1 in 10 early deaths averted if everyone met physical activity targets 1 in 3 women in India is likely to have been subjected to intimate partner violence 1 in 4 UK puppies may be being acquired before minimum recommended age 1 in 4 women at sexual health clinics reports coercion over their reproductive lives 1 US dollar increase in minimum wage linked to 3.5-6% fall",
+      "source_id": "bmj_collections",
+      "source_label": "BMJ Journals Special Issues and Collections",
+      "source_url": "https://www.bmj.com/company/journals/",
+      "publisher": "BMJ",
+      "official_source": true,
+      "category_hint": "",
+      "journal": "",
+      "journal_category": "",
+      "journal_priority": 1,
+      "jcr_band": "unverified_candidate",
+      "q1_evidence": "Not matched to configured Q1 watchlist; verify in JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        },
+        {
+          "id": "misinformation_public_health",
+          "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+          "hits": [
+            "disinformation",
+            "social media"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "on",
+        "date": "2026-09-16",
+        "kind": "date"
+      },
+      "fingerprint": "bac5b93d88060323",
+      "score": 47,
+      "priority_label": "Watch",
+      "is_new": true
+    },
+    {
+      "title": "The BMJ partners with WHO and UNICEF to launch special collection on global child health",
+      "url": "https://www.bmj.com/company/newsroom/the-bmj-partners-with-who-and-unicef-to-launch-special-collection-on-global-child-health/",
+      "description": "‘Back to school asthma’ linked to tripling in rate of health service appointments ‘Climate cardiology’ needed to tackle links between climate change and heart health ‘Diseases of despair’ have soared over past decade in US ‘Fat suit’ role play may help uncover medical student prejudices against obesity ‘Foreign disinformation’ social media campaigns linked to falling vaccination rates ‘Frequent attenders’ comprise 4 in every 10 family doctor consultations in England ‘Ice’ flavoured e-cig use may be linked to nicotine dependence among the young ‘Invisible’ stool blood linked to heightened risk of death from all causes ‘Mass testing’ linked to 25% cut in covid-19 related hospital admissions ‘Mum test’ not enough to convince people to get the COVID-19 jab ‘Natural disasters’ increase triggers for violence against women and girls ‘Night owls’ may be twice as likely as morning ‘larks’ to underperform at work ‘Significant’ racial disparities in care of heart patients during first pandemic wave ‘Spin’ found in over half of clinical trial abstracts published in top psychiatry journals “Cardio” exercise linked to much lower risk of flu or pneumonia death “Cardio”exercise linked to much lower risk of flu or pneumonia death “Extensive gender discrimination in healthcare access” for women in India “Good evidence” that ADHD drugs might also treat Alzheimer’s disease “Modest” increase in heart attack hospitalisation rates after years of decline “Promising evidence” that osteopathy may relieve musculoskeletal pain “Significant unmet needs” common among dying in UK hospitals 1 billion + young people potentially at risk of hearing loss from loud music 1 g cut in daily salt intake could ward off nearly 9 million cases of stroke/heart disease in China 1 in 10 cardiology trainee doctors in UK say they have been bullied 1 in 10 early deaths averted if everyone met physical activity targets 1 in 3 women in India is likely to have been subjected to intimate partner violence 1 in 4 UK puppies may be being acquired before minimum recommended age 1 in 4 women at sexual health clinics reports coercion over their reproductive lives 1 US dollar increase in minimum wage linked to 3.5-6% fall",
+      "source_id": "bmj_collections",
+      "source_label": "BMJ Journals Special Issues and Collections",
+      "source_url": "https://www.bmj.com/company/journals/",
+      "publisher": "BMJ",
+      "official_source": true,
+      "category_hint": "",
+      "journal": "",
+      "journal_category": "",
+      "journal_priority": 1,
+      "jcr_band": "unverified_candidate",
+      "q1_evidence": "Not matched to configured Q1 watchlist; verify in JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        },
+        {
+          "id": "misinformation_public_health",
+          "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+          "hits": [
+            "disinformation",
+            "social media"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "to",
+        "date": "2026-09-17",
+        "kind": "date"
+      },
+      "fingerprint": "11e79695520001a0",
+      "score": 47,
+      "priority_label": "Watch",
+      "is_new": true
+    },
+    {
+      "title": "The BMJ launches special collection on China’s health reforms",
+      "url": "https://www.bmj.com/company/newsroom/the-bmj-launches-special-collection-on-chinas-health-reforms/",
+      "description": "‘Back to school asthma’ linked to tripling in rate of health service appointments ‘Climate cardiology’ needed to tackle links between climate change and heart health ‘Diseases of despair’ have soared over past decade in US ‘Fat suit’ role play may help uncover medical student prejudices against obesity ‘Foreign disinformation’ social media campaigns linked to falling vaccination rates ‘Frequent attenders’ comprise 4 in every 10 family doctor consultations in England ‘Ice’ flavoured e-cig use may be linked to nicotine dependence among the young ‘Invisible’ stool blood linked to heightened risk of death from all causes ‘Mass testing’ linked to 25% cut in covid-19 related hospital admissions ‘Mum test’ not enough to convince people to get the COVID-19 jab ‘Natural disasters’ increase triggers for violence against women and girls ‘Night owls’ may be twice as likely as morning ‘larks’ to underperform at work ‘Significant’ racial disparities in care of heart patients during first pandemic wave ‘Spin’ found in over half of clinical trial abstracts published in top psychiatry journals “Cardio” exercise linked to much lower risk of flu or pneumonia death “Cardio”exercise linked to much lower risk of flu or pneumonia death “Extensive gender discrimination in healthcare access” for women in India “Good evidence” that ADHD drugs might also treat Alzheimer’s disease “Modest” increase in heart attack hospitalisation rates after years of decline “Promising evidence” that osteopathy may relieve musculoskeletal pain “Significant unmet needs” common among dying in UK hospitals 1 billion + young people potentially at risk of hearing loss from loud music 1 g cut in daily salt intake could ward off nearly 9 million cases of stroke/heart disease in China 1 in 10 cardiology trainee doctors in UK say they have been bullied 1 in 10 early deaths averted if everyone met physical activity targets 1 in 3 women in India is likely to have been subjected to intimate partner violence 1 in 4 UK puppies may be being acquired before minimum recommended age 1 in 4 women at sexual health clinics reports coercion over their reproductive lives 1 US dollar increase in minimum wage linked to 3.5-6% fall",
+      "source_id": "bmj_collections",
+      "source_label": "BMJ Journals Special Issues and Collections",
+      "source_url": "https://www.bmj.com/company/journals/",
+      "publisher": "BMJ",
+      "official_source": true,
+      "category_hint": "",
+      "journal": "",
+      "journal_category": "",
+      "journal_priority": 1,
+      "jcr_band": "unverified_candidate",
+      "q1_evidence": "Not matched to configured Q1 watchlist; verify in JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        },
+        {
+          "id": "misinformation_public_health",
+          "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+          "hits": [
+            "disinformation",
+            "social media"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "25%",
+        "date": "2026-09-25",
+        "kind": "date"
+      },
+      "fingerprint": "87df6b2e45bf180e",
+      "score": 47,
+      "priority_label": "Watch",
+      "is_new": true
+    },
+    {
+      "title": "The BMJ launches special collection on research for health in the Americas",
+      "url": "https://www.bmj.com/company/newsroom/the-bmj-launches-special-collection-on-research-for-health-in-the-americas/",
+      "description": "‘Back to school asthma’ linked to tripling in rate of health service appointments ‘Climate cardiology’ needed to tackle links between climate change and heart health ‘Diseases of despair’ have soared over past decade in US ‘Fat suit’ role play may help uncover medical student prejudices against obesity ‘Foreign disinformation’ social media campaigns linked to falling vaccination rates ‘Frequent attenders’ comprise 4 in every 10 family doctor consultations in England ‘Ice’ flavoured e-cig use may be linked to nicotine dependence among the young ‘Invisible’ stool blood linked to heightened risk of death from all causes ‘Mass testing’ linked to 25% cut in covid-19 related hospital admissions ‘Mum test’ not enough to convince people to get the COVID-19 jab ‘Natural disasters’ increase triggers for violence against women and girls ‘Night owls’ may be twice as likely as morning ‘larks’ to underperform at work ‘Significant’ racial disparities in care of heart patients during first pandemic wave ‘Spin’ found in over half of clinical trial abstracts published in top psychiatry journals “Cardio” exercise linked to much lower risk of flu or pneumonia death “Cardio”exercise linked to much lower risk of flu or pneumonia death “Extensive gender discrimination in healthcare access” for women in India “Good evidence” that ADHD drugs might also treat Alzheimer’s disease “Modest” increase in heart attack hospitalisation rates after years of decline “Promising evidence” that osteopathy may relieve musculoskeletal pain “Significant unmet needs” common among dying in UK hospitals 1 billion + young people potentially at risk of hearing loss from loud music 1 g cut in daily salt intake could ward off nearly 9 million cases of stroke/heart disease in China 1 in 10 cardiology trainee doctors in UK say they have been bullied 1 in 10 early deaths averted if everyone met physical activity targets 1 in 3 women in India is likely to have been subjected to intimate partner violence 1 in 4 UK puppies may be being acquired before minimum recommended age 1 in 4 women at sexual health clinics reports coercion over their reproductive lives 1 US dollar increase in minimum wage linked to 3.5-6% fall",
+      "source_id": "bmj_collections",
+      "source_label": "BMJ Journals Special Issues and Collections",
+      "source_url": "https://www.bmj.com/company/journals/",
+      "publisher": "BMJ",
+      "official_source": true,
+      "category_hint": "",
+      "journal": "",
+      "journal_category": "",
+      "journal_priority": 1,
+      "jcr_band": "unverified_candidate",
+      "q1_evidence": "Not matched to configured Q1 watchlist; verify in JCR.",
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        },
+        {
+          "id": "misinformation_public_health",
+          "label": "醫療假訊息與公共衛生資訊 / Misinformation & Public Health",
+          "hits": [
+            "disinformation",
+            "social media"
+          ]
+        }
+      ],
+      "deadline": {
+        "label": "25%",
+        "date": "2026-09-25",
+        "kind": "date"
+      },
+      "fingerprint": "5c086ea65d603cf0",
+      "score": 47,
+      "priority_label": "Watch",
+      "is_new": true
+    }
+  ],
   "sources": [
     {
       "source_id": "journal_annals_of_emergency_medicine",
       "label": "Annals of Emergency Medicine CFP",
       "url": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine/about/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_resuscitation",
       "label": "Resuscitation CFP",
       "url": "https://www.sciencedirect.com/journal/resuscitation/about/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_academic_emergency_medicine",
       "label": "Academic Emergency Medicine CFP",
       "url": "https://onlinelibrary.wiley.com/journal/15532712",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_scandinavian_journal_of_trauma_resuscitation_and_emergency_medicine",
       "label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine CFP",
       "url": "https://sjtrem.biomedcentral.com/submission-guidelines/call-for-papers",
-      "status": "skipped_offline",
-      "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "status": "ok",
+      "candidates": 10,
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "journal_emergency_medicine_journal",
       "label": "Emergency Medicine Journal CFP",
       "url": "https://emj.bmj.com/pages/special-issues-and-collections/",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 429
     },
     {
       "source_id": "journal_the_american_journal_of_emergency_medicine",
       "label": "The American Journal of Emergency Medicine CFP",
       "url": "https://www.sciencedirect.com/journal/the-american-journal-of-emergency-medicine/about/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_intensive_care_medicine",
       "label": "Intensive Care Medicine CFP",
       "url": "https://link.springer.com/journal/134/updates",
-      "status": "skipped_offline",
-      "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "status": "ok",
+      "candidates": 8,
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "journal_critical_care",
       "label": "Critical Care CFP",
       "url": "https://ccforum.biomedcentral.com/submission-guidelines/call-for-papers",
-      "status": "skipped_offline",
-      "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "status": "ok",
+      "candidates": 10,
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "journal_chest",
       "label": "CHEST CFP",
       "url": "https://www.sciencedirect.com/journal/chest/about/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_critical_care_medicine",
       "label": "Critical Care Medicine CFP",
       "url": "https://journals.lww.com/ccmjournal/pages/default.aspx",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_npj_digital_medicine",
       "label": "npj Digital Medicine CFP",
       "url": "https://www.nature.com/npjdigitalmed/guest-edited-collections",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 404
     },
     {
       "source_id": "journal_journal_of_the_american_medical_informatics_association",
       "label": "Journal of the American Medical Informatics Association CFP",
       "url": "https://academic.oup.com/jamia/pages/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_ieee_journal_of_biomedical_and_health_informatics",
       "label": "IEEE Journal of Biomedical and Health Informatics CFP",
       "url": "https://jbhi.embs.org/special-issues/",
-      "status": "skipped_offline",
-      "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "status": "ok",
+      "candidates": 8,
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "journal_artificial_intelligence_in_medicine",
       "label": "Artificial Intelligence in Medicine CFP",
       "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_international_journal_of_medical_informatics",
       "label": "International Journal of Medical Informatics CFP",
       "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_journal_of_medical_internet_research",
       "label": "Journal of Medical Internet Research CFP",
       "url": "https://www.jmir.org/announcements",
-      "status": "skipped_offline",
-      "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "status": "ok",
+      "candidates": 1,
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "journal_jmir_medical_informatics",
       "label": "JMIR Medical Informatics CFP",
       "url": "https://medinform.jmir.org/announcements",
-      "status": "skipped_offline",
-      "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "status": "ok",
+      "candidates": 3,
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "journal_the_lancet_digital_health",
       "label": "The Lancet Digital Health CFP",
       "url": "https://www.thelancet.com/journals/landig/announcements",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_jama_network_open",
       "label": "JAMA Network Open CFP",
       "url": "https://jamanetwork.com/journals/jamanetworkopen/pages/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "journal_plos_digital_health",
       "label": "PLOS Digital Health CFP",
       "url": "https://journals.plos.org/digitalhealth/s/calls-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 404
     },
     {
       "source_id": "springer_open_calls",
       "label": "Springer Nature Open Calls for Papers",
       "url": "https://www.springernature.com/gp/authors/campaigns/call-for-papers",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 404
     },
     {
       "source_id": "taylor_francis_calls",
       "label": "Taylor & Francis Calls for Papers",
       "url": "https://think.taylorandfrancis.com/calls-for-papers/",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 404
     },
     {
       "source_id": "wiley_special_issues",
       "label": "Wiley Special Issues and Calls for Papers",
       "url": "https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/special-issues.html",
-      "status": "skipped_offline",
+      "status": "ok",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 200
     },
     {
       "source_id": "mdpi_special_issues",
       "label": "MDPI Special Issues Search",
       "url": "https://www.mdpi.com/special_issues",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 403
     },
     {
       "source_id": "rsc_calls",
       "label": "Royal Society of Chemistry Calls for Papers",
       "url": "https://www.rsc.org/journals-books-databases/about-journals/journals-information/calls-for-papers/",
-      "status": "skipped_offline",
+      "status": "http_error",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
-      "status_code": null
+      "error": "",
+      "status_code": 404
     },
     {
       "source_id": "bmj_collections",
       "label": "BMJ Journals Special Issues and Collections",
       "url": "https://www.bmj.com/company/journals/",
-      "status": "skipped_offline",
+      "status": "ok",
+      "candidates": 4,
+      "error": "",
+      "status_code": 200
+    },
+    {
+      "source_id": "search_emergency_medicine_special_issue",
+      "label": "Web search: 急診醫學",
+      "url": "search://\"call for papers\" \"special issue\" \"emergency medicine\" deadline",
+      "status": "no_results",
       "candidates": 0,
-      "error": "Offline run: network fetching disabled.",
+      "error": "no_provider_results",
+      "status_code": null
+    },
+    {
+      "source_id": "search_critical_care_special_issue",
+      "label": "Web search: 重症醫學",
+      "url": "search://\"special issue\" \"critical care\" \"submission deadline\" journal",
+      "status": "no_results",
+      "candidates": 0,
+      "error": "no_provider_results",
+      "status_code": null
+    },
+    {
+      "source_id": "search_medical_informatics_special_issue",
+      "label": "Web search: 醫療資訊",
+      "url": "search://\"call for papers\" \"medical informatics\" \"special issue\"",
+      "status": "no_results",
+      "candidates": 0,
+      "error": "no_provider_results",
+      "status_code": null
+    },
+    {
+      "source_id": "search_digital_health_telemedicine_special_issue",
+      "label": "Web search: 遠距照護與數位醫療",
+      "url": "search://\"special issue\" telemedicine OR telehealth \"call for papers\" journal",
+      "status": "no_results",
+      "candidates": 0,
+      "error": "no_provider_results",
+      "status_code": null
+    },
+    {
+      "source_id": "search_generative_ai_healthcare_special_issue",
+      "label": "Web search: AI 醫療",
+      "url": "search://\"generative AI\" healthcare \"special issue\" \"call for papers\"",
+      "status": "no_results",
+      "candidates": 0,
+      "error": "no_provider_results",
+      "status_code": null
+    },
+    {
+      "source_id": "search_health_misinformation_special_issue",
+      "label": "Web search: 醫療假訊息",
+      "url": "search://\"health misinformation\" OR infodemic \"special issue\" \"call for papers\"",
+      "status": "no_results",
+      "candidates": 0,
+      "error": "no_provider_results",
       "status_code": null
     }
   ]

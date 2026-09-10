@@ -4,8 +4,8 @@
 
 ## 最新週報
 
-[2026-W37 離線啟動報告](reports/2026-W37.md)  
-本期收錄：0 筆候選。
+[2026-W37 最新自動週報](reports/2026-W37.md)  
+本期收錄：42 筆候選。
 
 GitHub Pages 入口會由 `docs/` 自動產生；啟用 Pages 後可直接用網頁瀏覽歷史週報。
 
@@ -24,7 +24,7 @@ python -m venv .venv
 本機每週自動跑：
 
 ```powershell
-.\scripts\install_windows_task.ps1 -RepositoryPath "C:\Users\icebi\Downloads\specialIssueSurvey"
+.\scripts\install_windows_task.ps1 -RepositoryPath "/home/runner/work/specialIssueSurvey/specialIssueSurvey"
 ```
 
 若要提高搜尋覆蓋率，可在本機環境或 GitHub Secrets 加入 `BRAVE_SEARCH_API_KEY` 或 `SERPAPI_API_KEY`。
