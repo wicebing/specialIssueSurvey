@@ -7,6 +7,7 @@ param(
 $ErrorActionPreference = "Stop"
 $RepoRoot = Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")
 Set-Location $RepoRoot
+$RepoPath = $RepoRoot.Path
 
 function Resolve-Python {
     param([string]$Preferred)
@@ -61,16 +62,20 @@ if (!(Test-Path -LiteralPath ".git")) {
     exit 0
 }
 
-git add README.md config data docs reports scripts .github requirements.txt .gitignore
-git diff --cached --quiet
+function Invoke-RepoGit {
+    git -c "safe.directory=$RepoPath" @args
+}
+
+Invoke-RepoGit add README.md config data docs reports scripts .github requirements.txt .gitignore
+Invoke-RepoGit diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Write-Host "No report changes to commit."
     exit 0
 }
 
 $Stamp = Get-Date -Format "yyyy-MM-dd"
-git commit -m "chore: weekly CFP report $Stamp"
+Invoke-RepoGit commit -m "chore: weekly CFP report $Stamp"
 
 if (!$NoPush) {
-    git push
+    Invoke-RepoGit push
 }
