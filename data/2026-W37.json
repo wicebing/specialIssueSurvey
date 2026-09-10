@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-10T08:00:43.694540+00:00",
+  "generated_at": "2026-09-10T08:05:24.488677+00:00",
   "stats": {
     "open_calls": 100,
     "core_calls": 51,
@@ -878,13 +878,13 @@
         "date": "2027-03-16",
         "text": "16 March 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 16 March 2027",
+        "evidence": "Submission deadline: 16 March 2027. Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligenc",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 16 March 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 187
       },
       "topics": [
@@ -921,7 +921,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 232
       },
@@ -960,7 +960,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 239
       },
@@ -1002,13 +1002,13 @@
         "date": "2026-10-24",
         "text": "24 October 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 24 October 2026",
+        "evidence": "Submission deadline: 24 October 2026. Critical Care in War and Disaster Areas This Collection aims to explore the unique challenges, innovations, and lessons learned in the field",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 24 October 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 44
       },
       "topics": [
@@ -1040,13 +1040,13 @@
         "date": "2027-02-04",
         "text": "04 February 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 04 February 2027",
+        "evidence": "Submission deadline: 04 February 2027. Avalanche, Hypothermia, and Cold Injuries: Advances in Prevention, Rescue, and Care This collection aims to bring together cutting-edge rese",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 04 February 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 147
       },
       "topics": [
@@ -1078,13 +1078,13 @@
         "date": "2027-03-22",
         "text": "22 March 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 22 March 2027",
+        "evidence": "Submission deadline: 22 March 2027. The Logic of Critical Care: Integrating Physiology and Evidence This Collection aims to integrate physiology, evidence, and bedside decision-ma",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 22 March 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 193
       },
       "topics": [
@@ -1121,7 +1121,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 195
       },
@@ -1154,13 +1154,13 @@
         "date": "2027-04-01",
         "text": "01 April 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 01 April 2027",
+        "evidence": "Submission deadline: 01 April 2027. Obesity in the ICU Obesity is becoming an increasingly important consideration in intensive care medicine, with implications for risk assessmen",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 01 April 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 203
       },
       "topics": [
@@ -1193,13 +1193,13 @@
         "date": "2027-04-02",
         "text": "02 April 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 02 April 2027",
+        "evidence": "Submission deadline: 02 April 2027. Innovation in the ICU Innovation will lead to significant improvements in patient care, safety, and operational efficiency. However, there are",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 02 April 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 204
       },
       "topics": [
@@ -1231,13 +1231,13 @@
         "date": "2027-04-05",
         "text": "05 April 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 05 April 2027",
+        "evidence": "Submission deadline: 05 April 2027. ARDS 60th Anniversary Since the first clinical descriptions sixty years ago, patient care advanced, but ARDS remains a challenge in the ICU. Al",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 05 April 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 207
       },
       "topics": [
@@ -1274,7 +1274,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 294
       },
@@ -1313,7 +1313,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 364
       },
@@ -1442,7 +1442,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 155
       },
@@ -1467,13 +1467,13 @@
         "date": "2026-09-25",
         "text": "25 September 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 25 September 2026",
+        "evidence": "Submission deadline: 25 September 2026. Extracorporeal Blood Purification Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, es",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 25 September 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 15
       },
       "topics": [
@@ -1587,7 +1587,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 243
       },
@@ -1625,7 +1625,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 250
       },
@@ -1663,7 +1663,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 266
       },
@@ -1701,7 +1701,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 350
       },
@@ -1739,7 +1739,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 358
       },
@@ -1772,13 +1772,13 @@
         "date": "2027-05-11",
         "text": "11 May 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 11 May 2027",
+        "evidence": "Submission deadline: 11 May 2027. AI-based clinical decision support in emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on the integration o",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 11 May 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 243
       },
       "topics": [
@@ -1825,13 +1825,13 @@
         "date": "2026-11-12",
         "text": "12 November 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 12 November 2026",
+        "evidence": "Submission deadline: 12 November 2026. Cardiac arrest BMC Emergency Medicine is calling for submissions to our Collection on cardiac arrest. Cardiac arrest remains a leading cause",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 12 November 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 63
       },
       "topics": [
@@ -1870,13 +1870,13 @@
         "date": "2026-11-28",
         "text": "28 November 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 28 November 2026",
+        "evidence": "Submission deadline: 28 November 2026. Data management for wearable devices BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Data Manage",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 28 November 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 79
       },
       "topics": [
@@ -1998,7 +1998,7 @@
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the status",
+        "reason": "publisher markup states the call is open",
         "evidence": "open",
         "days_left": 231
       },
@@ -2031,13 +2031,13 @@
         "date": "2027-06-10",
         "text": "10 June 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 10 June 2027",
+        "evidence": "Submission deadline: 10 June 2027. Explainable AI for clinical documentation BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Explainabl",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 10 June 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 273
       },
       "topics": [
@@ -2077,13 +2077,13 @@
         "date": "2026-10-29",
         "text": "29 October 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 29 October 2026",
+        "evidence": "Submission deadline: 29 October 2026. Acute pain management in emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on acute pain management in e",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 29 October 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 49
       },
       "topics": [
@@ -2115,13 +2115,13 @@
         "date": "2026-11-27",
         "text": "27 November 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 27 November 2026",
+        "evidence": "Submission deadline: 27 November 2026. Semantic interoperability BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Semantic interoperabil",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 27 November 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 78
       },
       "topics": [
@@ -2154,13 +2154,13 @@
         "date": "2026-11-30",
         "text": "30 November 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 30 November 2026",
+        "evidence": "Submission deadline: 30 November 2026. Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections BMC Medical Informatics and Decision Maki",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 30 November 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 81
       },
       "topics": [
@@ -2192,13 +2192,13 @@
         "date": "2026-12-30",
         "text": "30 December 2026",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 30 December 2026",
+        "evidence": "Submission deadline: 30 December 2026. Radiation emergency medicine BMC Emergency Medicine is calling for submissions to our Collection on radiation emergency medicine. Radiation",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 30 December 2026",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 111
       },
       "topics": [
@@ -2230,13 +2230,13 @@
         "date": "2027-01-04",
         "text": "04 January 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 04 January 2027",
+        "evidence": "Submission deadline: 04 January 2027. Climate change and its impact on emergency and disaster medicine BMC Emergency Medicine is calling for submissions to our Collection on clima",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 04 January 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 116
       },
       "topics": [
@@ -2268,13 +2268,13 @@
         "date": "2027-01-17",
         "text": "17 January 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 17 January 2027",
+        "evidence": "Submission deadline: 17 January 2027. Equity in health informatics BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Equity in health inf",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 17 January 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 129
       },
       "topics": [
@@ -2307,13 +2307,13 @@
         "date": "2027-02-18",
         "text": "18 February 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 18 February 2027",
+        "evidence": "Submission deadline: 18 February 2027. Infectious disease outbreak detection and prevention BMC Medical Informatics and Decision Making is calling for submissions to our Collectio",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 18 February 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 161
       },
       "topics": [
@@ -2345,13 +2345,13 @@
         "date": "2027-03-26",
         "text": "26 March 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 26 March 2027",
+        "evidence": "Submission deadline: 26 March 2027. Advances in open-source medical software BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Advances i",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 26 March 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 197
       },
       "topics": [
@@ -2370,6 +2370,275 @@
       "fingerprint": "8953c85d2c326d2c",
       "is_new": true,
       "tier": "other"
+    },
+    {
+      "journal": "Critical Care",
+      "title": "The future of Intensive Care Medicine",
+      "url": "https://link.springer.com/collections/fgbibchhgj",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "This new Thematic Series focus on all aspects related to the future of Intensive Care Medicine, including but not limited to: organization, staffing, monitoring systems, new therapies, future organ support s...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "dc1ac912749895b4",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
+      "journal": "Critical Care",
+      "title": "Personalized medicine in the ICU",
+      "url": "https://link.springer.com/collections/bichhgecfe",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "Thematic Series After so many negative randomized, controlled trials, that have evaluated a number of simplified therapeutic interventions that could be applied to large patient populations, people are turni...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "fbadd3e614d6b52b",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "Perioperative Care in the ICU",
+      "url": "https://link.springer.com/collections/jijhfcfgdb",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "“Perioperative Care in the ICU” brings together expert perspectives on managing high-risk surgical patients before, during and after their time in intensive care. The collection explores evolving protocols, ...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU",
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "196d7d34cdf3f779",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "Physiology in Critical Illness",
+      "url": "https://link.springer.com/collections/hiibadhdec",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "This new ICM series brings physiology and pathophysiology back where they matter most: to the bedside. Our goal is simple—to revisit key physiological principles through the lens of real-life intensive care ...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "765d37adc9bee979",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "Standard of Care in the Intensive Care Unit",
+      "url": "https://link.springer.com/collections/cbeijehfjc",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "The Standard of Care in the ICU collection examines the level of care that a competent and prudent intensivist would provide in an intensive care setting. In essence, it defines the baseline standard of care...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU",
+            "intensive care"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "d0119d87da9226b8",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "ICU Toolbox",
+      "url": "https://link.springer.com/collections/dajidfabgi",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "The “ICU Toolbox” collection provides practical advice on a range of special focus topics. It aims to be a beacon of practical insights, offering concise and insightful hands-on guidance for healthcare profe...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "ICU"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "dc497294b3e17bec",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "My Green ICU",
+      "url": "https://link.springer.com/collections/aefebhegjj",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "Healthcare pollutes the earth’s air, land, and water, contributing approximately 5% of worldwide anthropogenic greenhouse gases (GHGs). Critical care medicine is a hospital carbon hotspot with continuous sta...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "critical care",
+            "ICU"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 63,
+      "fingerprint": "11e943bf2783145d",
+      "is_new": true,
+      "tier": "core"
     },
     {
       "journal": "JMIR Aging",
@@ -2417,6 +2686,36 @@
       "tier": "core"
     },
     {
+      "journal": "Intensive Care Medicine",
+      "title": "The Brain in the Line of Fire",
+      "url": "https://link.springer.com/collections/aeedagfjab",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "Brain function depends on a continuous supply of oxygen and glucose, while secondary brain dysfunction and damage in critical illness arises from intra- and extracranial factors that act on inflammation, nut...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 58,
+      "fingerprint": "67f31bcc7c3b8e4d",
+      "is_new": true,
+      "tier": "core"
+    },
+    {
       "journal": "JMIR Mental Health",
       "title": "Call for Papers: Does It Work, Does It Translate, and Does It Help or Harm?",
       "url": "https://www.jmir.org/announcements/726",
@@ -2455,275 +2754,6 @@
       "tier": "core"
     },
     {
-      "journal": "Critical Care",
-      "title": "The future of Intensive Care Medicine",
-      "url": "https://link.springer.com/collections/fgbibchhgj",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "This new Thematic Series focus on all aspects related to the future of Intensive Care Medicine, including but not limited to: organization, staffing, monitoring systems, new therapies, future organ support s...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "dc1ac912749895b4",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Critical Care",
-      "title": "Personalized medicine in the ICU",
-      "url": "https://link.springer.com/collections/bichhgecfe",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "Thematic Series After so many negative randomized, controlled trials, that have evaluated a number of simplified therapeutic interventions that could be applied to large patient populations, people are turni...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "fbadd3e614d6b52b",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "Perioperative Care in the ICU",
-      "url": "https://link.springer.com/collections/jijhfcfgdb",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "“Perioperative Care in the ICU” brings together expert perspectives on managing high-risk surgical patients before, during and after their time in intensive care. The collection explores evolving protocols, ...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU",
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "196d7d34cdf3f779",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "Physiology in Critical Illness",
-      "url": "https://link.springer.com/collections/hiibadhdec",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "This new ICM series brings physiology and pathophysiology back where they matter most: to the bedside. Our goal is simple—to revisit key physiological principles through the lens of real-life intensive care ...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "765d37adc9bee979",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "Standard of Care in the Intensive Care Unit",
-      "url": "https://link.springer.com/collections/cbeijehfjc",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "The Standard of Care in the ICU collection examines the level of care that a competent and prudent intensivist would provide in an intensive care setting. In essence, it defines the baseline standard of care...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU",
-            "intensive care"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "d0119d87da9226b8",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "ICU Toolbox",
-      "url": "https://link.springer.com/collections/dajidfabgi",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "The “ICU Toolbox” collection provides practical advice on a range of special focus topics. It aims to be a beacon of practical insights, offering concise and insightful hands-on guidance for healthcare profe...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "ICU"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "dc497294b3e17bec",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "My Green ICU",
-      "url": "https://link.springer.com/collections/aefebhegjj",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "Healthcare pollutes the earth’s air, land, and water, contributing approximately 5% of worldwide anthropogenic greenhouse gases (GHGs). Critical care medicine is a hospital carbon hotspot with continuous sta...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "critical care",
-            "ICU"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 55,
-      "fingerprint": "11e943bf2783145d",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
       "journal": "BMC Medical Informatics and Decision Making",
       "title": "Natural language processing in medical informatics – Part II",
       "url": "https://link.springer.com/collections/bcihcbcbgi",
@@ -2735,13 +2765,13 @@
         "date": "2027-05-11",
         "text": "11 May 2027",
         "cue": "submission deadline",
-        "evidence": "Submission deadline 11 May 2027",
+        "evidence": "Submission deadline: 11 May 2027. Natural language processing in medical informatics – Part II BMC Medical Informatics and Decision Making is calling for submissions to our Collec",
         "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission deadline 11 May 2027",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
         "days_left": 243
       },
       "topics": [
@@ -2825,36 +2855,6 @@
       "journal_category": "醫學資訊 / 數位醫療",
       "score": 51,
       "fingerprint": "b2e59e4c420a29b8",
-      "is_new": true,
-      "tier": "core"
-    },
-    {
-      "journal": "Intensive Care Medicine",
-      "title": "The Brain in the Line of Fire",
-      "url": "https://link.springer.com/collections/aeedagfjab",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "Brain function depends on a continuous supply of oxygen and glucose, while secondary brain dysfunction and damage in critical illness arises from intra- and extracranial factors that act on inflammation, nut...",
-      "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
-      },
-      "status": {
-        "state": "unknown",
-        "reason": "no deadline and no status wording found",
-        "evidence": "",
-        "days_left": null
-      },
-      "topics": [],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 50,
-      "fingerprint": "67f31bcc7c3b8e4d",
       "is_new": true,
       "tier": "core"
     },

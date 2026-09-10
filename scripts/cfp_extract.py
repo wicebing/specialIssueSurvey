@@ -529,13 +529,32 @@ def detect_submission_status(
     """
     today = today or datetime.now(timezone.utc).date()
     lowered = _norm(text).lower()
+    days_left = (deadline.date - today).days if deadline and deadline.date else None
 
-    if explicit_state in {"open", "closed"}:
+    if explicit_state == "closed":
         return SubmissionStatus(
-            state=explicit_state,
-            reason="publisher markup states the status",
-            evidence=explicit_state,
-            days_left=(deadline.date - today).days if deadline and deadline.date else None,
+            state="closed",
+            reason="publisher markup states the call is closed",
+            evidence="closed",
+            days_left=days_left,
+        )
+
+    if explicit_state == "open":
+        # A stated deadline that has passed outranks an "open" label. Listings
+        # go stale - IEEE EMBS advertises eleven expired calls under a heading
+        # that says they are accepting submissions.
+        if days_left is not None and days_left < 0:
+            return SubmissionStatus(
+                state="closed",
+                reason="marked open but the stated deadline has passed",
+                evidence=deadline.evidence if deadline else "",
+                days_left=days_left,
+            )
+        return SubmissionStatus(
+            state="open",
+            reason="publisher markup states the call is open",
+            evidence="open",
+            days_left=days_left,
         )
 
     for marker in CLOSED_MARKERS:

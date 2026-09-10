@@ -189,3 +189,28 @@ def test_horizon_filter_drops_far_future_calls():
     )
     assert not result.accepted
     assert "horizon" in result.reject_reason
+
+
+def test_publisher_open_label_does_not_resurrect_an_expired_call():
+    """IEEE lists expired calls under an 'accepting submissions' heading."""
+    result = validate_candidate(
+        "Special Issue on Quantum Key Distribution",
+        "https://example.org/special-issue/qkd",
+        entry_text="Submission Deadline: 31 August 2026",
+        today=TODAY,
+        explicit_state="open",
+    )
+    assert not result.accepted
+    assert result.status.state == "closed"
+
+
+def test_publisher_open_label_stands_when_no_deadline_is_given():
+    status = detect_submission_status("Ongoing collection.", today=TODAY, explicit_state="open")
+    assert status.state == "open"
+
+
+def test_publisher_closed_label_always_wins():
+    status = detect_submission_status(
+        "Submission deadline: 31 December 2027", today=TODAY, explicit_state="closed"
+    )
+    assert status.state == "closed"

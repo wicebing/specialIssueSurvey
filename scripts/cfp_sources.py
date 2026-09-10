@@ -213,17 +213,41 @@ def springer_collections(
         link = card.select_one("a.app-card-collection__heading-link") or card.select_one("a[href]")
         if not link:
             continue
-        title = clean_text(link.get_text(" ", strip=True))
         href = urljoin(result.final_url or url, link.get("href", ""))
+        # Every real collection link on these pages is /collections/<id>; the
+        # assertion is what makes it impossible to emit a nav link.
+        if "/collections/" not in href:
+            continue
+        title = clean_text(link.get_text(" ", strip=True))
         text = clean_text(card.get_text(" ", strip=True))
         summary = clean_text(
             (card.select_one("div.app-card-collection__text") or card).get_text(" ", strip=True)
         )
+
+        # The card states its own status and deadline in a definition list.
+        # Reading those labels beats inferring from prose, and it is the only
+        # way to recognise Springer's "Ongoing" rolling calls as genuinely open.
+        fields = {
+            dl.dt.get_text(strip=True): dl.dd.get_text(strip=True)
+            for dl in card.select("dl.app-card-collection__description-list")
+            if dl.dt and dl.dd
+        }
+        status_value = fields.get("Submission status", "").strip().lower()
+        explicit = "open" if status_value.startswith("open") else (
+            "closed" if status_value.startswith("closed") else None
+        )
+        deadline_value = fields.get("Submission deadline", "").strip()
+        if deadline_value and deadline_value.lower() != "ongoing":
+            # Restate it in the form the deadline gate expects, so the date is
+            # read from this card's own field rather than from the card blob.
+            text = f"Submission deadline: {deadline_value}. {text}"
+
         entries.append(
             RawEntry(
                 title=title,
                 url=href,
                 entry_text=text,
+                explicit_state=explicit,
                 journal=spec.get("journal", ""),
                 summary=summary[:400],
                 context_confirmed=True,
