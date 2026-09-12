@@ -355,18 +355,39 @@ def render_markdown(
         lines += [
             "## 🔒 無法自動查詢的頂尖期刊（請手動點開）",
             "",
-            "這些出版社用 Cloudflare / captcha 擋掉自動查詢。**它們沒有出現在上面的清單，"
-            "不代表沒有徵稿**，請直接點連結確認。",
+            "這些出版社（Elsevier、Wiley、Oxford、JAMA、Lancet、Wolters Kluwer 等）用 Cloudflare / captcha "
+            "擋掉自動查詢。**它們沒有出現在上面的清單，不代表沒有徵稿**，請直接點連結確認。"
+            "依影響指數由高到低排列。",
             "",
-            "| 期刊 | 出版社 | 阻擋原因 | 直接連結 |",
-            "| :--- | :--- | :--- | :--- |",
         ]
+        # Grouped by field and sorted by impact factor: with dozens of blocked
+        # titles, an unordered list is something a reader silently skips.
+        grouped: dict[str, list[dict[str, Any]]] = {}
         for item in manual_watchlist:
-            lines.append(
-                f"| {esc(item.get('journal', ''))} | {esc(item.get('publisher', ''))} "
-                f"| {esc(item.get('block', ''))} | [開啟]({item.get('url', '')}) |"
-            )
-        lines.append("")
+            grouped.setdefault(item.get("field") or "其他", []).append(item)
+
+        def field_rank(name: str) -> tuple[int, str]:
+            for index, known in enumerate(FIELD_ORDER):
+                if known in name:
+                    return (index, name)
+            return (len(FIELD_ORDER), name)
+
+        for field, items in sorted(grouped.items(), key=lambda kv: field_rank(kv[0])):
+            if len(grouped) > 1:
+                lines += [f"### {esc(field)}", ""]
+            lines += [
+                "| 期刊 | IF | 出版社 | 阻擋原因 | 直接連結 |",
+                "| :--- | ---: | :--- | :--- | :--- |",
+            ]
+            for item in sorted(items, key=lambda i: -float(i.get("impact_factor") or 0)):
+                impact = item.get("impact_factor")
+                lines.append(
+                    f"| {esc(item.get('journal', ''))} "
+                    f"| {impact if impact else '-'} "
+                    f"| {esc(item.get('publisher', ''))} "
+                    f"| {esc(item.get('block', ''))} | [開啟]({item.get('url', '')}) |"
+                )
+            lines.append("")
 
     # --- source health -------------------------------------------------------
     lines += [

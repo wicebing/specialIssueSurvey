@@ -315,3 +315,14 @@ def test_unknown_field_sorts_last_and_is_labelled():
         _record(field="急診醫學", fingerprint="b"),
     ])
     assert grouped[-1][0] == "其他"
+
+
+def test_blocked_journals_are_sorted_by_impact_factor():
+    text = _render(manual=[
+        {"journal": "Low IF Journal", "publisher": "X", "impact_factor": 5.1,
+         "url": "https://a", "field": "護理"},
+        {"journal": "High IF Journal", "publisher": "Y", "impact_factor": 12.4,
+         "url": "https://b", "field": "護理"},
+    ])
+    assert text.index("High IF Journal") < text.index("Low IF Journal")
+    assert "12.4" in text
