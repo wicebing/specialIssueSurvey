@@ -326,3 +326,29 @@ def test_blocked_journals_are_sorted_by_impact_factor():
     ])
     assert text.index("High IF Journal") < text.index("Low IF Journal")
     assert "12.4" in text
+
+
+def test_rising_topic_without_a_matching_call_is_surfaced_separately():
+    """A hot topic with no open call still tells the user where to aim."""
+    trends = {
+        "tracked_terms": [
+            {"term": "nurse staffing", "label": "護理人力配置", "stage": "rising",
+             "recent_count": 40, "baseline_count": 15, "growth_ratio": 2.4, "score": 20},
+        ],
+        "discovered_terms": [], "windows": {}, "corpus": {}, "journals_tracked": [],
+    }
+    text = _render(dated=[_record()], trends=trends)
+    assert "熱門但目前沒有對應徵稿" in text
+    assert "護理人力配置" in text
+
+
+def test_matched_topic_is_not_repeated_in_the_unmatched_section():
+    trends = {
+        "tracked_terms": [
+            {"term": "large language model", "label": "大型語言模型", "stage": "rising",
+             "recent_count": 120, "baseline_count": 25, "growth_ratio": 4.4, "score": 30},
+        ],
+        "discovered_terms": [], "windows": {}, "corpus": {}, "journals_tracked": [],
+    }
+    text = _render(dated=[_record()], trends=trends)
+    assert "熱門但目前沒有對應徵稿" not in text

@@ -332,7 +332,27 @@ def render_markdown(
         lines.append("")
 
     # --- where trend meets opportunity --------------------------------------
-    matches = _match_trends_to_calls(rising + discovered, list(dated) + list(undated))
+    all_open = list(dated) + list(undated)
+    matches = _match_trends_to_calls(rising + discovered, all_open)
+
+    # A rising topic with no matching call is still actionable: it means submit
+    # as a regular paper now, rather than waiting for a special issue that may
+    # never come. Surfacing it completes the picture the matched list starts.
+    matched_terms = {
+        (item.get("term") or "").lower()
+        for item in rising + discovered
+        if any(
+            (item.get("term") or "").lower() in f"{r.title} {r.summary}".lower()
+            for r in all_open
+        )
+    }
+    unmatched = [
+        item
+        for item in rising
+        if (item.get("term") or "").lower() not in matched_terms
+        and item.get("stage") in {"emerging", "rising"}
+    ][:10]
+
     lines += ["## 🎯 建議切入點：熱門主題 × 正在徵稿", ""]
     if not matches:
         lines += ["_本週上升主題與開放徵稿沒有明顯交集；可先從上面的上升主題準備稿件。_", ""]
@@ -347,6 +367,23 @@ def render_markdown(
             lines.append(
                 f"| **{esc(term)}** | [{esc(record.title)}]({record.url}) "
                 f"| {esc(record.journal)} | {_deadline_cell(record)} |"
+            )
+        lines.append("")
+
+    if unmatched:
+        lines += [
+            "### 🌱 熱門但目前沒有對應徵稿",
+            "",
+            "這些主題正在升溫，但本週沒有任何開放徵稿直接對上。代表現在投**一般稿件**競爭相對小，"
+            "或可以先把稿子養著，等相關 special issue 開出來。",
+            "",
+            "| 主題 | 近半年 | 去年同期 | 成長 |",
+            "| :--- | ---: | ---: | ---: |",
+        ]
+        for item in unmatched:
+            lines.append(
+                f"| {esc(item['label'])} | {item['recent_count']} | {item['baseline_count']} "
+                f"| {item['growth_ratio']:.2f}x |"
             )
         lines.append("")
 
