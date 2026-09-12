@@ -279,3 +279,39 @@ def test_carry_forward_drops_calls_whose_deadline_passed(tmp_path, monkeypatch):
     )
     blocked = SourceReport("s1", "Critical Care", "u", status="bot_challenge", accepted=0)
     assert fetch_cfps.carry_forward_blocked_sources([blocked], TODAY, 540) == []
+
+
+# --- field grouping ---------------------------------------------------------
+
+
+def test_report_groups_core_calls_by_field():
+    """With dozens of journals a flat table is unreadable, so fields become sections."""
+    text = _render(dated=[
+        _record(field="護理", title="Nursing Workforce Retention", fingerprint="a", tier="core"),
+        _record(field="影像與電腦視覺", title="Foundation Models for Radiology", fingerprint="b", tier="core"),
+    ])
+    assert "### 護理" in text
+    assert "### 影像與電腦視覺" in text
+    assert "Nursing Workforce Retention" in text
+    assert "Foundation Models for Radiology" in text
+
+
+def test_field_order_puts_emergency_medicine_before_general_fields():
+    from scripts.report import _group_by_field
+
+    grouped = _group_by_field([
+        _record(field="一般醫學", fingerprint="a"),
+        _record(field="急診醫學", fingerprint="b"),
+        _record(field="護理", fingerprint="c"),
+    ])
+    assert [name for name, _ in grouped] == ["急診醫學", "護理", "一般醫學"]
+
+
+def test_unknown_field_sorts_last_and_is_labelled():
+    from scripts.report import _group_by_field
+
+    grouped = _group_by_field([
+        _record(field="", fingerprint="a"),
+        _record(field="急診醫學", fingerprint="b"),
+    ])
+    assert grouped[-1][0] == "其他"

@@ -428,22 +428,17 @@ def discover_emerging_terms(
     return consolidate_families(growing)[:limit]
 
 
-def build_trend_report(
+def _analyse_domain(
     session: PoliteSession,
-    config: dict[str, Any],
-    today: date,
-    api_key: str = "",
+    journals: Sequence[str],
+    terms: Sequence[dict[str, Any]],
+    windows: TrendWindows,
+    sample: int,
+    api_key: str,
 ) -> dict[str, Any]:
-    """Run both passes and return a serialisable trend block."""
-    trend_config = config.get("trend_engine", {})
-    journals = trend_config.get("pubmed_journals", [])
-    terms = trend_config.get("tracked_terms", [])
-    span = int(trend_config.get("window_days", 180))
-    windows = TrendWindows.trailing(today, span_days=span)
-
+    """Score one journal set against one vocabulary."""
     tracked = score_tracked_terms(session, terms, journals, windows, api_key) if terms else []
 
-    sample = int(trend_config.get("title_sample_size", 1000))
     recent_titles = collect_titles(
         session, journals, windows.recent_start, windows.recent_end,
         limit=sample, api_key=api_key,
@@ -457,9 +452,7 @@ def build_trend_report(
         baseline_titles,
         exclude_terms=[entry["term"] if isinstance(entry, dict) else str(entry) for entry in terms],
     )
-
     return {
-        "windows": windows.to_dict(),
         "journals_tracked": list(journals),
         "corpus": {
             "recent_titles": len(recent_titles),
@@ -467,4 +460,74 @@ def build_trend_report(
         },
         "tracked_terms": [item.to_dict() for item in tracked],
         "discovered_terms": [item.to_dict() for item in discovered],
+    }
+
+
+def build_trend_report(
+    session: PoliteSession,
+    config: dict[str, Any],
+    today: date,
+    api_key: str = "",
+) -> dict[str, Any]:
+    """Run the trend passes and return a serialisable block.
+
+    Scores each field against its own journals rather than pooling everything.
+    A combined ranking would be dominated by whichever field publishes most -
+    clinical AI outpublishes nursing by an order of magnitude - so a rising
+    nursing topic would never surface. Per-field lists keep each one readable
+    on its own terms.
+    """
+    trend_config = config.get("trend_engine", {})
+    span = int(trend_config.get("window_days", 180))
+    sample = int(trend_config.get("title_sample_size", 1000))
+    windows = TrendWindows.trailing(today, span_days=span)
+
+    domains = trend_config.get("domains")
+    if not domains:
+        # Older single-list config.
+        result = _analyse_domain(
+            session,
+            trend_config.get("pubmed_journals", []),
+            trend_config.get("tracked_terms", []),
+            windows,
+            sample,
+            api_key,
+        )
+        result["windows"] = windows.to_dict()
+        result["domains"] = []
+        return result
+
+    analysed: list[dict[str, Any]] = []
+    for domain in domains:
+        journals = domain.get("pubmed_journals", [])
+        if not journals:
+            continue
+        block = _analyse_domain(
+            session, journals, domain.get("tracked_terms", []), windows, sample, api_key
+        )
+        block["id"] = domain.get("id", "")
+        block["label"] = domain.get("label", domain.get("id", ""))
+        analysed.append(block)
+
+    # The headline list is every field's risers merged, so the summary line and
+    # the CFP cross-match still see one ranked view.
+    merged_tracked = [
+        item for block in analysed for item in block["tracked_terms"]
+    ]
+    merged_tracked.sort(key=lambda item: -item["score"])
+    merged_discovered = [
+        item for block in analysed for item in block["discovered_terms"]
+    ]
+    merged_discovered.sort(key=lambda item: -item["score"])
+
+    return {
+        "windows": windows.to_dict(),
+        "domains": analysed,
+        "journals_tracked": sorted({j for b in analysed for j in b["journals_tracked"]}),
+        "corpus": {
+            "recent_titles": sum(b["corpus"]["recent_titles"] for b in analysed),
+            "baseline_titles": sum(b["corpus"]["baseline_titles"] for b in analysed),
+        },
+        "tracked_terms": merged_tracked,
+        "discovered_terms": merged_discovered,
     }

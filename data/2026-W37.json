@@ -1,22 +1,16 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-10T15:51:21.202508+00:00",
+  "generated_at": "2026-09-12T09:20:30.836314+00:00",
   "stats": {
-    "open_calls": 100,
+    "open_calls": 101,
     "core_calls": 51,
-    "with_deadline": 48,
+    "with_deadline": 49,
     "rolling": 52,
-    "new": 100,
+    "new": 101,
     "sources": 10,
-    "sources_ok": 4
+    "sources_ok": 9
   },
   "trends": {
-    "windows": {
-      "recent_start": "2026-03-14",
-      "recent_end": "2026-09-10",
-      "baseline_start": "2025-03-14",
-      "baseline_end": "2025-09-10"
-    },
     "journals_tracked": [
       "Resuscitation",
       "Ann Emerg Med",
@@ -46,12 +40,12 @@
       {
         "term": "foundation model",
         "label": "基礎模型",
-        "recent_count": 37,
+        "recent_count": 36,
         "baseline_count": 6,
-        "growth_ratio": 4.349,
-        "momentum": 2.121,
-        "volume_weight": 3.638,
-        "score": 24.84,
+        "growth_ratio": 4.233,
+        "momentum": 2.082,
+        "volume_weight": 3.611,
+        "score": 24.43,
         "stage": "emerging",
         "journals": [],
         "examples": []
@@ -59,12 +53,25 @@
       {
         "term": "clinical decision support",
         "label": "臨床決策支援",
-        "recent_count": 191,
-        "baseline_count": 104,
-        "growth_ratio": 1.757,
-        "momentum": 0.813,
-        "volume_weight": 5.257,
-        "score": 13.39,
+        "recent_count": 192,
+        "baseline_count": 105,
+        "growth_ratio": 1.745,
+        "momentum": 0.804,
+        "volume_weight": 5.263,
+        "score": 13.3,
+        "stage": "rising",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "phenotyping",
+        "label": "表型分群",
+        "recent_count": 65,
+        "baseline_count": 35,
+        "growth_ratio": 1.733,
+        "momentum": 0.793,
+        "volume_weight": 4.19,
+        "score": 12.12,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -74,23 +81,10 @@
         "label": "急診壅塞",
         "recent_count": 9,
         "baseline_count": 3,
-        "growth_ratio": 1.968,
-        "momentum": 0.976,
+        "growth_ratio": 1.965,
+        "momentum": 0.975,
         "volume_weight": 2.303,
-        "score": 12.07,
-        "stage": "rising",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "phenotyping",
-        "label": "表型分群",
-        "recent_count": 64,
-        "baseline_count": 36,
-        "growth_ratio": 1.667,
-        "momentum": 0.737,
-        "volume_weight": 4.174,
-        "score": 11.55,
+        "score": 12.05,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -98,12 +92,12 @@
       {
         "term": "multimodal",
         "label": "多模態",
-        "recent_count": 223,
-        "baseline_count": 142,
-        "growth_ratio": 1.51,
-        "momentum": 0.594,
-        "volume_weight": 5.412,
-        "score": 11.36,
+        "recent_count": 222,
+        "baseline_count": 143,
+        "growth_ratio": 1.489,
+        "momentum": 0.575,
+        "volume_weight": 5.407,
+        "score": 11.15,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -112,11 +106,11 @@
         "term": "large language model",
         "label": "大型語言模型 / LLM",
         "recent_count": 197,
-        "baseline_count": 126,
-        "growth_ratio": 1.502,
-        "momentum": 0.587,
+        "baseline_count": 128,
+        "growth_ratio": 1.476,
+        "momentum": 0.561,
         "volume_weight": 5.288,
-        "score": 11.16,
+        "score": 10.9,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -126,10 +120,10 @@
         "label": "可解釋 AI",
         "recent_count": 97,
         "baseline_count": 61,
-        "growth_ratio": 1.515,
-        "momentum": 0.599,
+        "growth_ratio": 1.511,
+        "momentum": 0.596,
         "volume_weight": 4.585,
-        "score": 10.58,
+        "score": 10.54,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -137,12 +131,12 @@
       {
         "term": "artificial intelligence",
         "label": "人工智慧",
-        "recent_count": 734,
-        "baseline_count": 539,
-        "growth_ratio": 1.317,
-        "momentum": 0.397,
-        "volume_weight": 6.6,
-        "score": 10.57,
+        "recent_count": 737,
+        "baseline_count": 544,
+        "growth_ratio": 1.307,
+        "momentum": 0.386,
+        "volume_weight": 6.604,
+        "score": 10.46,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -152,23 +146,10 @@
         "label": "居家住院",
         "recent_count": 9,
         "baseline_count": 4,
-        "growth_ratio": 1.683,
-        "momentum": 0.751,
+        "growth_ratio": 1.68,
+        "momentum": 0.749,
         "volume_weight": 2.303,
-        "score": 9.81,
-        "stage": "rising",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "federated learning",
-        "label": "聯邦式學習",
-        "recent_count": 26,
-        "baseline_count": 16,
-        "growth_ratio": 1.485,
-        "momentum": 0.571,
-        "volume_weight": 3.296,
-        "score": 9.0,
+        "score": 9.79,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -176,12 +157,12 @@
       {
         "term": "triage",
         "label": "檢傷分類",
-        "recent_count": 150,
+        "recent_count": 152,
         "baseline_count": 110,
-        "growth_ratio": 1.312,
-        "momentum": 0.392,
-        "volume_weight": 5.017,
-        "score": 8.93,
+        "growth_ratio": 1.326,
+        "momentum": 0.407,
+        "volume_weight": 5.03,
+        "score": 9.1,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -191,10 +172,23 @@
         "label": "健康公平",
         "recent_count": 69,
         "baseline_count": 49,
-        "growth_ratio": 1.343,
-        "momentum": 0.425,
+        "growth_ratio": 1.34,
+        "momentum": 0.422,
         "volume_weight": 4.248,
-        "score": 8.5,
+        "score": 8.47,
+        "stage": "rising",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "federated learning",
+        "label": "聯邦式學習",
+        "recent_count": 25,
+        "baseline_count": 16,
+        "growth_ratio": 1.431,
+        "momentum": 0.517,
+        "volume_weight": 3.258,
+        "score": 8.43,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -202,25 +196,12 @@
       {
         "term": "deep learning",
         "label": "深度學習",
-        "recent_count": 253,
-        "baseline_count": 212,
-        "growth_ratio": 1.153,
-        "momentum": 0.206,
-        "volume_weight": 5.537,
-        "score": 7.59,
-        "stage": "steady",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "machine learning",
-        "label": "機器學習",
-        "recent_count": 448,
-        "baseline_count": 406,
-        "growth_ratio": 1.068,
-        "momentum": 0.095,
-        "volume_weight": 6.107,
-        "score": 7.05,
+        "recent_count": 252,
+        "baseline_count": 215,
+        "growth_ratio": 1.13,
+        "momentum": 0.177,
+        "volume_weight": 5.533,
+        "score": 7.3,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -228,12 +209,25 @@
       {
         "term": "prehospital",
         "label": "到院前救護",
-        "recent_count": 152,
-        "baseline_count": 128,
-        "growth_ratio": 1.146,
-        "momentum": 0.197,
-        "volume_weight": 5.03,
-        "score": 7.0,
+        "recent_count": 154,
+        "baseline_count": 129,
+        "growth_ratio": 1.15,
+        "momentum": 0.201,
+        "volume_weight": 5.043,
+        "score": 7.05,
+        "stage": "steady",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "machine learning",
+        "label": "機器學習",
+        "recent_count": 442,
+        "baseline_count": 410,
+        "growth_ratio": 1.041,
+        "momentum": 0.058,
+        "volume_weight": 6.094,
+        "score": 6.67,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -243,10 +237,10 @@
         "label": "環境式病歷紀錄",
         "recent_count": 4,
         "baseline_count": 2,
-        "growth_ratio": 1.382,
-        "momentum": 0.467,
+        "growth_ratio": 1.38,
+        "momentum": 0.465,
         "volume_weight": 1.609,
-        "score": 6.27,
+        "score": 6.26,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -254,12 +248,12 @@
       {
         "term": "sepsis",
         "label": "敗血症",
-        "recent_count": 202,
-        "baseline_count": 186,
-        "growth_ratio": 1.051,
-        "momentum": 0.071,
-        "volume_weight": 5.313,
-        "score": 6.03,
+        "recent_count": 201,
+        "baseline_count": 187,
+        "growth_ratio": 1.037,
+        "momentum": 0.053,
+        "volume_weight": 5.308,
+        "score": 5.84,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -268,11 +262,11 @@
         "term": "wearable",
         "label": "穿戴裝置",
         "recent_count": 91,
-        "baseline_count": 81,
-        "growth_ratio": 1.085,
-        "momentum": 0.117,
+        "baseline_count": 82,
+        "growth_ratio": 1.069,
+        "momentum": 0.097,
         "volume_weight": 4.522,
-        "score": 5.69,
+        "score": 5.49,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -280,12 +274,25 @@
       {
         "term": "cardiac arrest",
         "label": "心跳停止",
-        "recent_count": 308,
-        "baseline_count": 305,
-        "growth_ratio": 0.978,
-        "momentum": -0.032,
-        "volume_weight": 5.733,
-        "score": 5.41,
+        "recent_count": 313,
+        "baseline_count": 314,
+        "growth_ratio": 0.963,
+        "momentum": -0.054,
+        "volume_weight": 5.749,
+        "score": 5.21,
+        "stage": "steady",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "electronic health record",
+        "label": "電子病歷",
+        "recent_count": 170,
+        "baseline_count": 166,
+        "growth_ratio": 0.989,
+        "momentum": -0.016,
+        "volume_weight": 5.142,
+        "score": 4.98,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -295,23 +302,23 @@
         "label": "遠距監測",
         "recent_count": 28,
         "baseline_count": 24,
-        "growth_ratio": 1.115,
-        "momentum": 0.158,
+        "growth_ratio": 1.113,
+        "momentum": 0.154,
         "volume_weight": 3.367,
-        "score": 4.94,
+        "score": 4.91,
         "stage": "steady",
         "journals": [],
         "examples": []
       },
       {
-        "term": "electronic health record",
-        "label": "電子病歷",
-        "recent_count": 169,
-        "baseline_count": 166,
-        "growth_ratio": 0.986,
-        "momentum": -0.021,
-        "volume_weight": 5.136,
-        "score": 4.93,
+        "term": "extracorporeal",
+        "label": "體外循環 / ECMO",
+        "recent_count": 88,
+        "baseline_count": 83,
+        "growth_ratio": 1.023,
+        "momentum": 0.033,
+        "volume_weight": 4.489,
+        "score": 4.82,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -320,37 +327,24 @@
         "term": "mechanical ventilation",
         "label": "機械通氣",
         "recent_count": 137,
-        "baseline_count": 134,
-        "growth_ratio": 0.99,
-        "momentum": -0.015,
-        "volume_weight": 4.927,
-        "score": 4.78,
-        "stage": "steady",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "extracorporeal",
-        "label": "體外循環 / ECMO",
-        "recent_count": 86,
-        "baseline_count": 82,
-        "growth_ratio": 1.015,
-        "momentum": 0.021,
-        "volume_weight": 4.466,
-        "score": 4.68,
-        "stage": "steady",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "natural language processing",
-        "label": "自然語言處理",
-        "recent_count": 127,
         "baseline_count": 135,
-        "growth_ratio": 0.913,
-        "momentum": -0.132,
-        "volume_weight": 4.852,
-        "score": 3.53,
+        "growth_ratio": 0.98,
+        "momentum": -0.028,
+        "volume_weight": 4.927,
+        "score": 4.64,
+        "stage": "steady",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "generative artificial intelligence",
+        "label": "生成式 AI",
+        "recent_count": 39,
+        "baseline_count": 37,
+        "growth_ratio": 1.017,
+        "momentum": 0.024,
+        "volume_weight": 3.689,
+        "score": 3.93,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -360,23 +354,23 @@
         "label": "即時超音波",
         "recent_count": 39,
         "baseline_count": 39,
-        "growth_ratio": 0.97,
-        "momentum": -0.043,
+        "growth_ratio": 0.968,
+        "momentum": -0.047,
         "volume_weight": 3.689,
-        "score": 3.25,
+        "score": 3.22,
         "stage": "steady",
         "journals": [],
         "examples": []
       },
       {
-        "term": "generative artificial intelligence",
-        "label": "生成式 AI",
-        "recent_count": 37,
-        "baseline_count": 37,
-        "growth_ratio": 0.97,
-        "momentum": -0.043,
-        "volume_weight": 3.638,
-        "score": 3.2,
+        "term": "natural language processing",
+        "label": "自然語言處理",
+        "recent_count": 125,
+        "baseline_count": 136,
+        "growth_ratio": 0.89,
+        "momentum": -0.168,
+        "volume_weight": 4.836,
+        "score": 3.15,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -384,12 +378,12 @@
       {
         "term": "misinformation",
         "label": "健康假訊息",
-        "recent_count": 26,
+        "recent_count": 27,
         "baseline_count": 29,
-        "growth_ratio": 0.88,
-        "momentum": -0.184,
-        "volume_weight": 3.296,
-        "score": 1.45,
+        "growth_ratio": 0.908,
+        "momentum": -0.139,
+        "volume_weight": 3.332,
+        "score": 1.94,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -397,12 +391,12 @@
       {
         "term": "telehealth",
         "label": "遠距醫療",
-        "recent_count": 66,
-        "baseline_count": 89,
-        "growth_ratio": 0.727,
-        "momentum": -0.46,
-        "volume_weight": 4.205,
-        "score": -0.4,
+        "recent_count": 67,
+        "baseline_count": 88,
+        "growth_ratio": 0.744,
+        "momentum": -0.427,
+        "volume_weight": 4.22,
+        "score": -0.05,
         "stage": "cooling",
         "journals": [],
         "examples": []
@@ -410,12 +404,12 @@
       {
         "term": "digital twin",
         "label": "數位分身",
-        "recent_count": 11,
+        "recent_count": 10,
         "baseline_count": 18,
-        "growth_ratio": 0.648,
-        "momentum": -0.625,
-        "volume_weight": 2.485,
-        "score": -3.77,
+        "growth_ratio": 0.601,
+        "momentum": -0.735,
+        "volume_weight": 2.398,
+        "score": -4.95,
         "stage": "cooling",
         "journals": [],
         "examples": []
@@ -425,10 +419,10 @@
         "label": "資訊疫情",
         "recent_count": 3,
         "baseline_count": 3,
-        "growth_ratio": 0.984,
-        "momentum": -0.024,
+        "growth_ratio": 0.983,
+        "momentum": -0.025,
         "volume_weight": 1.386,
-        "score": -13.85,
+        "score": -13.87,
         "stage": "too_sparse",
         "journals": [],
         "examples": []
@@ -436,60 +430,8 @@
     ],
     "discovered_terms": [
       {
-        "term": "pulmonary embolism",
-        "label": "pulmonary embolism",
-        "recent_count": 7,
-        "baseline_count": 1,
-        "growth_ratio": 2.5,
-        "momentum": 1.322,
-        "volume_weight": 2.079,
-        "score": 15.3,
-        "stage": "emerging",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "return spontaneous circulation",
-        "label": "return spontaneous circulation",
-        "recent_count": 7,
-        "baseline_count": 1,
-        "growth_ratio": 2.5,
-        "momentum": 1.322,
-        "volume_weight": 2.079,
-        "score": 15.3,
-        "stage": "emerging",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "colorectal cancer",
-        "label": "colorectal cancer",
-        "recent_count": 4,
-        "baseline_count": 0,
-        "growth_ratio": 2.333,
-        "momentum": 1.222,
-        "volume_weight": 1.609,
-        "score": 13.83,
-        "stage": "emerging",
-        "journals": [],
-        "examples": []
-      },
-      {
         "term": "community first responders",
         "label": "community first responders",
-        "recent_count": 4,
-        "baseline_count": 0,
-        "growth_ratio": 2.333,
-        "momentum": 1.222,
-        "volume_weight": 1.609,
-        "score": 13.83,
-        "stage": "emerging",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "data mining",
-        "label": "data mining",
         "recent_count": 4,
         "baseline_count": 0,
         "growth_ratio": 2.333,
@@ -540,27 +482,53 @@
         "examples": []
       },
       {
-        "term": "mortality prediction",
-        "label": "mortality prediction",
-        "recent_count": 4,
-        "baseline_count": 0,
-        "growth_ratio": 2.333,
-        "momentum": 1.222,
-        "volume_weight": 1.609,
-        "score": 13.83,
+        "term": "pulmonary embolism",
+        "label": "pulmonary embolism",
+        "recent_count": 6,
+        "baseline_count": 1,
+        "growth_ratio": 2.25,
+        "momentum": 1.17,
+        "volume_weight": 1.946,
+        "score": 13.65,
         "stage": "emerging",
         "journals": [],
         "examples": []
       },
       {
-        "term": "parkinson disease",
-        "label": "parkinson disease",
-        "recent_count": 4,
-        "baseline_count": 0,
-        "growth_ratio": 2.333,
-        "momentum": 1.222,
-        "volume_weight": 1.609,
-        "score": 13.83,
+        "term": "return spontaneous circulation",
+        "label": "return spontaneous circulation",
+        "recent_count": 6,
+        "baseline_count": 1,
+        "growth_ratio": 2.25,
+        "momentum": 1.17,
+        "volume_weight": 1.946,
+        "score": 13.65,
+        "stage": "emerging",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "bystander cpr",
+        "label": "bystander cpr",
+        "recent_count": 5,
+        "baseline_count": 1,
+        "growth_ratio": 2.0,
+        "momentum": 1.0,
+        "volume_weight": 1.792,
+        "score": 11.79,
+        "stage": "emerging",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "prostate cancer",
+        "label": "prostate cancer",
+        "recent_count": 5,
+        "baseline_count": 1,
+        "growth_ratio": 2.0,
+        "momentum": 1.0,
+        "volume_weight": 1.792,
+        "score": 11.79,
         "stage": "emerging",
         "journals": [],
         "examples": []
@@ -575,32 +543,6 @@
         "volume_weight": 1.792,
         "score": 11.79,
         "stage": "emerging",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "bystander cpr",
-        "label": "bystander cpr",
-        "recent_count": 4,
-        "baseline_count": 1,
-        "growth_ratio": 1.75,
-        "momentum": 0.807,
-        "volume_weight": 1.609,
-        "score": 9.68,
-        "stage": "rising",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "compartment syndrome",
-        "label": "compartment syndrome",
-        "recent_count": 4,
-        "baseline_count": 1,
-        "growth_ratio": 1.75,
-        "momentum": 0.807,
-        "volume_weight": 1.609,
-        "score": 9.68,
-        "stage": "rising",
         "journals": [],
         "examples": []
       },
@@ -646,25 +588,25 @@
       {
         "term": "language models",
         "label": "language models",
-        "recent_count": 24,
+        "recent_count": 25,
         "baseline_count": 15,
-        "growth_ratio": 1.5,
-        "momentum": 0.585,
-        "volume_weight": 3.219,
-        "score": 9.07,
+        "growth_ratio": 1.556,
+        "momentum": 0.637,
+        "volume_weight": 3.258,
+        "score": 9.63,
         "stage": "rising",
         "journals": [],
         "examples": []
       },
       {
-        "term": "emergency medical services",
-        "label": "emergency medical services",
-        "recent_count": 5,
-        "baseline_count": 2,
-        "growth_ratio": 1.6,
-        "momentum": 0.678,
-        "volume_weight": 1.792,
-        "score": 8.57,
+        "term": "atrial fibrillation",
+        "label": "atrial fibrillation",
+        "recent_count": 8,
+        "baseline_count": 4,
+        "growth_ratio": 1.571,
+        "momentum": 0.652,
+        "volume_weight": 2.197,
+        "score": 8.72,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -683,19 +625,6 @@
         "examples": []
       },
       {
-        "term": "atrial fibrillation",
-        "label": "atrial fibrillation",
-        "recent_count": 7,
-        "baseline_count": 4,
-        "growth_ratio": 1.429,
-        "momentum": 0.515,
-        "volume_weight": 2.079,
-        "score": 7.23,
-        "stage": "rising",
-        "journals": [],
-        "examples": []
-      },
-      {
         "term": "critical illness",
         "label": "critical illness",
         "recent_count": 7,
@@ -709,8 +638,34 @@
         "examples": []
       },
       {
+        "term": "breast cancer",
+        "label": "breast cancer",
+        "recent_count": 4,
+        "baseline_count": 2,
+        "growth_ratio": 1.4,
+        "momentum": 0.485,
+        "volume_weight": 1.609,
+        "score": 6.46,
+        "stage": "rising",
+        "journals": [],
+        "examples": []
+      },
+      {
         "term": "diabetic ketoacidosis",
         "label": "diabetic ketoacidosis",
+        "recent_count": 4,
+        "baseline_count": 2,
+        "growth_ratio": 1.4,
+        "momentum": 0.485,
+        "volume_weight": 1.609,
+        "score": 6.46,
+        "stage": "rising",
+        "journals": [],
+        "examples": []
+      },
+      {
+        "term": "emergency medical services",
+        "label": "emergency medical services",
         "recent_count": 4,
         "baseline_count": 2,
         "growth_ratio": 1.4,
@@ -747,7 +702,14 @@
         "journals": [],
         "examples": []
       }
-    ]
+    ],
+    "windows": {
+      "recent_start": "2026-03-16",
+      "recent_end": "2026-09-12",
+      "baseline_start": "2025-03-16",
+      "baseline_end": "2025-09-12"
+    },
+    "domains": []
   },
   "calls": [
     {
@@ -769,7 +731,7 @@
         "state": "open",
         "reason": "deadline is in the future",
         "evidence": "Submission Deadline: 30 October 2026",
-        "days_left": 50
+        "days_left": 48
       },
       "topics": [
         {
@@ -788,6 +750,7 @@
       "fingerprint": "a095a31dd434a86c",
       "is_new": true,
       "tier": "core",
+      "field": "醫學資訊",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -810,7 +773,7 @@
         "state": "open",
         "reason": "deadline is in the future",
         "evidence": "Submission Deadline: 31 October 2026",
-        "days_left": 51
+        "days_left": 49
       },
       "topics": [
         {
@@ -829,6 +792,7 @@
       "fingerprint": "2336afd48b8ae42c",
       "is_new": true,
       "tier": "core",
+      "field": "醫學資訊",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -851,7 +815,7 @@
         "state": "open",
         "reason": "deadline is in the future",
         "evidence": "Submission Deadline: 31 October 2026",
-        "days_left": 51
+        "days_left": 49
       },
       "topics": [
         {
@@ -869,6 +833,48 @@
       "fingerprint": "48f45c621a9e086a",
       "is_new": true,
       "tier": "core",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "Critical Care",
+      "title": "Next-Generation Neurological Monitoring and CNS Therapeutic Devices",
+      "url": "https://link.springer.com/collections/ajifbdeihi",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis, monitoring, and treatment of central nervous system (CNS) disorders. E...",
+      "deadline": {
+        "date": "2027-03-16",
+        "text": "16 March 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 16 March 2027. Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligenc",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 185
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 100,
+      "fingerprint": "fff2cc24f59f3176",
+      "is_new": true,
+      "tier": "core",
+      "field": "重症醫學",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -891,7 +897,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 232
+        "days_left": 230
       },
       "topics": [
         {
@@ -910,6 +916,7 @@
       "fingerprint": "b6c8f926b36a057b",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -932,7 +939,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 239
+        "days_left": 237
       },
       "topics": [
         {
@@ -959,376 +966,7 @@
       "fingerprint": "dc8c739a2b8c3000",
       "is_new": true,
       "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "npj Digital Medicine",
-      "title": "Prospective and Interventional Clinical Evidence in Medical AI Research",
-      "url": "https://www.nature.com/collections/gdagbfjdah",
-      "publisher": "Nature Portfolio",
-      "source_id": "nature_npjdigitalmed",
-      "source_label": "npj Digital Medicine",
-      "summary": "This Collection welcomes clinical AI studies centered on pre-specified actions, spanning action exploration, impact evaluation trials, and post-market surveillance.",
-      "deadline": {
-        "date": "2027-03-24",
-        "text": "24 March 2027",
-        "cue": "deadline",
-        "evidence": "Deadline: 24 March 2027",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 195
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "數位醫療 / 醫學資訊",
-      "score": 90,
-      "fingerprint": "2b89bb3b99118814",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "npj Digital Medicine",
-      "title": "Dermatology AI in the Real World: From Single Timepoints to Longitudinal Care",
-      "url": "https://www.nature.com/collections/hgbiggehii",
-      "publisher": "Nature Portfolio",
-      "source_id": "nature_npjdigitalmed",
-      "source_label": "npj Digital Medicine",
-      "summary": "This Collection invites research on dermatology AI for longitudinal, multimodal, and clinically deployable real-world care.",
-      "deadline": {
-        "date": "2027-07-01",
-        "text": "01 July 2027",
-        "cue": "deadline",
-        "evidence": "Deadline: 01 July 2027",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 294
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI",
-            "multimodal"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "數位醫療 / 醫學資訊",
-      "score": 87,
-      "fingerprint": "0db4dfc753b0f6c4",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "npj Digital Medicine",
-      "title": "Next-Generation Medical Scribing and Ambient Clinical Intelligence: Evaluation, Implementation and Governance",
-      "url": "https://www.nature.com/collections/cfjbcbdjed",
-      "publisher": "Nature Portfolio",
-      "source_id": "nature_npjdigitalmed",
-      "source_label": "npj Digital Medicine",
-      "summary": "This Collection invites research on ambient, multimodal, and conversational AI for medical scribing, documentation, workflow, clinical intelligence and safe clinical adoption.",
-      "deadline": {
-        "date": "2027-09-09",
-        "text": "09 September 2027",
-        "cue": "deadline",
-        "evidence": "Deadline: 09 September 2027",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 364
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI",
-            "multimodal"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "數位醫療 / 醫學資訊",
-      "score": 87,
-      "fingerprint": "a54cd3ac9c9ffb06",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "IEEE Journal of Biomedical and Health Informatics",
-      "title": "Integrating Imaging with Personalized Cardiovascular Medicine: Current Advances and Future Directions",
-      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2025/12/Integrating-Imaging-with-Personalized-Cardiovascular-Medicine-Current-Advances-and-Future.pdf",
-      "publisher": "IEEE",
-      "source_id": "embs_jbhi",
-      "source_label": "IEEE Journal of Biomedical and Health Informatics",
-      "summary": "Integrating Imaging with Personalized Cardiovascular Medicine: Current Advances and Future Directions",
-      "deadline": {
-        "date": "2026-10-15",
-        "text": "15 October 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: 15 October 2026",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: 15 October 2026",
-        "days_left": 35
-      },
-      "topics": [],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "醫學資訊 / 生醫工程",
-      "score": 85,
-      "fingerprint": "4fdccad745a759e9",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "IEEE Journal of Biomedical and Health Informatics",
-      "title": "Advanced Wireless Networks for Healthcare 5.0",
-      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2025/11/Advanced-Wireless-Networks-for-Healthcare-5.0.pdf",
-      "publisher": "IEEE",
-      "source_id": "embs_jbhi",
-      "source_label": "IEEE Journal of Biomedical and Health Informatics",
-      "summary": "Advanced Wireless Networks for Healthcare 5.0",
-      "deadline": {
-        "date": "2026-10-31",
-        "text": "31 October 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: 31 October 2026",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: 31 October 2026",
-        "days_left": 51
-      },
-      "topics": [],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "醫學資訊 / 生醫工程",
-      "score": 85,
-      "fingerprint": "1dca44281d496bde",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "IEEE Journal of Biomedical and Health Informatics",
-      "title": "Application of computational techniques in drug discovery and disease treatment Part IV",
-      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/05/call-for-papers.pdf",
-      "publisher": "IEEE",
-      "source_id": "embs_jbhi",
-      "source_label": "IEEE Journal of Biomedical and Health Informatics",
-      "summary": "Application of computational techniques in drug discovery and disease treatment Part IV",
-      "deadline": {
-        "date": "2026-12-31",
-        "text": "31 December 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: 31 December 2026",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: 31 December 2026",
-        "days_left": 112
-      },
-      "topics": [],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "醫學資訊 / 生醫工程",
-      "score": 85,
-      "fingerprint": "afc7ac4fe6a7e561",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "npj Digital Medicine",
-      "title": "Digital Medicine for Infectious Diseases",
-      "url": "https://www.nature.com/collections/ddhbhbfgid",
-      "publisher": "Nature Portfolio",
-      "source_id": "nature_npjdigitalmed",
-      "source_label": "npj Digital Medicine",
-      "summary": "This Collection aims to showcase research on the clinical applications of digital medicine in infectious disease management.",
-      "deadline": {
-        "date": "2027-02-12",
-        "text": "12 February 2027",
-        "cue": "deadline",
-        "evidence": "Deadline: 12 February 2027",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 155
-      },
-      "topics": [],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "數位醫療 / 醫學資訊",
-      "score": 85,
-      "fingerprint": "b381b938308a7758",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "Critical Care",
-      "title": "Next-Generation Neurological Monitoring and CNS Therapeutic Devices",
-      "url": "https://link.springer.com/collections/ajifbdeihi",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "Advances in neurotechnology, biomedical engineering, artificial intelligence, and precision therapeutics are transforming the diagnosis, monitoring, and treatment of central nervous system (CNS) disorders. E...",
-      "deadline": {
-        "date": "2027-03-16",
-        "text": "16 March 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 16 March 2027. Next-Generation Neurological Monitoring and CNS Therapeutic Devices Advances in neurotechnology, biomedical engineering, artificial intelligenc",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 187
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "artificial intelligence"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 85,
-      "fingerprint": "fff2cc24f59f3176",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "IEEE Journal of Biomedical and Health Informatics",
-      "title": "Emerging AI Paradigms for Next-Generation Medicine: Safety and Reliability in Vision-Language Models, Agentic Systems, and Digital Twins",
-      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/08/Emerging-AI-Paradigms-for-Next-Generation-Medicine-Safety-and-Reliability-in-Vision-Language-Models-Agentic-Systems-and-Digital-Twins_extended.pdf",
-      "publisher": "IEEE",
-      "source_id": "embs_jbhi",
-      "source_label": "IEEE Journal of Biomedical and Health Informatics",
-      "summary": "Emerging AI Paradigms for Next-Generation Medicine: Safety and Reliability in Vision-Language Models, Agentic Systems, and Digital Twins",
-      "deadline": {
-        "date": "2026-09-30",
-        "text": "30 September 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: 30 September 2026",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: 30 September 2026",
-        "days_left": 20
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "醫學資訊 / 生醫工程",
-      "score": 81,
-      "fingerprint": "7662e3d6ac2cb848",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "IEEE Journal of Biomedical and Health Informatics",
-      "title": "AI-based Solutions for Dietary Assessment: Tackling Accuracy, Efficiency, and Personalization Challenges",
-      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/04/JBHI_CFP_updated-AI-based-Solutions-for-Dietary-Assessment.pdf",
-      "publisher": "IEEE",
-      "source_id": "embs_jbhi",
-      "source_label": "IEEE Journal of Biomedical and Health Informatics",
-      "summary": "AI-based Solutions for Dietary Assessment: Tackling Accuracy, Efficiency, and Personalization Challenges",
-      "deadline": {
-        "date": "2026-09-30",
-        "text": "30 September 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: 30 September 2026",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: 30 September 2026",
-        "days_left": 20
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "醫學資訊 / 生醫工程",
-      "score": 81,
-      "fingerprint": "bc9784698cafa0f4",
-      "is_new": true,
-      "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -1351,7 +989,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 44
+        "days_left": 42
       },
       "topics": [
         {
@@ -1365,12 +1003,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 75,
+      "score": 90,
       "fingerprint": "d7b8089ae719405d",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
@@ -1391,7 +1030,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 147
+        "days_left": 145
       },
       "topics": [
         {
@@ -1405,12 +1044,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "急診醫學 / 創傷復甦",
-      "score": 75,
+      "score": 90,
       "fingerprint": "989eac044b952fc9",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "急診醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Critical Care",
@@ -1431,7 +1071,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 193
+        "days_left": 191
       },
       "topics": [
         {
@@ -1445,12 +1085,54 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 75,
+      "score": 90,
       "fingerprint": "462c21efb95dbd6c",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "title": "Prospective and Interventional Clinical Evidence in Medical AI Research",
+      "url": "https://www.nature.com/collections/gdagbfjdah",
+      "publisher": "Nature Portfolio",
+      "source_id": "nature_npjdigitalmed",
+      "source_label": "npj Digital Medicine",
+      "summary": "This Collection welcomes clinical AI studies centered on pre-specified actions, spanning action exploration, impact evaluation trials, and post-market surveillance.",
+      "deadline": {
+        "date": "2027-03-24",
+        "text": "24 March 2027",
+        "cue": "deadline",
+        "evidence": "Deadline: 24 March 2027",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 193
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "數位醫療 / 醫學資訊",
+      "score": 90,
+      "fingerprint": "2b89bb3b99118814",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -1471,7 +1153,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 203
+        "days_left": 201
       },
       "topics": [
         {
@@ -1486,12 +1168,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 75,
+      "score": 90,
       "fingerprint": "e8d2720d82b92bd1",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -1512,7 +1195,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 204
+        "days_left": 202
       },
       "topics": [
         {
@@ -1526,12 +1209,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 75,
+      "score": 90,
       "fingerprint": "3b9905ed13ad1ad2",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -1552,7 +1236,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 207
+        "days_left": 205
       },
       "topics": [
         {
@@ -1566,12 +1250,311 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 75,
+      "score": 90,
       "fingerprint": "96443158fa68010a",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "title": "Dermatology AI in the Real World: From Single Timepoints to Longitudinal Care",
+      "url": "https://www.nature.com/collections/hgbiggehii",
+      "publisher": "Nature Portfolio",
+      "source_id": "nature_npjdigitalmed",
+      "source_label": "npj Digital Medicine",
+      "summary": "This Collection invites research on dermatology AI for longitudinal, multimodal, and clinically deployable real-world care.",
+      "deadline": {
+        "date": "2027-07-01",
+        "text": "01 July 2027",
+        "cue": "deadline",
+        "evidence": "Deadline: 01 July 2027",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 292
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "multimodal"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "數位醫療 / 醫學資訊",
+      "score": 87,
+      "fingerprint": "0db4dfc753b0f6c4",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "title": "Next-Generation Medical Scribing and Ambient Clinical Intelligence: Evaluation, Implementation and Governance",
+      "url": "https://www.nature.com/collections/cfjbcbdjed",
+      "publisher": "Nature Portfolio",
+      "source_id": "nature_npjdigitalmed",
+      "source_label": "npj Digital Medicine",
+      "summary": "This Collection invites research on ambient, multimodal, and conversational AI for medical scribing, documentation, workflow, clinical intelligence and safe clinical adoption.",
+      "deadline": {
+        "date": "2027-09-09",
+        "text": "09 September 2027",
+        "cue": "deadline",
+        "evidence": "Deadline: 09 September 2027",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 362
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "multimodal"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "數位醫療 / 醫學資訊",
+      "score": 87,
+      "fingerprint": "a54cd3ac9c9ffb06",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "title": "Integrating Imaging with Personalized Cardiovascular Medicine: Current Advances and Future Directions",
+      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2025/12/Integrating-Imaging-with-Personalized-Cardiovascular-Medicine-Current-Advances-and-Future.pdf",
+      "publisher": "IEEE",
+      "source_id": "embs_jbhi",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics",
+      "summary": "Integrating Imaging with Personalized Cardiovascular Medicine: Current Advances and Future Directions",
+      "deadline": {
+        "date": "2026-10-15",
+        "text": "15 October 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: 15 October 2026",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: 15 October 2026",
+        "days_left": 33
+      },
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "醫學資訊 / 生醫工程",
+      "score": 85,
+      "fingerprint": "4fdccad745a759e9",
+      "is_new": true,
+      "tier": "core",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "title": "Advanced Wireless Networks for Healthcare 5.0",
+      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2025/11/Advanced-Wireless-Networks-for-Healthcare-5.0.pdf",
+      "publisher": "IEEE",
+      "source_id": "embs_jbhi",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics",
+      "summary": "Advanced Wireless Networks for Healthcare 5.0",
+      "deadline": {
+        "date": "2026-10-31",
+        "text": "31 October 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: 31 October 2026",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: 31 October 2026",
+        "days_left": 49
+      },
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "醫學資訊 / 生醫工程",
+      "score": 85,
+      "fingerprint": "1dca44281d496bde",
+      "is_new": true,
+      "tier": "core",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "title": "Application of computational techniques in drug discovery and disease treatment Part IV",
+      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/05/call-for-papers.pdf",
+      "publisher": "IEEE",
+      "source_id": "embs_jbhi",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics",
+      "summary": "Application of computational techniques in drug discovery and disease treatment Part IV",
+      "deadline": {
+        "date": "2026-12-31",
+        "text": "31 December 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: 31 December 2026",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: 31 December 2026",
+        "days_left": 110
+      },
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "醫學資訊 / 生醫工程",
+      "score": 85,
+      "fingerprint": "afc7ac4fe6a7e561",
+      "is_new": true,
+      "tier": "core",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "title": "Digital Medicine for Infectious Diseases",
+      "url": "https://www.nature.com/collections/ddhbhbfgid",
+      "publisher": "Nature Portfolio",
+      "source_id": "nature_npjdigitalmed",
+      "source_label": "npj Digital Medicine",
+      "summary": "This Collection aims to showcase research on the clinical applications of digital medicine in infectious disease management.",
+      "deadline": {
+        "date": "2027-02-12",
+        "text": "12 February 2027",
+        "cue": "deadline",
+        "evidence": "Deadline: 12 February 2027",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 153
+      },
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "數位醫療 / 醫學資訊",
+      "score": 85,
+      "fingerprint": "b381b938308a7758",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "title": "Emerging AI Paradigms for Next-Generation Medicine: Safety and Reliability in Vision-Language Models, Agentic Systems, and Digital Twins",
+      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/08/Emerging-AI-Paradigms-for-Next-Generation-Medicine-Safety-and-Reliability-in-Vision-Language-Models-Agentic-Systems-and-Digital-Twins_extended.pdf",
+      "publisher": "IEEE",
+      "source_id": "embs_jbhi",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics",
+      "summary": "Emerging AI Paradigms for Next-Generation Medicine: Safety and Reliability in Vision-Language Models, Agentic Systems, and Digital Twins",
+      "deadline": {
+        "date": "2026-09-30",
+        "text": "30 September 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: 30 September 2026",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: 30 September 2026",
+        "days_left": 18
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "醫學資訊 / 生醫工程",
+      "score": 81,
+      "fingerprint": "7662e3d6ac2cb848",
+      "is_new": true,
+      "tier": "core",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "title": "AI-based Solutions for Dietary Assessment: Tackling Accuracy, Efficiency, and Personalization Challenges",
+      "url": "https://www.embs.org/jbhi/wp-content/uploads/sites/18/2026/04/JBHI_CFP_updated-AI-based-Solutions-for-Dietary-Assessment.pdf",
+      "publisher": "IEEE",
+      "source_id": "embs_jbhi",
+      "source_label": "IEEE Journal of Biomedical and Health Informatics",
+      "summary": "AI-based Solutions for Dietary Assessment: Tackling Accuracy, Efficiency, and Personalization Challenges",
+      "deadline": {
+        "date": "2026-09-30",
+        "text": "30 September 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: 30 September 2026",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: 30 September 2026",
+        "days_left": 18
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "醫學資訊 / 生醫工程",
+      "score": 81,
+      "fingerprint": "bc9784698cafa0f4",
+      "is_new": true,
+      "tier": "core",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "npj Digital Medicine",
@@ -1592,7 +1575,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 243
+        "days_left": 241
       },
       "topics": [
         {
@@ -1610,6 +1593,7 @@
       "fingerprint": "adeebd020d418301",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -1632,7 +1616,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 250
+        "days_left": 248
       },
       "topics": [
         {
@@ -1650,6 +1634,7 @@
       "fingerprint": "f84c756a198392ca",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -1672,7 +1657,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 266
+        "days_left": 264
       },
       "topics": [
         {
@@ -1690,6 +1675,7 @@
       "fingerprint": "f0371ff56fcb5c21",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -1712,7 +1698,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 350
+        "days_left": 348
       },
       "topics": [
         {
@@ -1730,6 +1716,7 @@
       "fingerprint": "81d1278b308e11b5",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -1752,7 +1739,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 358
+        "days_left": 356
       },
       "topics": [
         {
@@ -1770,256 +1757,7 @@
       "fingerprint": "9a29974b5c70ab8b",
       "is_new": true,
       "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "JMIR Bioinformatics and Biotechnology",
-      "title": "Call for Papers: Bridging Data, AI, and Innovation to Transform Health",
-      "url": "https://www.jmir.org/announcements/645",
-      "publisher": "JMIR Publications",
-      "source_id": "jmir_family",
-      "source_label": "JMIR Publications (all journals)",
-      "summary": "JMIR Bioinformatics and Biotechnology , a PubMed- and Scopus-indexed, peer-reviewed journal, is inviting submissions for a new theme issue titled “Bridging Data, AI, and Innovation to Transform Health.” This theme issue explores the convergence of computational biology, artificial intelligence (AI), and health care innovation. As AI continues to revolutionize diagnostics, treatment, and drug disco",
-      "deadline": {
-        "date": "2026-12-31",
-        "text": "December 31, 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: December 31, 2026 MCBIOS Member Discount JMIR Bioinformatics and Biotechnology is pleased to offer a 15% discount on the article processing fee (APF) for all",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: December 31, 2026 MCBIOS Member Discount JMIR Bioinformatics and Biotechnology is pleased to offer a 15% discount on the article processing fee (APF) for all",
-        "days_left": 112
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI",
-            "artificial intelligence"
-          ]
-        }
-      ],
-      "jcr_band": "Q1_mixed_verify",
-      "journal_priority": 4,
-      "journal_category": "醫學資訊 / 數位醫療",
-      "score": 68,
-      "fingerprint": "38743df696e4489d",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "Journal of Participatory Medicine",
-      "title": "Call for Papers: Participatory Artificial Intelligence for Health",
-      "url": "https://www.jmir.org/announcements/639",
-      "publisher": "JMIR Publications",
-      "source_id": "jmir_family",
-      "source_label": "JMIR Publications (all journals)",
-      "summary": "Unprecedented advances in artificial intelligence (AI) are poised to transform every dimension of health and care, reshaping how people access information, make decisions, and collaborate to improve outcomes. While current efforts often focus on AI use by health professionals to gain efficiencies and reduce costs, there has been less attention to participatory approaches: how patients, caregivers,",
-      "deadline": {
-        "date": "2026-12-31",
-        "text": "December 31st, 2026",
-        "cue": "deadline",
-        "evidence": "Deadline: December 31st, 2026 Submit Now Submission Guidelines: All submissions will undergo a rigorous peer-review process, and accepted articles will be published as",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Deadline: December 31st, 2026 Submit Now Submission Guidelines: All submissions will undergo a rigorous peer-review process, and accepted articles will be published as",
-        "days_left": 112
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI",
-            "artificial intelligence"
-          ]
-        }
-      ],
-      "jcr_band": "Q1_mixed_verify",
-      "journal_priority": 4,
-      "journal_category": "醫學資訊 / 數位醫療",
-      "score": 68,
-      "fingerprint": "5ccda981382b7d69",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "Communications Medicine",
-      "title": "Emerging paradigms in CNS drug discovery for neurological, psychiatric, and addiction disorders",
-      "url": "https://www.nature.com/collections/eahdddbghg",
-      "publisher": "Nature Portfolio",
-      "source_id": "nature_commsmed",
-      "source_label": "Communications Medicine",
-      "summary": "This collection invites research on CNS drug development, highlighting novel target validation, emerging modalities, AI applications, and advanced delivery systems.",
-      "deadline": {
-        "date": "2027-04-29",
-        "text": "29 April 2027",
-        "cue": "deadline",
-        "evidence": "Deadline: 29 April 2027",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 231
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1_candidate_verify",
-      "journal_priority": 4,
-      "journal_category": "臨床醫學",
-      "score": 68,
-      "fingerprint": "a6e0fc550c283f3e",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "Critical Care",
-      "title": "Extracorporeal Blood Purification",
-      "url": "https://link.springer.com/collections/jccbjddchf",
-      "publisher": "Springer Nature",
-      "source_id": "springer_critical_care",
-      "source_label": "Critical Care",
-      "summary": "Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, especially in the management of critically ill patients with systemic inflammation, sepsis, multi-organ ...",
-      "deadline": {
-        "date": "2026-09-25",
-        "text": "25 September 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 25 September 2026. Extracorporeal Blood Purification Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, es",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 15
-      },
-      "topics": [
-        {
-          "id": "resuscitation_critical_care",
-          "label": "急救復甦與重症 / Resuscitation & Critical Care",
-          "hits": [
-            "intensive care",
-            "sepsis"
-          ]
-        }
-      ],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 66,
-      "fingerprint": "c5b30fcf55004974",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "JMIR Aging",
-      "title": "Call for Papers Theme Issue: Next-Generation Ambient Intelligence",
-      "url": "https://www.jmir.org/announcements/730",
-      "publisher": "JMIR Publications",
-      "source_id": "jmir_family",
-      "source_label": "JMIR Publications (all journals)",
-      "summary": "JMIR Aging invites submissions for an upcoming theme issue focused on next-generation home ambient intelligence: “invisible” monitoring and AI adoption for aging-in-place. As the global demand for aging-in-place solutions intensifies, developing continuous, effective, and truly seamless support systems has become a cornerstone of digital health research for older adults. This theme issue aims to h",
-      "deadline": {
-        "date": "2027-01-31",
-        "text": "January 31, 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: January 31, 2027 Submit Now Submission Guidelines We will not accept articles that are solely written using generative AI or other AI tools. For more informat",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: January 31, 2027 Submit Now Submission Guidelines We will not accept articles that are solely written using generative AI or other AI tools. For more informat",
-        "days_left": 143
-      },
-      "topics": [
-        {
-          "id": "digital_health_telecare",
-          "label": "遠距照護與數位醫療 / Telecare & Digital Health",
-          "hits": [
-            "digital health"
-          ]
-        },
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1_mixed_verify",
-      "journal_priority": 4,
-      "journal_category": "醫學資訊 / 數位醫療",
-      "score": 61,
-      "fingerprint": "5c326bf995459bbd",
-      "is_new": true,
-      "tier": "core",
-      "carried_forward": false,
-      "last_verified": ""
-    },
-    {
-      "journal": "JMIR Mental Health",
-      "title": "Call for Papers: Does It Work, Does It Translate, and Does It Help or Harm?",
-      "url": "https://www.jmir.org/announcements/726",
-      "publisher": "JMIR Publications",
-      "source_id": "jmir_family",
-      "source_label": "JMIR Publications (all journals)",
-      "summary": "JMIR Mental Health invites submissions for an upcoming theme issue focused on building a holistic, accountable, and translation-focused research agenda for digital mental health interventions (DMHIs). While clinical trials have validated the underlying capabilities of various digital mental health therapeutics, apps, and AI-driven tools, the field often overlooks the messy realities of real-world ",
-      "deadline": {
-        "date": "2027-01-31",
-        "text": "January 31, 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
-        "days_left": 143
-      },
-      "topics": [
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "AI"
-          ]
-        }
-      ],
-      "jcr_band": "Q1_mixed_verify",
-      "journal_priority": 4,
-      "journal_category": "醫學資訊 / 數位醫療",
-      "score": 56,
-      "fingerprint": "a3c6675e122053e8",
-      "is_new": true,
-      "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -2042,7 +1780,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 243
+        "days_left": 241
       },
       "topics": [
         {
@@ -2071,12 +1809,55 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 56,
+      "score": 71,
       "fingerprint": "f1e576c90dfb280a",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "急診醫學",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "Critical Care",
+      "title": "Extracorporeal Blood Purification",
+      "url": "https://link.springer.com/collections/jccbjddchf",
+      "publisher": "Springer Nature",
+      "source_id": "springer_critical_care",
+      "source_label": "Critical Care",
+      "summary": "Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, especially in the management of critically ill patients with systemic inflammation, sepsis, multi-organ ...",
+      "deadline": {
+        "date": "2026-09-25",
+        "text": "25 September 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 25 September 2026. Extracorporeal Blood Purification Extracorporeal blood purification (EBP) plays a critical and evolving role in intensive care medicine, es",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 13
+      },
+      "topics": [
+        {
+          "id": "resuscitation_critical_care",
+          "label": "急救復甦與重症 / Resuscitation & Critical Care",
+          "hits": [
+            "intensive care",
+            "sepsis"
+          ]
+        }
+      ],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 70,
+      "fingerprint": "c5b30fcf55004974",
+      "is_new": true,
+      "tier": "core",
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Emergency Medicine",
@@ -2097,7 +1878,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 63
+        "days_left": 61
       },
       "topics": [
         {
@@ -2118,12 +1899,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 54,
+      "score": 69,
       "fingerprint": "aeeeb4eab64aff1b",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "急診醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Medical Informatics and Decision Making",
@@ -2144,7 +1926,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 79
+        "days_left": 77
       },
       "topics": [
         {
@@ -2165,74 +1947,136 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 54,
+      "score": 69,
       "fingerprint": "2fc45ca3cf055ecc",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
-    },
-    {
-      "journal": "JMIR Serious Games",
-      "title": "Call for Papers Theme Issue: International Conference on Serious Games and Applications for Health, SeGAH 2026",
-      "url": "https://www.jmir.org/announcements/679",
-      "publisher": "JMIR Publications",
-      "source_id": "jmir_family",
-      "source_label": "JMIR Publications (all journals)",
-      "summary": "The 14th International Conference on Serious Games and Applications for Health (SeGAH 2026) will be hosted by the Institute of Computing at Fluminense Federal University in Rio de Janeiro, Brazil, from July 29 to 31, 2026. This event brings together a unique interdisciplinary community to explore the latest advancements, challenges, and future directions for serious games in health and health care",
-      "deadline": {
-        "date": "2026-10-31",
-        "text": "October 31, 2026",
-        "cue": "submission deadline",
-        "evidence": "Submission Deadline: October 31, 2026 Submission and publication process: Submission is open only to invited authors who presented short or full manuscripts at SeGAH 2026 (July 29",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: October 31, 2026 Submission and publication process: Submission is open only to invited authors who presented short or full manuscripts at SeGAH 2026 (July 29",
-        "days_left": 51
-      },
-      "topics": [],
-      "jcr_band": "Q1_mixed_verify",
-      "journal_priority": 4,
-      "journal_category": "醫學資訊 / 數位醫療",
-      "score": 51,
-      "fingerprint": "b15a906a38210d29",
-      "is_new": true,
-      "tier": "other",
+      "field": "醫學資訊",
       "carried_forward": false,
       "last_verified": ""
     },
     {
-      "journal": "JMIR Public Health and Surveillance",
-      "title": "Call for Papers: 2026 Ebola Disease Public Health Emergency of International Concern",
-      "url": "https://www.jmir.org/announcements/723",
+      "journal": "JMIR Bioinformatics and Biotechnology",
+      "title": "Call for Papers: Bridging Data, AI, and Innovation to Transform Health",
+      "url": "https://www.jmir.org/announcements/645",
       "publisher": "JMIR Publications",
       "source_id": "jmir_family",
       "source_label": "JMIR Publications (all journals)",
-      "summary": "On May 17, 2026, the World Health Organization (WHO) issued a determination of a public health emergency of international concern for the epidemic of Ebola disease in the Democratic Republic of the Congo and Uganda [1]. The outbreak poses international risk due to population mobility and ongoing uncertainty about the epidemiologic conditions in the Democratic Republic of the Congo. The public heal",
+      "summary": "JMIR Bioinformatics and Biotechnology , a PubMed- and Scopus-indexed, peer-reviewed journal, is inviting submissions for a new theme issue titled “Bridging Data, AI, and Innovation to Transform Health.” This theme issue explores the convergence of computational biology, artificial intelligence (AI), and health care innovation. As AI continues to revolutionize diagnostics, treatment, and drug disco",
       "deadline": {
-        "date": "2026-11-17",
-        "text": "November 17, 2026",
+        "date": "2026-12-31",
+        "text": "December 31, 2026",
         "cue": "submission deadline",
-        "evidence": "Submission Deadline: November 17, 2026 Submit Now Submission Guidelines: Submit an article to JMIR Public Health and Surveillance by selecting “Public Health Emergencies of Intern",
+        "evidence": "Submission Deadline: December 31, 2026 MCBIOS Member Discount JMIR Bioinformatics and Biotechnology is pleased to offer a 15% discount on the article processing fee (APF) for all",
         "precision": "day"
       },
       "status": {
         "state": "open",
         "reason": "deadline is in the future",
-        "evidence": "Submission Deadline: November 17, 2026 Submit Now Submission Guidelines: Submit an article to JMIR Public Health and Surveillance by selecting “Public Health Emergencies of Intern",
-        "days_left": 68
+        "evidence": "Submission Deadline: December 31, 2026 MCBIOS Member Discount JMIR Bioinformatics and Biotechnology is pleased to offer a 15% discount on the article processing fee (APF) for all",
+        "days_left": 110
       },
-      "topics": [],
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "artificial intelligence"
+          ]
+        }
+      ],
       "jcr_band": "Q1_mixed_verify",
       "journal_priority": 4,
       "journal_category": "醫學資訊 / 數位醫療",
-      "score": 51,
-      "fingerprint": "b2e59e4c420a29b8",
+      "score": 68,
+      "fingerprint": "38743df696e4489d",
       "is_new": true,
-      "tier": "core",
+      "tier": "other",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "Journal of Participatory Medicine",
+      "title": "Call for Papers: Participatory Artificial Intelligence for Health",
+      "url": "https://www.jmir.org/announcements/639",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "Unprecedented advances in artificial intelligence (AI) are poised to transform every dimension of health and care, reshaping how people access information, make decisions, and collaborate to improve outcomes. While current efforts often focus on AI use by health professionals to gain efficiencies and reduce costs, there has been less attention to participatory approaches: how patients, caregivers,",
+      "deadline": {
+        "date": "2026-12-31",
+        "text": "December 31st, 2026",
+        "cue": "deadline",
+        "evidence": "Deadline: December 31st, 2026 Submit Now Submission Guidelines: All submissions will undergo a rigorous peer-review process, and accepted articles will be published as",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Deadline: December 31st, 2026 Submit Now Submission Guidelines: All submissions will undergo a rigorous peer-review process, and accepted articles will be published as",
+        "days_left": 110
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI",
+            "artificial intelligence"
+          ]
+        }
+      ],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 68,
+      "fingerprint": "5ccda981382b7d69",
+      "is_new": true,
+      "tier": "other",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "Communications Medicine",
+      "title": "Emerging paradigms in CNS drug discovery for neurological, psychiatric, and addiction disorders",
+      "url": "https://www.nature.com/collections/eahdddbghg",
+      "publisher": "Nature Portfolio",
+      "source_id": "nature_commsmed",
+      "source_label": "Communications Medicine",
+      "summary": "This collection invites research on CNS drug development, highlighting novel target validation, emerging modalities, AI applications, and advanced delivery systems.",
+      "deadline": {
+        "date": "2027-04-29",
+        "text": "29 April 2027",
+        "cue": "deadline",
+        "evidence": "Deadline: 29 April 2027",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 229
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1_candidate_verify",
+      "journal_priority": 4,
+      "journal_category": "臨床醫學",
+      "score": 68,
+      "fingerprint": "a6e0fc550c283f3e",
+      "is_new": true,
+      "tier": "other",
+      "field": "一般醫學",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -2255,7 +2099,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 273
+        "days_left": 271
       },
       "topics": [
         {
@@ -2277,12 +2121,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 51,
+      "score": 66,
       "fingerprint": "b5ad86fd9b3a4873",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Emergency Medicine",
@@ -2303,7 +2148,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 49
+        "days_left": 47
       },
       "topics": [
         {
@@ -2317,12 +2162,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 49,
+      "score": 64,
       "fingerprint": "c6cd2fd7becf1450",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "急診醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Medical Informatics and Decision Making",
@@ -2343,7 +2189,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 78
+        "days_left": 76
       },
       "topics": [
         {
@@ -2358,12 +2204,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 49,
+      "score": 64,
       "fingerprint": "45a09bf373945596",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Medical Informatics and Decision Making",
@@ -2384,7 +2231,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 81
+        "days_left": 79
       },
       "topics": [
         {
@@ -2398,12 +2245,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 49,
+      "score": 64,
       "fingerprint": "6f61d33c53d98f31",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Emergency Medicine",
@@ -2424,7 +2272,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 111
+        "days_left": 109
       },
       "topics": [
         {
@@ -2438,12 +2286,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 49,
+      "score": 64,
       "fingerprint": "de7216ea5d8d65d0",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "急診醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Emergency Medicine",
@@ -2464,7 +2313,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 116
+        "days_left": 114
       },
       "topics": [
         {
@@ -2478,12 +2327,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "急診醫學",
-      "score": 49,
+      "score": 64,
       "fingerprint": "430bdc17775b621f",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "急診醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Medical Informatics and Decision Making",
@@ -2504,7 +2354,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 129
+        "days_left": 127
       },
       "topics": [
         {
@@ -2519,12 +2369,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 49,
+      "score": 64,
       "fingerprint": "3a6abf7c7df76214",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Medical Informatics and Decision Making",
@@ -2545,7 +2396,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 161
+        "days_left": 159
       },
       "topics": [
         {
@@ -2559,12 +2410,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 49,
+      "score": 64,
       "fingerprint": "c5a1d1ced0bb59f6",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "BMC Medical Informatics and Decision Making",
@@ -2585,7 +2437,7 @@
         "state": "open",
         "reason": "publisher markup states the call is open",
         "evidence": "open",
-        "days_left": 197
+        "days_left": 195
       },
       "topics": [
         {
@@ -2599,12 +2451,13 @@
       "jcr_band": "Q2_candidate_verify",
       "journal_priority": 3,
       "journal_category": "醫學資訊",
-      "score": 49,
+      "score": 64,
       "fingerprint": "8953c85d2c326d2c",
       "is_new": true,
       "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Critical Care",
@@ -2639,12 +2492,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "dc1ac912749895b4",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Critical Care",
@@ -2679,12 +2533,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "fbadd3e614d6b52b",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -2720,12 +2575,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "196d7d34cdf3f779",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -2760,12 +2616,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "765d37adc9bee979",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -2801,12 +2658,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "d0119d87da9226b8",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -2841,12 +2699,13 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "dc497294b3e17bec",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Intensive Care Medicine",
@@ -2882,12 +2741,249 @@
       "jcr_band": "Q1/top20_watchlist",
       "journal_priority": 5,
       "journal_category": "重症醫學",
-      "score": 48,
+      "score": 63,
       "fingerprint": "11e943bf2783145d",
       "is_new": true,
       "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "JMIR Aging",
+      "title": "Call for Papers Theme Issue: Next-Generation Ambient Intelligence",
+      "url": "https://www.jmir.org/announcements/730",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "JMIR Aging invites submissions for an upcoming theme issue focused on next-generation home ambient intelligence: “invisible” monitoring and AI adoption for aging-in-place. As the global demand for aging-in-place solutions intensifies, developing continuous, effective, and truly seamless support systems has become a cornerstone of digital health research for older adults. This theme issue aims to h",
+      "deadline": {
+        "date": "2027-01-31",
+        "text": "January 31, 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: January 31, 2027 Submit Now Submission Guidelines We will not accept articles that are solely written using generative AI or other AI tools. For more informat",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: January 31, 2027 Submit Now Submission Guidelines We will not accept articles that are solely written using generative AI or other AI tools. For more informat",
+        "days_left": 141
+      },
+      "topics": [
+        {
+          "id": "digital_health_telecare",
+          "label": "遠距照護與數位醫療 / Telecare & Digital Health",
+          "hits": [
+            "digital health"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 61,
+      "fingerprint": "5c326bf995459bbd",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "Intensive Care Medicine",
+      "title": "The Brain in the Line of Fire",
+      "url": "https://link.springer.com/collections/aeedagfjab",
+      "publisher": "Springer Nature",
+      "source_id": "springer_icm",
+      "source_label": "Intensive Care Medicine",
+      "summary": "Brain function depends on a continuous supply of oxygen and glucose, while secondary brain dysfunction and damage in critical illness arises from intra- and extracranial factors that act on inflammation, nut...",
+      "deadline": {
+        "date": null,
+        "text": "",
+        "cue": "",
+        "evidence": "",
+        "precision": "none"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": null
+      },
+      "topics": [],
+      "jcr_band": "Q1/top20_watchlist",
+      "journal_priority": 5,
+      "journal_category": "重症醫學",
+      "score": 58,
+      "fingerprint": "67f31bcc7c3b8e4d",
+      "is_new": true,
+      "tier": "core",
+      "field": "重症醫學",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "JMIR Mental Health",
+      "title": "Call for Papers: Does It Work, Does It Translate, and Does It Help or Harm?",
+      "url": "https://www.jmir.org/announcements/726",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "JMIR Mental Health invites submissions for an upcoming theme issue focused on building a holistic, accountable, and translation-focused research agenda for digital mental health interventions (DMHIs). While clinical trials have validated the underlying capabilities of various digital mental health therapeutics, apps, and AI-driven tools, the field often overlooks the messy realities of real-world ",
+      "deadline": {
+        "date": "2027-01-31",
+        "text": "January 31, 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: January 31, 2027 Submission Guidelines We will not accept articles that are solely written using generative artificial intelligence (AI) or other AI tools. Fo",
+        "days_left": 141
+      },
+      "topics": [
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "AI"
+          ]
+        }
+      ],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 56,
+      "fingerprint": "a3c6675e122053e8",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "BMC Medical Informatics and Decision Making",
+      "title": "Natural language processing in medical informatics – Part II",
+      "url": "https://link.springer.com/collections/bcihcbcbgi",
+      "publisher": "Springer Nature / BMC",
+      "source_id": "springer_bmc_informatics",
+      "source_label": "BMC Medical Informatics and Decision Making",
+      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Natural language processing in medical informatics – Part II. Recent developments in \"Natural Language Processing i...",
+      "deadline": {
+        "date": "2027-05-11",
+        "text": "11 May 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: 11 May 2027. Natural language processing in medical informatics – Part II BMC Medical Informatics and Decision Making is calling for submissions to our Collec",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "publisher markup states the call is open",
+        "evidence": "open",
+        "days_left": 241
+      },
+      "topics": [
+        {
+          "id": "medical_informatics",
+          "label": "醫學資訊 / Medical Informatics",
+          "hits": [
+            "medical informatics"
+          ]
+        },
+        {
+          "id": "ai_data_science",
+          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
+          "hits": [
+            "natural language processing"
+          ]
+        }
+      ],
+      "jcr_band": "Q2_candidate_verify",
+      "journal_priority": 3,
+      "journal_category": "醫學資訊",
+      "score": 54,
+      "fingerprint": "d05b663678262302",
+      "is_new": true,
+      "tier": "other",
+      "field": "醫學資訊",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "JMIR Serious Games",
+      "title": "Call for Papers Theme Issue: International Conference on Serious Games and Applications for Health, SeGAH 2026",
+      "url": "https://www.jmir.org/announcements/679",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "The 14th International Conference on Serious Games and Applications for Health (SeGAH 2026) will be hosted by the Institute of Computing at Fluminense Federal University in Rio de Janeiro, Brazil, from July 29 to 31, 2026. This event brings together a unique interdisciplinary community to explore the latest advancements, challenges, and future directions for serious games in health and health care",
+      "deadline": {
+        "date": "2026-10-31",
+        "text": "October 31, 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: October 31, 2026 Submission and publication process: Submission is open only to invited authors who presented short or full manuscripts at SeGAH 2026 (July 29",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: October 31, 2026 Submission and publication process: Submission is open only to invited authors who presented short or full manuscripts at SeGAH 2026 (July 29",
+        "days_left": 49
+      },
+      "topics": [],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 51,
+      "fingerprint": "b15a906a38210d29",
+      "is_new": true,
+      "tier": "other",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
+    },
+    {
+      "journal": "JMIR Public Health and Surveillance",
+      "title": "Call for Papers: 2026 Ebola Disease Public Health Emergency of International Concern",
+      "url": "https://www.jmir.org/announcements/723",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "On May 17, 2026, the World Health Organization (WHO) issued a determination of a public health emergency of international concern for the epidemic of Ebola disease in the Democratic Republic of the Congo and Uganda [1]. The outbreak poses international risk due to population mobility and ongoing uncertainty about the epidemiologic conditions in the Democratic Republic of the Congo. The public heal",
+      "deadline": {
+        "date": "2026-11-17",
+        "text": "November 17, 2026",
+        "cue": "submission deadline",
+        "evidence": "Submission Deadline: November 17, 2026 Submit Now Submission Guidelines: Submit an article to JMIR Public Health and Surveillance by selecting “Public Health Emergencies of Intern",
+        "precision": "day"
+      },
+      "status": {
+        "state": "open",
+        "reason": "deadline is in the future",
+        "evidence": "Submission Deadline: November 17, 2026 Submit Now Submission Guidelines: Submit an article to JMIR Public Health and Surveillance by selecting “Public Health Emergencies of Intern",
+        "days_left": 66
+      },
+      "topics": [],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 51,
+      "fingerprint": "b2e59e4c420a29b8",
+      "is_new": true,
+      "tier": "core",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "Online Journal of Public Health Informatics",
@@ -2934,40 +3030,51 @@
       "fingerprint": "9ad6b39e72963747",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
     {
-      "journal": "Intensive Care Medicine",
-      "title": "The Brain in the Line of Fire",
-      "url": "https://link.springer.com/collections/aeedagfjab",
-      "publisher": "Springer Nature",
-      "source_id": "springer_icm",
-      "source_label": "Intensive Care Medicine",
-      "summary": "Brain function depends on a continuous supply of oxygen and glucose, while secondary brain dysfunction and damage in critical illness arises from intra- and extracranial factors that act on inflammation, nut...",
+      "journal": "JMIR Neurotechnology",
+      "title": "Call for Papers: Digital Health Technologies in Parkinson Disease: Measurement, Intervention, and Validation",
+      "url": "https://www.jmir.org/announcements/736",
+      "publisher": "JMIR Publications",
+      "source_id": "jmir_family",
+      "source_label": "JMIR Publications (all journals)",
+      "summary": "Digital health technologies (DHTs), including smartphones, wearable devices, and emerging sensor systems, are increasingly used in Parkinson disease research to enable continuous, real-world assessment of motor and non-motor symptoms. These approaches support scalable, longitudinal data collection, offer new opportunities for intervention, and extend naturally to related conditions such as prodrom",
       "deadline": {
-        "date": null,
-        "text": "",
-        "cue": "",
-        "evidence": "",
-        "precision": "none"
+        "date": "2027-06-30",
+        "text": "June 30, 2027",
+        "cue": "submission deadline",
+        "evidence": "Submission deadline: June 30, 2027 Submission and publication process: Submit an article to JMIR Neurotechnology by selecting “Digital Health Technologies in Parkinson’s Disease:",
+        "precision": "day"
       },
       "status": {
         "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": null
+        "reason": "deadline is in the future",
+        "evidence": "Submission deadline: June 30, 2027 Submission and publication process: Submit an article to JMIR Neurotechnology by selecting “Digital Health Technologies in Parkinson’s Disease:",
+        "days_left": 291
       },
-      "topics": [],
-      "jcr_band": "Q1/top20_watchlist",
-      "journal_priority": 5,
-      "journal_category": "重症醫學",
-      "score": 43,
-      "fingerprint": "67f31bcc7c3b8e4d",
+      "topics": [
+        {
+          "id": "digital_health_telecare",
+          "label": "遠距照護與數位醫療 / Telecare & Digital Health",
+          "hits": [
+            "digital health",
+            "wearable"
+          ]
+        }
+      ],
+      "jcr_band": "Q1_mixed_verify",
+      "journal_priority": 4,
+      "journal_category": "醫學資訊 / 數位醫療",
+      "score": 41,
+      "fingerprint": "56f7e541d2a46bf8",
       "is_new": true,
-      "tier": "core",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
+      "tier": "other",
+      "field": "數位醫療",
+      "carried_forward": false,
+      "last_verified": ""
     },
     {
       "journal": "JMIR Medical Informatics",
@@ -3007,55 +3114,9 @@
       "fingerprint": "4b4fb9e8be1dbecc",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
-    },
-    {
-      "journal": "BMC Medical Informatics and Decision Making",
-      "title": "Natural language processing in medical informatics – Part II",
-      "url": "https://link.springer.com/collections/bcihcbcbgi",
-      "publisher": "Springer Nature / BMC",
-      "source_id": "springer_bmc_informatics",
-      "source_label": "BMC Medical Informatics and Decision Making",
-      "summary": "BMC Medical Informatics and Decision Making is calling for submissions to our Collection on Natural language processing in medical informatics – Part II. Recent developments in \"Natural Language Processing i...",
-      "deadline": {
-        "date": "2027-05-11",
-        "text": "11 May 2027",
-        "cue": "submission deadline",
-        "evidence": "Submission deadline: 11 May 2027. Natural language processing in medical informatics – Part II BMC Medical Informatics and Decision Making is calling for submissions to our Collec",
-        "precision": "day"
-      },
-      "status": {
-        "state": "open",
-        "reason": "publisher markup states the call is open",
-        "evidence": "open",
-        "days_left": 243
-      },
-      "topics": [
-        {
-          "id": "medical_informatics",
-          "label": "醫學資訊 / Medical Informatics",
-          "hits": [
-            "medical informatics"
-          ]
-        },
-        {
-          "id": "ai_data_science",
-          "label": "AI、資料科學與臨床預測 / AI & Clinical Data Science",
-          "hits": [
-            "natural language processing"
-          ]
-        }
-      ],
-      "jcr_band": "Q2_candidate_verify",
-      "journal_priority": 3,
-      "journal_category": "醫學資訊",
-      "score": 39,
-      "fingerprint": "d05b663678262302",
-      "is_new": true,
-      "tier": "other",
-      "carried_forward": true,
-      "last_verified": "2026-W37"
     },
     {
       "journal": "JMIR Medical Informatics",
@@ -3101,6 +3162,7 @@
       "fingerprint": "c6c92a7a3050b47e",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3150,6 +3212,7 @@
       "fingerprint": "e6a336d52913a861",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3198,6 +3261,7 @@
       "fingerprint": "aae067b663460b47",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3220,7 +3284,7 @@
         "state": "open",
         "reason": "deadline is in the future",
         "evidence": "Submission Deadline: May 31, 2027 Submit Now Cascading Review and Transfer: Submissions not reviewed or accepted for publication in this theme issue in the Journal of Medical Inte",
-        "days_left": 263
+        "days_left": 261
       },
       "topics": [],
       "jcr_band": "Q1_mixed_verify",
@@ -3230,6 +3294,7 @@
       "fingerprint": "daa3c336da19b997",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3271,6 +3336,7 @@
       "fingerprint": "c5805503f1574b49",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3312,6 +3378,7 @@
       "fingerprint": "e8e08711b46dc5bd",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3355,6 +3422,7 @@
       "fingerprint": "b37b056a853bb089",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3396,6 +3464,7 @@
       "fingerprint": "78bdf1f1720e2e5f",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3438,6 +3507,7 @@
       "fingerprint": "8869c609c08b88ad",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3479,6 +3549,7 @@
       "fingerprint": "897700e514284914",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3520,6 +3591,7 @@
       "fingerprint": "cdf2ad1aba4af672",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3561,6 +3633,7 @@
       "fingerprint": "c3ac166b2a3b4fa7",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3602,6 +3675,7 @@
       "fingerprint": "8ff23923665e77cd",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3643,6 +3717,7 @@
       "fingerprint": "09bbb3f336f74cf9",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3683,6 +3758,7 @@
       "fingerprint": "a6ca05d035a3d6fa",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3723,6 +3799,7 @@
       "fingerprint": "ea7e92743d0a23f3",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3755,6 +3832,7 @@
       "fingerprint": "4d4730392f4a77d8",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3804,6 +3882,7 @@
       "fingerprint": "eccbcd5f27412aed",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3836,6 +3915,7 @@
       "fingerprint": "8e78cb7fc7d86522",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3868,6 +3948,7 @@
       "fingerprint": "a486fc3d168fc1fc",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3908,6 +3989,7 @@
       "fingerprint": "8dd4b23bc87dd9d9",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3918,7 +4000,7 @@
       "publisher": "JMIR Publications",
       "source_id": "jmir_family",
       "source_label": "JMIR Publications (all journals)",
-      "summary": "JMIR Publications is pleased to announce a new theme issue titled “Machine Learning-Based Predictive Models Using Genomic Data” in JMIR Bioinformatics and Biotechnology —a PubMed/SCOPUS-indexed, peer-reviewed journal focusing on bioinformatics, computational biology, and biotechnology. This theme issue aims to explore cutting-edge research at the intersection of machine learning and genomics, fost",
+      "summary": "<p>JMIR Publications is pleased to announce a new theme issue titled “<strong>Machine Learning-Based Predictive Models Using Genomic Data</strong>” in <em>JMIR Bioinformatics and Biotechnology</em>—a SCOPUS-indexed, peer-reviewed journal focusing on bioinformatics, computational biology, and biotechnology.</p>",
       "deadline": {
         "date": null,
         "text": "",
@@ -3948,6 +4030,7 @@
       "fingerprint": "be6c476a69b39f2b",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -3988,6 +4071,7 @@
       "fingerprint": "ee8b681d77742a56",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4029,6 +4113,7 @@
       "fingerprint": "23bc243f3cde1366",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4070,6 +4155,7 @@
       "fingerprint": "d1070c0bd1714130",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4110,6 +4196,7 @@
       "fingerprint": "e01bf7948cc93028",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4150,6 +4237,7 @@
       "fingerprint": "57c821b92c09a653",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4190,6 +4278,7 @@
       "fingerprint": "89dfc9e3cced07b4",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4222,6 +4311,7 @@
       "fingerprint": "ef0605142537895b",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4254,6 +4344,7 @@
       "fingerprint": "4e0a8b12500b9fde",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4286,6 +4377,7 @@
       "fingerprint": "96199859b3737da6",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4318,6 +4410,7 @@
       "fingerprint": "4fa0548a5dd2ed4f",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4350,6 +4443,7 @@
       "fingerprint": "16342166f33f5d0e",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4382,6 +4476,7 @@
       "fingerprint": "865d06c8740cb2dd",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4414,6 +4509,7 @@
       "fingerprint": "a2b969f0bc972ca9",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4446,6 +4542,7 @@
       "fingerprint": "3a93e08f0c350eb8",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4478,6 +4575,7 @@
       "fingerprint": "d880035976028f27",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4510,6 +4608,7 @@
       "fingerprint": "18e709bbb4493c61",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4542,6 +4641,7 @@
       "fingerprint": "c3237a5b69353bdc",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4574,6 +4674,7 @@
       "fingerprint": "36258e2c1847e320",
       "is_new": true,
       "tier": "core",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4606,6 +4707,7 @@
       "fingerprint": "1cfb4597ab32746f",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4638,6 +4740,7 @@
       "fingerprint": "478087a5d9452656",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     },
@@ -4670,6 +4773,7 @@
       "fingerprint": "5208bd8fd99d1c55",
       "is_new": true,
       "tier": "other",
+      "field": "數位醫療",
       "carried_forward": false,
       "last_verified": ""
     }
@@ -4679,60 +4783,60 @@
       "source_id": "springer_critical_care",
       "label": "Critical Care",
       "url": "https://link.springer.com/journal/13054/collections?filter=Open",
-      "status": "bot_challenge",
+      "status": "ok",
       "http_status": 200,
       "transport": "curl",
-      "found": 0,
+      "found": 6,
       "accepted": 6,
-      "notes": "bot challenge; unreachable; carried 6 still-open calls from 2026-W37",
+      "notes": "",
       "reject_reasons": {}
     },
     {
       "source_id": "springer_icm",
       "label": "Intensive Care Medicine",
       "url": "https://link.springer.com/journal/134/collections?filter=Open",
-      "status": "bot_challenge",
+      "status": "ok",
       "http_status": 200,
       "transport": "curl",
-      "found": 0,
+      "found": 9,
       "accepted": 9,
-      "notes": "bot challenge; unreachable; carried 9 still-open calls from 2026-W37",
+      "notes": "",
       "reject_reasons": {}
     },
     {
       "source_id": "springer_sjtrem",
       "label": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
       "url": "https://link.springer.com/journal/13049/collections?filter=Open",
-      "status": "bot_challenge",
+      "status": "ok",
       "http_status": 200,
       "transport": "curl",
-      "found": 0,
+      "found": 1,
       "accepted": 1,
-      "notes": "bot challenge; unreachable; carried 1 still-open calls from 2026-W37",
+      "notes": "",
       "reject_reasons": {}
     },
     {
       "source_id": "springer_bmc_emerg",
       "label": "BMC Emergency Medicine",
       "url": "https://link.springer.com/journal/12873/collections?filter=Open",
-      "status": "bot_challenge",
+      "status": "ok",
       "http_status": 200,
       "transport": "curl",
-      "found": 0,
+      "found": 5,
       "accepted": 5,
-      "notes": "bot challenge; unreachable; carried 5 still-open calls from 2026-W37",
+      "notes": "",
       "reject_reasons": {}
     },
     {
       "source_id": "springer_bmc_informatics",
       "label": "BMC Medical Informatics and Decision Making",
       "url": "https://link.springer.com/journal/12911/collections?filter=Open",
-      "status": "bot_challenge",
+      "status": "ok",
       "http_status": 200,
       "transport": "curl",
-      "found": 0,
+      "found": 8,
       "accepted": 8,
-      "notes": "bot challenge; unreachable; carried 8 still-open calls from 2026-W37",
+      "notes": "",
       "reject_reasons": {}
     },
     {
@@ -4794,8 +4898,8 @@
       "status": "ok",
       "http_status": 200,
       "transport": "requests",
-      "found": 56,
-      "accepted": 51,
+      "found": 57,
+      "accepted": 52,
       "notes": "",
       "reject_reasons": {
         "closed": 5

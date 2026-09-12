@@ -407,7 +407,8 @@
       "url": "https://link.springer.com/journal/13054/collections?filter=Open",
       "priority": 5,
       "jcr_band": "Q1/top20_watchlist",
-      "category": "重症醫學"
+      "category": "重症醫學",
+      "field": "重症醫學"
     },
     {
       "id": "springer_icm",
@@ -418,7 +419,8 @@
       "url": "https://link.springer.com/journal/134/collections?filter=Open",
       "priority": 5,
       "jcr_band": "Q1/top20_watchlist",
-      "category": "重症醫學"
+      "category": "重症醫學",
+      "field": "重症醫學"
     },
     {
       "id": "springer_sjtrem",
@@ -429,7 +431,8 @@
       "url": "https://link.springer.com/journal/13049/collections?filter=Open",
       "priority": 5,
       "jcr_band": "Q1/top20_watchlist",
-      "category": "急診醫學 / 創傷復甦"
+      "category": "急診醫學 / 創傷復甦",
+      "field": "急診醫學"
     },
     {
       "id": "springer_bmc_emerg",
@@ -440,7 +443,8 @@
       "url": "https://link.springer.com/journal/12873/collections?filter=Open",
       "priority": 3,
       "jcr_band": "Q2_candidate_verify",
-      "category": "急診醫學"
+      "category": "急診醫學",
+      "field": "急診醫學"
     },
     {
       "id": "springer_bmc_informatics",
@@ -451,7 +455,8 @@
       "url": "https://link.springer.com/journal/12911/collections?filter=Open",
       "priority": 3,
       "jcr_band": "Q2_candidate_verify",
-      "category": "醫學資訊"
+      "category": "醫學資訊",
+      "field": "醫學資訊"
     },
     {
       "id": "nature_npjdigitalmed",
@@ -463,7 +468,8 @@
       "priority": 5,
       "jcr_band": "Q1/top20_watchlist",
       "category": "數位醫療 / 醫學資訊",
-      "max_pages": 3
+      "max_pages": 3,
+      "field": "數位醫療"
     },
     {
       "id": "nature_commsmed",
@@ -476,7 +482,8 @@
       "jcr_band": "Q1_candidate_verify",
       "category": "臨床醫學",
       "max_pages": 3,
-      "require_topic_match": true
+      "require_topic_match": true,
+      "field": "一般醫學"
     },
     {
       "id": "embs_jbhi",
@@ -487,7 +494,8 @@
       "url": "https://www.embs.org/jbhi/special-issues/",
       "priority": 5,
       "jcr_band": "Q1/top20_watchlist",
-      "category": "醫學資訊 / 生醫工程"
+      "category": "醫學資訊 / 生醫工程",
+      "field": "醫學資訊"
     },
     {
       "id": "embs_rbme",
@@ -498,7 +506,8 @@
       "url": "https://www.embs.org/rbme/call-for-papers2/",
       "priority": 4,
       "jcr_band": "Q1_candidate_verify",
-      "category": "生醫工程"
+      "category": "生醫工程",
+      "field": "醫學資訊"
     },
     {
       "id": "jmir_family",
@@ -518,7 +527,8 @@
         "JMIR Mental Health",
         "JMIR Medical Informatics",
         "JMIR Aging"
-      ]
+      ],
+      "field": "數位醫療"
     }
   ],
   "manual_watchlist": [

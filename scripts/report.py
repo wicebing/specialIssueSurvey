@@ -51,6 +51,53 @@ def _topic_cell(record: CFPRecord) -> str:
     return esc("、".join(labels)) if labels else "-"
 
 
+# Fields are shown in this order so a reader's own specialty is near the top
+# rather than wherever the alphabet happens to put it.
+FIELD_ORDER = [
+    "急診醫學",
+    "重症醫學",
+    "急救復甦",
+    "護理",
+    "醫學資訊",
+    "數位醫療",
+    "醫療 AI",
+    "人工智慧",
+    "影像與電腦視覺",
+    "公共衛生",
+    "一般醫學",
+]
+
+
+def _covered_fields(config: dict[str, Any]) -> str:
+    """List the fields actually configured, so the header cannot go stale."""
+    fields: list[str] = []
+    for spec in config.get("sources", []):
+        name = spec.get("field") or spec.get("category") or ""
+        if name and name not in fields:
+            fields.append(name)
+    if not fields:
+        return "急診醫學、重症、醫學資訊"
+    fields.sort(key=lambda name: next(
+        (i for i, known in enumerate(FIELD_ORDER) if known in name), len(FIELD_ORDER)
+    ))
+    return "、".join(fields)
+
+
+def _group_by_field(records: Sequence[CFPRecord]) -> list[tuple[str, list[CFPRecord]]]:
+    """Bucket records by field, in a deliberate order, unknowns last."""
+    buckets: dict[str, list[CFPRecord]] = {}
+    for record in records:
+        buckets.setdefault(record.field or "其他", []).append(record)
+
+    def rank(name: str) -> tuple[int, str]:
+        for index, known in enumerate(FIELD_ORDER):
+            if known in name:
+                return (index, name)
+        return (len(FIELD_ORDER), name)
+
+    return sorted(buckets.items(), key=lambda item: rank(item[0]))
+
+
 def render_markdown(
     week_id: str,
     generated_at: datetime,
@@ -76,7 +123,7 @@ def render_markdown(
         "",
         f"> 產生時間：{generated_at:%Y-%m-%d %H:%M} UTC  ",
         "> 只收錄「確認仍可投稿」的徵稿；截稿日皆取自該筆徵稿自身的頁面文字。  ",
-        "> 追蹤領域：急診醫學、急救復甦、重症、醫學資訊、遠距照護、醫療 AI、醫療假訊息。",
+        f"> 追蹤領域：{_covered_fields(config)}。",
         "",
         "## 本週行動摘要",
         "",
@@ -133,14 +180,19 @@ def render_markdown(
     lines += [
         "## ✅ 核心 Q1 期刊：確認開放投稿",
         "",
-        "依截稿日排序，最急的在最前面。這一區只放核心 top-20% 白名單期刊。",
+        "依領域分組，每組內依截稿日排序，最急的在最前面。這一區只放核心 top-20% 白名單期刊。",
         "",
     ]
     if not core_dated:
         lines += ["_本週核心期刊沒有可確認截稿日的開放徵稿。_", ""]
     else:
-        lines += _deadline_table(core_dated)
-        lines.append("")
+        # With several dozen journals across six fields, one flat table stops
+        # being readable. Grouping lets the reader jump straight to their own
+        # specialty, and the urgent-deadline summary above still spans all of them.
+        for field, group in _group_by_field(core_dated):
+            lines += [f"### {esc(field)}（{len(group)} 筆）", ""]
+            lines += _deadline_table(group)
+            lines.append("")
 
     if other_dated:
         lines += [
@@ -186,7 +238,49 @@ def render_markdown(
         "",
     ]
 
-    if rising:
+    domains = trends.get("domains") or []
+    if domains:
+        # Per-field lists: a merged ranking would be dominated by whichever
+        # field publishes most, burying the smaller ones entirely.
+        lines += [
+            "### 📈 各領域正在升溫的題目",
+            "",
+            "每個領域只跟自己的期刊比較，所以護理的趨勢不會被 AI 的發表量蓋過去。",
+            "",
+        ]
+        for block in domains:
+            block_rising = [
+                t for t in block.get("tracked_terms", [])
+                if t["stage"] in {"emerging", "rising"}
+            ]
+            block_new = block.get("discovered_terms", [])
+            if not block_rising and not block_new:
+                continue
+            corpus = block.get("corpus", {})
+            lines += [
+                f"#### {esc(block.get('label', ''))}"
+                f"（{len(block.get('journals_tracked', []))} 本期刊、"
+                f"近半年 {corpus.get('recent_titles', 0)} 篇）",
+                "",
+            ]
+            if block_rising:
+                lines += [
+                    "| 主題 | 近半年 | 去年同期 | 成長 | 階段 |",
+                    "| :--- | ---: | ---: | ---: | :--- |",
+                ]
+                for item in block_rising[:8]:
+                    lines.append(
+                        f"| {esc(item['label'])} | {item['recent_count']} | {item['baseline_count']} "
+                        f"| {item['growth_ratio']:.2f}x | {STAGE_LABELS.get(item['stage'], item['stage'])} |"
+                    )
+                lines.append("")
+            if block_new:
+                lines.append(
+                    "新浮現詞組："
+                    + "、".join(f"`{esc(t['term'])}` ({t['growth_ratio']:.1f}x)" for t in block_new[:8])
+                )
+                lines.append("")
+    elif rising:
         lines += [
             "### 📈 正在升溫的題目（建議追這些）",
             "",
@@ -200,7 +294,7 @@ def render_markdown(
             )
         lines.append("")
 
-    if discovered:
+    if discovered and not domains:
         lines += [
             "### 🚀 自動探勘出的新浮現題目",
             "",

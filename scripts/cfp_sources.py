@@ -77,6 +77,7 @@ class CFPRecord:
     fingerprint: str = ""
     is_new: bool = False
     tier: str = "other"
+    field: str = ""
     carried_forward: bool = False
     last_verified: str = ""
 
@@ -107,6 +108,7 @@ class CFPRecord:
             "fingerprint": self.fingerprint,
             "is_new": self.is_new,
             "tier": self.tier,
+            "field": self.field,
             "carried_forward": self.carried_forward,
             "last_verified": self.last_verified,
         }
@@ -815,6 +817,7 @@ def collect_from_spec(
                 ),
                 fingerprint=fingerprint_for(journal, entry.title, entry.url),
                 tier=resolve_tier(journal, spec),
+                field=spec.get("field", spec.get("category", "")),
             )
         )
     report.accepted = len(records)

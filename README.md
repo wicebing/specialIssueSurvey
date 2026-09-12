@@ -8,9 +8,9 @@
 
 [2026-W37 週報](reports/2026-W37.md)
 
-- 確認開放投稿：100 筆
-- 其中有明確截稿日：48 筆
-- 本週新出現：100 筆
+- 確認開放投稿：101 筆
+- 其中有明確截稿日：49 筆
+- 本週新出現：101 筆
 
 ## 會議投稿截止日
 
@@ -51,7 +51,7 @@ python -m venv .venv
 本機每週自動跑：
 
 ```powershell
-.\scripts\install_windows_task.ps1 -RepositoryPath "/home/runner/work/specialIssueSurvey/specialIssueSurvey"
+.\scripts\install_windows_task.ps1 -RepositoryPath "Y:\yabilab\specialIssueSurvey"
 ```
 
 設定 `NCBI_API_KEY` 環境變數可提高 PubMed 趨勢查詢的速率上限（非必要）。
