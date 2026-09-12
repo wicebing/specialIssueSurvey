@@ -147,6 +147,10 @@ class PoliteSession:
     _last_hit: dict[str, float] = field(default_factory=dict, repr=False)
     _cache: dict[str, FetchResult] = field(default_factory=dict, repr=False)
     _session: Any = field(default=None, repr=False)
+    # Hosts whose bot wall we have already hit. Springer challenges every
+    # request from Python's TLS stack, so once one URL there is challenged the
+    # rest will be too. Remembering that skips ~40 doomed requests per run.
+    _challenged_hosts: set[str] = field(default_factory=set, repr=False)
 
     def __post_init__(self) -> None:
         if requests is None:
@@ -265,6 +269,17 @@ class PoliteSession:
         status_code: int | None = None
         challenged = False
 
+        host = urlparse(url).netloc.lower()
+        if allow_curl_fallback and host in self._challenged_hosts:
+            self._wait_turn(url)
+            straight = self._curl(url, params)
+            straight.elapsed = time.monotonic() - started
+            straight.attempts = 1
+            if straight.ok or straight.status_code:
+                if use_cache:
+                    self._cache[cache_key] = straight
+                return straight
+
         for attempt in range(1, self.max_retries + 1):
             self._wait_turn(url)
             try:
@@ -294,6 +309,7 @@ class PoliteSession:
                             self._cache[cache_key] = result
                         return result
                     last_error = "bot challenge"
+                    self._challenged_hosts.add(host)
                     break  # retrying the same transport cannot help
 
                 # 4xx other than rate limiting will not improve on retry.

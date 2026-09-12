@@ -352,3 +352,58 @@ def test_matched_topic_is_not_repeated_in_the_unmatched_section():
     }
     text = _render(dated=[_record()], trends=trends)
     assert "熱門但目前沒有對應徵稿" not in text
+
+
+# --- bot-wall memory --------------------------------------------------------
+
+
+def test_a_challenged_host_is_remembered_so_later_urls_skip_the_doomed_request():
+    """Springer challenges every request from Python, so retrying each URL wastes a round trip."""
+    from scripts.http_client import FetchResult, PoliteSession
+
+    session = PoliteSession(contact_email="x@example.org")
+    calls = {"requests": 0, "curl": 0}
+
+    class _Resp:
+        status_code = 200
+        url = "https://link.springer.com/x"
+        headers = {"content-type": "text/html"}
+        text = "<html><head><title>Client Challenge</title></head><body><noscript/></body></html>"
+
+    def fake_get(*args, **kwargs):
+        calls["requests"] += 1
+        return _Resp()
+
+    def fake_curl(url, params=None):
+        calls["curl"] += 1
+        return FetchResult(url=url, status_code=200, text="<html>" + "x" * 9000, ok=True, transport="curl")
+
+    session._session.get = fake_get
+    session._curl = fake_curl
+    session._wait_turn = lambda url: None
+
+    first = session.get("https://link.springer.com/journal/1/collections", use_cache=False)
+    assert first.ok and first.transport == "curl"
+    assert calls["requests"] == 1
+
+    second = session.get("https://link.springer.com/journal/2/collections", use_cache=False)
+    assert second.ok and second.transport == "curl"
+    assert calls["requests"] == 1, "second URL should not retry the blocked transport"
+    assert calls["curl"] == 2
+
+
+def test_an_unchallenged_host_still_uses_requests():
+    from scripts.http_client import PoliteSession
+
+    session = PoliteSession(contact_email="x@example.org")
+
+    class _Resp:
+        status_code = 200
+        url = "https://www.nature.com/x"
+        headers = {"content-type": "text/html"}
+        text = "<html><body>" + ("<article class='c-card'>call</article>" * 400) + "</body></html>"
+
+    session._session.get = lambda *a, **k: _Resp()
+    session._wait_turn = lambda url: None
+    result = session.get("https://www.nature.com/npjai/calls-for-papers", use_cache=False)
+    assert result.ok and result.transport == "requests"
