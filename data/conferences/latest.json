@@ -1,60 +1,14 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-10T15:53:27.816266+00:00",
+  "generated_at": "2026-09-12T10:07:36.428974+00:00",
   "stats": {
     "tracked": 49,
-    "open": 14,
-    "urgent": 13,
-    "pending": 35,
+    "open": 12,
+    "urgent": 11,
+    "pending": 37,
     "sources": 8
   },
   "conferences": [
-    {
-      "name": "CHI",
-      "acronym": "CHI",
-      "edition": "2027",
-      "url": "https://chi2027.acm.org/",
-      "submission_deadline": "2026-09-10",
-      "abstract_deadline": null,
-      "deadline_text": "",
-      "city": "Pittsburgh, USA",
-      "venue": "David L. Lawrence Convention Center",
-      "dates": "May 10 - 14, 2027",
-      "start_date": null,
-      "field": "HI",
-      "rank": "CCF A / CORE A* / THCPL A",
-      "relevance": "數位健康介面與行為",
-      "source_id": "ccf_health_hci",
-      "status": "open",
-      "typical_month": "",
-      "note": "ACM Conference on Human Factors in Computing Systems",
-      "tier": "core",
-      "_next_deadline": "2026-09-10",
-      "_days_left": 0
-    },
-    {
-      "name": "ML4H Symposium (Machine Learning for Health)",
-      "acronym": "ML4H",
-      "edition": "2026",
-      "url": "https://ml4h.ahli.cc/submit/call-for-papers/",
-      "submission_deadline": "2026-09-10",
-      "abstract_deadline": null,
-      "deadline_text": "Sep 10 Paper submission deadline (no separate abstract deadline). All times are in AoE.",
-      "city": "Sydney, Australia",
-      "venue": "",
-      "dates": "December 6-7, 2026",
-      "start_date": "2026-12-06",
-      "field": "醫療 AI",
-      "rank": "",
-      "relevance": "健康機器學習",
-      "source_id": "society_informatics",
-      "status": "open",
-      "typical_month": "September",
-      "note": "截止時間為 AoE 時區，比台灣時間晚。",
-      "tier": "core",
-      "_next_deadline": "2026-09-10",
-      "_days_left": 0
-    },
     {
       "name": "ICWSM (AAAI International Conference on Web and Social Media)",
       "acronym": "ICWSM 2027",
@@ -76,7 +30,7 @@
       "note": "一年三輪投稿，錯過這輪還有 2027-01-15。會議日期尚未公布。",
       "tier": "core",
       "_next_deadline": "2026-09-15",
-      "_days_left": 5
+      "_days_left": 3
     },
     {
       "name": "ICASSP",
@@ -99,7 +53,7 @@
       "note": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
       "tier": "core",
       "_next_deadline": "2026-09-16",
-      "_days_left": 6
+      "_days_left": 4
     },
     {
       "name": "ICLR",
@@ -122,7 +76,7 @@
       "note": "International Conference on Learning Representations",
       "tier": "core",
       "_next_deadline": "2026-09-18",
-      "_days_left": 8
+      "_days_left": 6
     },
     {
       "name": "IEEE ICHI (International Conference on Healthcare Informatics)",
@@ -145,7 +99,7 @@
       "note": "9/21 為 early bird 提前決定的截止日，正式截稿日尚未公布。",
       "tier": "core",
       "_next_deadline": "2026-09-21",
-      "_days_left": 11
+      "_days_left": 9
     },
     {
       "name": "AAEM Scientific Assembly",
@@ -168,7 +122,7 @@
       "note": "研究摘要與病例報告同一截止日，不接受延期。",
       "tier": "core",
       "_next_deadline": "2026-09-23",
-      "_days_left": 13
+      "_days_left": 11
     },
     {
       "name": "NAACL",
@@ -191,7 +145,7 @@
       "note": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2026-10-12",
-      "_days_left": 32
+      "_days_left": 30
     },
     {
       "name": "WWW",
@@ -214,7 +168,7 @@
       "note": "International World Wide Web Conferences",
       "tier": "other",
       "_next_deadline": "2026-10-18",
-      "_days_left": 38
+      "_days_left": 36
     },
     {
       "name": "Medical Informatics Europe (EFMI MIE)",
@@ -237,7 +191,7 @@
       "note": "",
       "tier": "core",
       "_next_deadline": "2026-10-20",
-      "_days_left": 40
+      "_days_left": 38
     },
     {
       "name": "UbiComp/ISWC",
@@ -260,7 +214,7 @@
       "note": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
       "tier": "core",
       "_next_deadline": "2026-11-01",
-      "_days_left": 52
+      "_days_left": 50
     },
     {
       "name": "ATS International Conference",
@@ -283,7 +237,7 @@
       "note": "投稿需付費；截止時間為美東時間下午 5 點。",
       "tier": "core",
       "_next_deadline": "2026-11-04",
-      "_days_left": 55
+      "_days_left": 53
     },
     {
       "name": "CVPR",
@@ -306,7 +260,7 @@
       "note": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "core",
       "_next_deadline": "2026-11-10",
-      "_days_left": 61
+      "_days_left": 59
     },
     {
       "name": "SAEM Annual Meeting",
@@ -329,7 +283,7 @@
       "note": "研究摘要 1/5 截止；Didactics 與 Innovations 等其他投稿軌在 2026 年 9 月就截止，需分開注意。",
       "tier": "core",
       "_next_deadline": "2027-01-05",
-      "_days_left": 117
+      "_days_left": 115
     },
     {
       "name": "AAAI",
@@ -603,6 +557,29 @@
       "status": "not_announced",
       "typical_month": "July",
       "note": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "tier": "core",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
+      "name": "CHI",
+      "acronym": "CHI",
+      "edition": "2027 (最近一屆)",
+      "url": "https://chi2027.acm.org/",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-09-10",
+      "city": "",
+      "venue": "David L. Lawrence Convention Center",
+      "dates": "",
+      "start_date": null,
+      "field": "HI",
+      "rank": "CCF A / CORE A* / THCPL A",
+      "relevance": "數位健康介面與行為",
+      "source_id": "ccf_health_hci",
+      "status": "not_announced",
+      "typical_month": "September",
+      "note": "ACM Conference on Human Factors in Computing Systems",
       "tier": "core",
       "_next_deadline": null,
       "_days_left": null
@@ -976,6 +953,29 @@
       "_days_left": null
     },
     {
+      "name": "ML4H Symposium (Machine Learning for Health)",
+      "acronym": "ML4H",
+      "edition": "2026",
+      "url": "https://ml4h.ahli.cc/submit/call-for-papers/",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "Sep 10 Paper submission deadline (no separate abstract deadline). All times are in AoE.",
+      "city": "Sydney, Australia",
+      "venue": "",
+      "dates": "December 6-7, 2026",
+      "start_date": "2026-12-06",
+      "field": "醫療 AI",
+      "rank": "",
+      "relevance": "健康機器學習",
+      "source_id": "society_informatics",
+      "status": "not_announced",
+      "typical_month": "September",
+      "note": "截止時間為 AoE 時區，比台灣時間晚。",
+      "tier": "core",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
       "name": "Machine Learning for Healthcare Conference (MLHC)",
       "acronym": "MLHC",
       "edition": "2027",
@@ -1153,8 +1153,8 @@
       "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference",
       "status": "ok",
       "found": 5,
-      "accepted": 2,
-      "notes": "3 awaiting next-edition announcement"
+      "accepted": 1,
+      "notes": "4 awaiting next-edition announcement"
     },
     {
       "source_id": "ccf_core_ai",
@@ -1198,8 +1198,8 @@
       "url": "",
       "status": "ok",
       "found": 7,
-      "accepted": 2,
-      "notes": "5 awaiting next-edition announcement"
+      "accepted": 1,
+      "notes": "6 awaiting next-edition announcement"
     },
     {
       "source_id": "society_digital_health",
