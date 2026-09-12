@@ -746,6 +746,28 @@ def score_record(
     return max(0, min(100, score))
 
 
+# Publishers whose papers do not count for academic promotion at the user's
+# institution. Collecting them would fill the report with work they cannot use,
+# so they are refused at the source rather than merely left unconfigured.
+EXCLUDED_PUBLISHER_HOSTS = (
+    "frontiersin.org",
+    "mdpi.com",
+    "mdpi.org",
+)
+
+
+def is_excluded_source(spec: dict[str, Any], config: dict[str, Any]) -> str:
+    """Return a reason when a source must not be collected, else an empty string."""
+    hosts = tuple(
+        config.get("tracking_policy", {}).get("excluded_publisher_hosts", [])
+    ) or EXCLUDED_PUBLISHER_HOSTS
+    url = (spec.get("url") or "").lower()
+    for host in hosts:
+        if host in url:
+            return f"excluded publisher ({host})"
+    return ""
+
+
 def collect_from_spec(
     session: PoliteSession,
     spec: dict[str, Any],
@@ -754,6 +776,13 @@ def collect_from_spec(
     trend_terms: Sequence[str] = (),
 ) -> tuple[list[CFPRecord], SourceReport]:
     """Run one source spec end to end: locate, validate, score."""
+    excluded = is_excluded_source(spec, config)
+    if excluded:
+        report = SourceReport(spec["id"], spec.get("label", spec["id"]), spec.get("url", ""))
+        report.status = "excluded"
+        report.notes = excluded
+        return [], report
+
     adapter = ADAPTERS.get(spec.get("adapter", "generic"), generic_cfp_page)
     try:
         entries, report = adapter(session, spec)

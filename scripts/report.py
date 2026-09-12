@@ -186,9 +186,13 @@ def render_markdown(
     if not core_dated:
         lines += ["_本週核心期刊沒有可確認截稿日的開放徵稿。_", ""]
     else:
-        # With several dozen journals across six fields, one flat table stops
-        # being readable. Grouping lets the reader jump straight to their own
-        # specialty, and the urgent-deadline summary above still spans all of them.
+        # With ~70 journals the list runs to hundreds of rows, so an index of
+        # field counts lets a reader jump straight to their own specialty.
+        index = "　".join(
+            f"**{esc(field)}** {len(group)}"
+            for field, group in _group_by_field(core_dated)
+        )
+        lines += [f"領域索引：{index}", ""]
         for field, group in _group_by_field(core_dated):
             lines += [f"### {esc(field)}（{len(group)} 筆）", ""]
             lines += _deadline_table(group)
@@ -452,6 +456,8 @@ def render_markdown(
         "- 標示 📦 的項目，是本週該來源被出版社擋住時，從上次成功抓取沿用下來的"
         "（截稿日仍未過）。它沒有在本週重新確認，投稿前請務必自行點開。",
         "- 趨勢區塊統計的是**實際發表量**，不是徵稿數量；成長倍率用「近半年 vs 去年同期」對齊季節性。",
+        "- **不蒐集 Frontiers 與 MDPI 期刊**：台大醫學院升等不採計，收錄只會浪費你的時間。"
+        "這是程式層級的排除，不是漏抓。",
         "- Q1 判定以 `config/target_journals.json` 的人工白名單為準，每年 JCR 更新後仍須用 "
         "Clarivate JCR 重新核對。",
         "- 投稿前務必點進官方頁面再確認一次截稿日、客座編輯與投稿系統。",

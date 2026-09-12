@@ -430,3 +430,36 @@ def test_keyword_does_not_match_inside_a_longer_word():
 
     assert classify_topics("Effects of psychedelics on the brain", TAXONOMY) == []
     assert classify_topics("Systems level analysis of problems", TAXONOMY) == []
+
+
+# --- publisher exclusion ----------------------------------------------------
+
+
+def test_frontiers_and_mdpi_sources_are_refused():
+    """Their papers do not count for promotion at the user's institution."""
+    from scripts.cfp_sources import collect_from_spec
+
+    for url in [
+        "https://www.frontiersin.org/journals/medicine/research-topics",
+        "https://www.mdpi.com/journal/jcm/special_issues",
+    ]:
+        records, report = collect_from_spec(
+            None, {"id": "x", "label": "X", "adapter": "generic", "url": url}, {}, TODAY
+        )
+        assert records == []
+        assert report.status == "excluded"
+
+
+def test_allowed_publisher_is_not_refused():
+    from scripts.cfp_sources import is_excluded_source
+
+    assert not is_excluded_source(
+        {"url": "https://link.springer.com/journal/330/collections?filter=Open"}, {}
+    )
+
+
+def test_no_excluded_publisher_is_configured():
+    config = json.loads((ROOT / "config" / "target_journals.json").read_text(encoding="utf-8"))
+    for spec in config["sources"]:
+        assert "frontiersin" not in spec["url"].lower()
+        assert "mdpi" not in spec["url"].lower()
