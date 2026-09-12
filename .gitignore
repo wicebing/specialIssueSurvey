@@ -7,3 +7,4 @@ __pycache__/
 !.env.example
 gemini-code-*.py
 
+*.tmp.html
