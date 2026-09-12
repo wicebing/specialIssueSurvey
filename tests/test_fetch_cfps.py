@@ -34,10 +34,21 @@ def test_config_is_valid_and_every_source_names_a_known_adapter():
 
 def test_trend_engine_config_is_present():
     config = json.loads((ROOT / "config" / "target_journals.json").read_text(encoding="utf-8"))
-    engine = config["trend_engine"]
-    assert engine["pubmed_journals"]
-    assert engine["tracked_terms"]
-    assert all("term" in t for t in engine["tracked_terms"])
+    domains = config["trend_engine"]["domains"]
+    assert len(domains) >= 5, "trends should cover every tracked field"
+    for domain in domains:
+        assert domain["id"] and domain["label"]
+        assert domain["pubmed_journals"], domain["id"]
+        assert domain["tracked_terms"], domain["id"]
+        assert all("term" in t and "label" in t for t in domain["tracked_terms"])
+
+
+def test_trend_engine_excludes_publishers_the_user_cannot_use():
+    config = json.loads((ROOT / "config" / "target_journals.json").read_text(encoding="utf-8"))
+    for domain in config["trend_engine"]["domains"]:
+        for journal in domain["pubmed_journals"]:
+            assert not journal.startswith("Front "), journal
+            assert journal not in {"J Clin Med", "Diagnostics (Basel)", "Biosensors (Basel)"}
 
 
 def test_blocked_publishers_are_listed_rather_than_silently_dropped():

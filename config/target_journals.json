@@ -1542,148 +1542,499 @@
   ],
   "trend_engine": {
     "window_days": 180,
-    "title_sample_size": 1000,
-    "pubmed_journals": [
-      "Resuscitation",
-      "Ann Emerg Med",
-      "Acad Emerg Med",
-      "Emerg Med J",
-      "Am J Emerg Med",
-      "Scand J Trauma Resusc Emerg Med",
-      "Intensive Care Med",
-      "Crit Care",
-      "Crit Care Med",
-      "Chest",
-      "NPJ Digit Med",
-      "J Am Med Inform Assoc",
-      "Artif Intell Med",
-      "Int J Med Inform",
-      "J Med Internet Res",
-      "JMIR Med Inform",
-      "Lancet Digit Health",
-      "JAMA Netw Open",
-      "J Biomed Inform"
-    ],
-    "tracked_terms": [
+    "title_sample_size": 600,
+    "domains": [
       {
-        "term": "large language model",
-        "label": "大型語言模型 / LLM"
+        "id": "emergency_critical",
+        "label": "急診與重症醫學",
+        "pubmed_journals": [
+          "Ann Emerg Med",
+          "Acad Emerg Med",
+          "Emerg Med J",
+          "Am J Emerg Med",
+          "Resuscitation",
+          "Scand J Trauma Resusc Emerg Med",
+          "Crit Care",
+          "Intensive Care Med",
+          "Crit Care Med",
+          "Chest",
+          "Neurocrit Care",
+          "Intern Emerg Med",
+          "BMC Emerg Med",
+          "Ann Intensive Care",
+          "Eur J Trauma Emerg Surg",
+          "World J Emerg Surg",
+          "Intensive Care Med Exp",
+          "Int J Emerg Med"
+        ],
+        "tracked_terms": [
+          {
+            "term": "sepsis",
+            "label": "敗血症"
+          },
+          {
+            "term": "cardiac arrest",
+            "label": "心跳停止"
+          },
+          {
+            "term": "out-of-hospital cardiac arrest",
+            "label": "到院前心跳停止"
+          },
+          {
+            "term": "mechanical ventilation",
+            "label": "機械通氣"
+          },
+          {
+            "term": "acute kidney injury",
+            "label": "急性腎損傷"
+          },
+          {
+            "term": "delirium",
+            "label": "譫妄"
+          },
+          {
+            "term": "emergency department crowding",
+            "label": "急診壅塞"
+          },
+          {
+            "term": "triage",
+            "label": "檢傷分類"
+          },
+          {
+            "term": "prehospital",
+            "label": "到院前救護"
+          },
+          {
+            "term": "point-of-care ultrasound",
+            "label": "即時超音波"
+          },
+          {
+            "term": "acute respiratory distress syndrome",
+            "label": "急性呼吸窘迫症候群"
+          },
+          {
+            "term": "frailty",
+            "label": "衰弱"
+          },
+          {
+            "term": "early warning score",
+            "label": "早期警示分數"
+          },
+          {
+            "term": "extracorporeal",
+            "label": "體外循環 / ECMO"
+          },
+          {
+            "term": "traumatic brain injury",
+            "label": "創傷性腦損傷"
+          }
+        ]
       },
       {
-        "term": "generative artificial intelligence",
-        "label": "生成式 AI"
+        "id": "nursing",
+        "label": "護理",
+        "pubmed_journals": [
+          "Int J Nurs Stud",
+          "J Adv Nurs",
+          "J Clin Nurs",
+          "J Nurs Scholarsh",
+          "Worldviews Evid Based Nurs",
+          "Nurse Educ Today",
+          "Nurse Educ Pract",
+          "Int J Nurs Sci",
+          "Nurs Outlook",
+          "BMC Nurs",
+          "Hum Resour Health",
+          "Intensive Crit Care Nurs",
+          "J Emerg Nurs",
+          "J Nurs Manag"
+        ],
+        "tracked_terms": [
+          {
+            "term": "nurse staffing",
+            "label": "護理人力配置"
+          },
+          {
+            "term": "burnout",
+            "label": "職業倦怠"
+          },
+          {
+            "term": "missed nursing care",
+            "label": "照護遺漏"
+          },
+          {
+            "term": "workplace violence",
+            "label": "職場暴力"
+          },
+          {
+            "term": "pressure injury",
+            "label": "壓力性損傷"
+          },
+          {
+            "term": "nursing informatics",
+            "label": "護理資訊"
+          },
+          {
+            "term": "nurse-led",
+            "label": "護理師主導介入"
+          },
+          {
+            "term": "patient safety",
+            "label": "病人安全"
+          },
+          {
+            "term": "moral distress",
+            "label": "道德困境"
+          },
+          {
+            "term": "simulation",
+            "label": "模擬教學"
+          },
+          {
+            "term": "transitional care",
+            "label": "轉銜照護"
+          },
+          {
+            "term": "advanced practice",
+            "label": "進階護理"
+          },
+          {
+            "term": "turnover intention",
+            "label": "離職意圖"
+          },
+          {
+            "term": "workforce retention",
+            "label": "人力留任"
+          },
+          {
+            "term": "person-centred care",
+            "label": "以人為本照護"
+          }
+        ]
       },
       {
-        "term": "artificial intelligence",
-        "label": "人工智慧"
+        "id": "informatics_digital",
+        "label": "醫學資訊與數位醫療",
+        "pubmed_journals": [
+          "J Am Med Inform Assoc",
+          "Int J Med Inform",
+          "J Med Internet Res",
+          "JMIR Med Inform",
+          "NPJ Digit Med",
+          "Lancet Digit Health",
+          "J Biomed Inform",
+          "J Med Syst",
+          "BMC Med Inform Decis Mak",
+          "IEEE J Biomed Health Inform",
+          "J Healthc Inform Res",
+          "Health Inf Sci Syst",
+          "JMIR Mhealth Uhealth",
+          "JMIR Public Health Surveill"
+        ],
+        "tracked_terms": [
+          {
+            "term": "clinical decision support",
+            "label": "臨床決策支援"
+          },
+          {
+            "term": "electronic health record",
+            "label": "電子病歷"
+          },
+          {
+            "term": "ambient documentation",
+            "label": "環境式病歷紀錄"
+          },
+          {
+            "term": "telehealth",
+            "label": "遠距醫療"
+          },
+          {
+            "term": "remote monitoring",
+            "label": "遠距監測"
+          },
+          {
+            "term": "wearable",
+            "label": "穿戴裝置"
+          },
+          {
+            "term": "hospital at home",
+            "label": "居家住院"
+          },
+          {
+            "term": "digital biomarker",
+            "label": "數位生物標記"
+          },
+          {
+            "term": "interoperability",
+            "label": "互通性"
+          },
+          {
+            "term": "phenotyping",
+            "label": "表型分群"
+          },
+          {
+            "term": "misinformation",
+            "label": "健康假訊息"
+          },
+          {
+            "term": "infodemic",
+            "label": "資訊疫情"
+          },
+          {
+            "term": "usability",
+            "label": "可用性"
+          },
+          {
+            "term": "implementation",
+            "label": "導入與落地"
+          },
+          {
+            "term": "digital divide",
+            "label": "數位落差"
+          }
+        ]
       },
       {
-        "term": "machine learning",
-        "label": "機器學習"
+        "id": "ai_health",
+        "label": "醫療 AI 與機器學習",
+        "pubmed_journals": [
+          "Artif Intell Med",
+          "NPJ Digit Med",
+          "IEEE J Biomed Health Inform",
+          "J Biomed Inform",
+          "Commun Med (Lond)",
+          "Brain Inform",
+          "BioData Min",
+          "J Am Med Inform Assoc",
+          "Med Image Anal",
+          "Interdiscip Sci",
+          "J Imaging Inform Med",
+          "BMC Bioinformatics"
+        ],
+        "tracked_terms": [
+          {
+            "term": "large language model",
+            "label": "大型語言模型"
+          },
+          {
+            "term": "foundation model",
+            "label": "基礎模型"
+          },
+          {
+            "term": "multimodal",
+            "label": "多模態"
+          },
+          {
+            "term": "federated learning",
+            "label": "聯邦式學習"
+          },
+          {
+            "term": "explainable",
+            "label": "可解釋 AI"
+          },
+          {
+            "term": "generative artificial intelligence",
+            "label": "生成式 AI"
+          },
+          {
+            "term": "retrieval augmented generation",
+            "label": "檢索增強生成"
+          },
+          {
+            "term": "self-supervised",
+            "label": "自監督學習"
+          },
+          {
+            "term": "vision transformer",
+            "label": "視覺 Transformer"
+          },
+          {
+            "term": "agentic",
+            "label": "代理式 AI"
+          },
+          {
+            "term": "digital twin",
+            "label": "數位分身"
+          },
+          {
+            "term": "algorithmic fairness",
+            "label": "演算法公平性"
+          },
+          {
+            "term": "synthetic data",
+            "label": "合成資料"
+          },
+          {
+            "term": "uncertainty quantification",
+            "label": "不確定性量化"
+          },
+          {
+            "term": "prospective validation",
+            "label": "前瞻性驗證"
+          }
+        ]
       },
       {
-        "term": "deep learning",
-        "label": "深度學習"
+        "id": "imaging_cv",
+        "label": "影像與電腦視覺",
+        "pubmed_journals": [
+          "Eur Radiol",
+          "Eur J Nucl Med Mol Imaging",
+          "Insights Imaging",
+          "Radiol Med",
+          "IEEE Trans Med Imaging",
+          "Med Image Anal",
+          "Neuroimage",
+          "Radiology",
+          "Radiol Artif Intell",
+          "Radiographics",
+          "Med Phys",
+          "Magn Reson Med",
+          "J Magn Reson Imaging",
+          "Comput Med Imaging Graph",
+          "Quant Imaging Med Surg",
+          "Eur J Radiol",
+          "J Imaging Inform Med",
+          "IEEE Trans Pattern Anal Mach Intell"
+        ],
+        "tracked_terms": [
+          {
+            "term": "radiomics",
+            "label": "影像組學"
+          },
+          {
+            "term": "foundation model",
+            "label": "影像基礎模型"
+          },
+          {
+            "term": "vision language model",
+            "label": "視覺語言模型"
+          },
+          {
+            "term": "image reconstruction",
+            "label": "影像重建"
+          },
+          {
+            "term": "segmentation",
+            "label": "影像分割"
+          },
+          {
+            "term": "diffusion model",
+            "label": "擴散模型"
+          },
+          {
+            "term": "photon counting",
+            "label": "光子計數 CT"
+          },
+          {
+            "term": "total body PET",
+            "label": "全身 PET"
+          },
+          {
+            "term": "theranostics",
+            "label": "診療一體"
+          },
+          {
+            "term": "opportunistic screening",
+            "label": "機會性篩檢"
+          },
+          {
+            "term": "digital pathology",
+            "label": "數位病理"
+          },
+          {
+            "term": "report generation",
+            "label": "自動報告生成"
+          },
+          {
+            "term": "self-supervised",
+            "label": "自監督影像學習"
+          },
+          {
+            "term": "domain generalization",
+            "label": "跨中心泛化"
+          },
+          {
+            "term": "computer vision",
+            "label": "電腦視覺"
+          }
+        ]
       },
       {
-        "term": "foundation model",
-        "label": "基礎模型"
-      },
-      {
-        "term": "clinical decision support",
-        "label": "臨床決策支援"
-      },
-      {
-        "term": "ambient documentation",
-        "label": "環境式病歷紀錄"
-      },
-      {
-        "term": "federated learning",
-        "label": "聯邦式學習"
-      },
-      {
-        "term": "digital twin",
-        "label": "數位分身"
-      },
-      {
-        "term": "explainable",
-        "label": "可解釋 AI"
-      },
-      {
-        "term": "prehospital",
-        "label": "到院前救護"
-      },
-      {
-        "term": "triage",
-        "label": "檢傷分類"
-      },
-      {
-        "term": "emergency department crowding",
-        "label": "急診壅塞"
-      },
-      {
-        "term": "cardiac arrest",
-        "label": "心跳停止"
-      },
-      {
-        "term": "extracorporeal",
-        "label": "體外循環 / ECMO"
-      },
-      {
-        "term": "sepsis",
-        "label": "敗血症"
-      },
-      {
-        "term": "phenotyping",
-        "label": "表型分群"
-      },
-      {
-        "term": "mechanical ventilation",
-        "label": "機械通氣"
-      },
-      {
-        "term": "point-of-care ultrasound",
-        "label": "即時超音波"
-      },
-      {
-        "term": "telehealth",
-        "label": "遠距醫療"
-      },
-      {
-        "term": "remote monitoring",
-        "label": "遠距監測"
-      },
-      {
-        "term": "wearable",
-        "label": "穿戴裝置"
-      },
-      {
-        "term": "hospital at home",
-        "label": "居家住院"
-      },
-      {
-        "term": "misinformation",
-        "label": "健康假訊息"
-      },
-      {
-        "term": "infodemic",
-        "label": "資訊疫情"
-      },
-      {
-        "term": "health equity",
-        "label": "健康公平"
-      },
-      {
-        "term": "electronic health record",
-        "label": "電子病歷"
-      },
-      {
-        "term": "natural language processing",
-        "label": "自然語言處理"
-      },
-      {
-        "term": "multimodal",
-        "label": "多模態"
+        "id": "public_health",
+        "label": "公共衛生與健康公平",
+        "pubmed_journals": [
+          "BMC Public Health",
+          "Int J Equity Health",
+          "Global Health",
+          "Eur J Epidemiol",
+          "Implement Sci",
+          "BMC Glob Public Health",
+          "Confl Health",
+          "Antimicrob Resist Infect Control",
+          "J Epidemiol Glob Health",
+          "Popul Health Metr",
+          "BMC Health Serv Res",
+          "Health Res Policy Syst"
+        ],
+        "tracked_terms": [
+          {
+            "term": "health equity",
+            "label": "健康公平"
+          },
+          {
+            "term": "social determinants",
+            "label": "健康社會決定因素"
+          },
+          {
+            "term": "disparities",
+            "label": "健康不平等"
+          },
+          {
+            "term": "implementation science",
+            "label": "實施科學"
+          },
+          {
+            "term": "vaccination",
+            "label": "疫苗接種"
+          },
+          {
+            "term": "surveillance",
+            "label": "疾病監測"
+          },
+          {
+            "term": "misinformation",
+            "label": "健康假訊息"
+          },
+          {
+            "term": "global health",
+            "label": "全球衛生"
+          },
+          {
+            "term": "screening",
+            "label": "篩檢計畫"
+          },
+          {
+            "term": "antimicrobial resistance",
+            "label": "抗藥性"
+          },
+          {
+            "term": "climate",
+            "label": "氣候與健康"
+          },
+          {
+            "term": "mental health",
+            "label": "心理健康"
+          },
+          {
+            "term": "health policy",
+            "label": "衛生政策"
+          },
+          {
+            "term": "workforce",
+            "label": "衛生人力"
+          }
+        ]
       }
     ]
   }
