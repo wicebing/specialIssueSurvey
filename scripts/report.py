@@ -396,9 +396,11 @@ def render_markdown(
         lines += [
             "## 🔒 無法自動查詢的頂尖期刊（請手動點開）",
             "",
-            "這些出版社（Elsevier、Wiley、Oxford、JAMA、Lancet、Wolters Kluwer 等）用 Cloudflare / captcha "
-            "擋掉自動查詢。**它們沒有出現在上面的清單，不代表沒有徵稿**，請直接點連結確認。"
-            "依影響指數由高到低排列。",
+            "這些出版社（Elsevier、Wiley、SAGE、RSNA、IEEE、Oxford、JAMA、Lancet 等）用 Cloudflare / "
+            "captcha 擋掉自動查詢。**它們沒有出現在上面的清單，不代表沒有徵稿**，請直接點連結確認。",
+            "",
+            "特別注意**護理領域**：頂尖護理期刊幾乎全在 Elsevier 與 Wiley，"
+            "所以上面的護理徵稿數偏少並不代表這個領域沒有機會，而是我們看不到。",
             "",
         ]
         # Grouped by field and sorted by impact factor: with dozens of blocked

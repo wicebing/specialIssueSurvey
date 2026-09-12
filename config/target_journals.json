@@ -1465,79 +1465,379 @@
       "journal": "Resuscitation",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha on sciencedirect.com",
-      "url": "https://www.sciencedirect.com/journal/resuscitation/about/call-for-papers"
+      "url": "https://www.sciencedirect.com/journal/resuscitation/about/call-for-papers",
+      "field": "急診醫學"
     },
     {
       "journal": "Annals of Emergency Medicine",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha",
-      "url": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine/about/call-for-papers"
+      "url": "https://www.sciencedirect.com/journal/annals-of-emergency-medicine/about/call-for-papers",
+      "field": "急診醫學"
     },
     {
       "journal": "The American Journal of Emergency Medicine",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha",
-      "url": "https://www.sciencedirect.com/journal/american-journal-of-emergency-medicine/about/call-for-papers"
+      "url": "https://www.sciencedirect.com/journal/american-journal-of-emergency-medicine/about/call-for-papers",
+      "field": "急診醫學"
     },
     {
       "journal": "Artificial Intelligence in Medicine",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha",
-      "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/call-for-papers"
+      "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/call-for-papers",
+      "field": "人工智慧"
     },
     {
       "journal": "International Journal of Medical Informatics",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha",
-      "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/call-for-papers"
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/call-for-papers",
+      "field": "醫學資訊"
     },
     {
       "journal": "Journal of Biomedical Informatics",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha",
-      "url": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics/about/call-for-papers"
+      "url": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics/about/call-for-papers",
+      "field": "醫學資訊"
     },
     {
       "journal": "The Lancet Digital Health",
       "publisher": "Elsevier / Lancet",
       "block": "Cloudflare on thelancet.com",
-      "url": "https://www.thelancet.com/journals/landig/home"
+      "url": "https://www.thelancet.com/journals/landig/home",
+      "field": "數位醫療"
     },
     {
       "journal": "CHEST",
       "publisher": "Elsevier",
       "block": "Cloudflare/captcha",
-      "url": "https://journal.chestnet.org/"
+      "url": "https://journal.chestnet.org/",
+      "field": "重症醫學"
     },
     {
       "journal": "Journal of the American Medical Informatics Association",
       "publisher": "Oxford University Press",
       "block": "bot challenge on academic.oup.com",
-      "url": "https://academic.oup.com/jamia/pages/call-for-papers"
+      "url": "https://academic.oup.com/jamia/pages/call-for-papers",
+      "field": "醫學資訊"
     },
     {
       "journal": "Academic Emergency Medicine",
       "publisher": "Wiley",
       "block": "bot challenge on onlinelibrary.wiley.com",
-      "url": "https://onlinelibrary.wiley.com/journal/15532712"
+      "url": "https://onlinelibrary.wiley.com/journal/15532712",
+      "field": "急診醫學"
     },
     {
       "journal": "JAMA Network Open",
       "publisher": "JAMA Network",
       "block": "Cloudflare managed challenge; JAMA has no central calls-for-papers page",
-      "url": "https://jamanetwork.com/journals/jamanetworkopen"
+      "url": "https://jamanetwork.com/journals/jamanetworkopen",
+      "field": "一般醫學"
     },
     {
       "journal": "Critical Care Medicine",
       "publisher": "Wolters Kluwer / LWW",
       "block": "403 on journals.lww.com",
-      "url": "https://journals.lww.com/ccmjournal/pages/callforpapers.aspx"
+      "url": "https://journals.lww.com/ccmjournal/pages/callforpapers.aspx",
+      "field": "重症醫學"
     },
     {
       "journal": "Emergency Medicine Journal",
       "publisher": "BMJ",
       "block": "collections page renders no call-for-papers content to a fetcher",
-      "url": "https://emj.bmj.com/pages/special-issues-and-collections"
+      "url": "https://emj.bmj.com/pages/special-issues-and-collections",
+      "field": "急診醫學"
+    },
+    {
+      "journal": "International Journal of Nursing Studies",
+      "publisher": "Elsevier",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-nursing-studies/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Journal of Advanced Nursing",
+      "publisher": "Wiley",
+      "field": "護理",
+      "url": "https://onlinelibrary.wiley.com/journal/13652648",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Journal of Clinical Nursing",
+      "publisher": "Wiley",
+      "field": "護理",
+      "url": "https://onlinelibrary.wiley.com/journal/13652702",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Journal of Nursing Scholarship",
+      "publisher": "Wiley / Sigma",
+      "field": "護理",
+      "url": "https://onlinelibrary.wiley.com/journal/15475069",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Worldviews on Evidence-Based Nursing",
+      "publisher": "Wiley / Sigma",
+      "field": "護理",
+      "url": "https://onlinelibrary.wiley.com/journal/17416787",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Nurse Education Today",
+      "publisher": "Elsevier",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/nurse-education-today/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Nurse Education in Practice",
+      "publisher": "Elsevier",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/nurse-education-in-practice/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Nursing Outlook",
+      "publisher": "Elsevier",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/nursing-outlook/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "International Journal of Nursing Sciences",
+      "publisher": "Elsevier / KeAi",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-nursing-sciences/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Intensive and Critical Care Nursing",
+      "publisher": "Elsevier",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/intensive-and-critical-care-nursing/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Journal of Emergency Nursing",
+      "publisher": "Elsevier / ENA",
+      "field": "護理",
+      "url": "https://www.sciencedirect.com/journal/journal-of-emergency-nursing/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "International Journal of Mental Health Nursing",
+      "publisher": "Wiley",
+      "field": "護理",
+      "url": "https://onlinelibrary.wiley.com/journal/14470349",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Journal of Nursing Management",
+      "publisher": "Wiley",
+      "field": "護理",
+      "url": "https://onlinelibrary.wiley.com/journal/13652834",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Nursing Ethics",
+      "publisher": "SAGE",
+      "field": "護理",
+      "url": "https://journals.sagepub.com/home/nej",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "American Journal of Critical Care",
+      "publisher": "AACN",
+      "field": "護理",
+      "url": "https://aacnjournals.org/ajcconline",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Medical Image Analysis",
+      "publisher": "Elsevier",
+      "field": "影像與電腦視覺",
+      "url": "https://www.sciencedirect.com/journal/medical-image-analysis/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "NeuroImage",
+      "publisher": "Elsevier",
+      "field": "影像與電腦視覺",
+      "url": "https://www.sciencedirect.com/journal/neuroimage/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Computerized Medical Imaging and Graphics",
+      "publisher": "Elsevier",
+      "field": "影像與電腦視覺",
+      "url": "https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "European Journal of Radiology",
+      "publisher": "Elsevier",
+      "field": "影像與電腦視覺",
+      "url": "https://www.sciencedirect.com/journal/european-journal-of-radiology/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Pattern Recognition",
+      "publisher": "Elsevier",
+      "field": "影像與電腦視覺",
+      "url": "https://www.sciencedirect.com/journal/pattern-recognition/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Radiotherapy and Oncology",
+      "publisher": "Elsevier / ESTRO",
+      "field": "影像與電腦視覺",
+      "url": "https://www.sciencedirect.com/journal/radiotherapy-and-oncology/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Radiology",
+      "publisher": "RSNA",
+      "field": "影像與電腦視覺",
+      "url": "https://pubs.rsna.org/journal/radiology",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Radiology: Artificial Intelligence",
+      "publisher": "RSNA",
+      "field": "影像與電腦視覺",
+      "url": "https://pubs.rsna.org/journal/ai",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "RadioGraphics",
+      "publisher": "RSNA",
+      "field": "影像與電腦視覺",
+      "url": "https://pubs.rsna.org/journal/radiographics",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "IEEE Transactions on Medical Imaging",
+      "publisher": "IEEE EMBS",
+      "field": "影像與電腦視覺",
+      "url": "https://www.embs.org/tmi/",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "publisher": "IEEE",
+      "field": "影像與電腦視覺",
+      "url": "https://www.computer.org/csdl/journal/tp",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Medical Physics",
+      "publisher": "Wiley / AAPM",
+      "field": "影像與電腦視覺",
+      "url": "https://aapm.onlinelibrary.wiley.com/journal/24734209",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Magnetic Resonance in Medicine",
+      "publisher": "Wiley / ISMRM",
+      "field": "影像與電腦視覺",
+      "url": "https://onlinelibrary.wiley.com/journal/15222594",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Journal of Magnetic Resonance Imaging",
+      "publisher": "Wiley / ISMRM",
+      "field": "影像與電腦視覺",
+      "url": "https://onlinelibrary.wiley.com/journal/15222586",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Information Fusion",
+      "publisher": "Elsevier",
+      "field": "人工智慧",
+      "url": "https://www.sciencedirect.com/journal/information-fusion/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Expert Systems with Applications",
+      "publisher": "Elsevier",
+      "field": "人工智慧",
+      "url": "https://www.sciencedirect.com/journal/expert-systems-with-applications/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Neural Networks",
+      "publisher": "Elsevier",
+      "field": "人工智慧",
+      "url": "https://www.sciencedirect.com/journal/neural-networks/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Knowledge-Based Systems",
+      "publisher": "Elsevier",
+      "field": "人工智慧",
+      "url": "https://www.sciencedirect.com/journal/knowledge-based-systems/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Artificial Intelligence",
+      "publisher": "Elsevier",
+      "field": "人工智慧",
+      "url": "https://www.sciencedirect.com/journal/artificial-intelligence/about/call-for-papers",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Patterns",
+      "publisher": "Cell Press",
+      "field": "人工智慧",
+      "url": "https://www.cell.com/patterns/home",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "publisher": "IEEE",
+      "field": "人工智慧",
+      "url": "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "IEEE Transactions on Cybernetics",
+      "publisher": "IEEE",
+      "field": "人工智慧",
+      "url": "https://cis.ieee.org/publications/ieee-transactions-on-cybernetics",
+      "block": "出版社阻擋自動查詢"
+    },
+    {
+      "journal": "Nature Machine Intelligence",
+      "publisher": "Springer Nature",
+      "field": "人工智慧",
+      "url": "https://www.nature.com/natmachintell/collections",
+      "block": "僅有 collections 頁，格式與本工具不同"
+    },
+    {
+      "journal": "Nature Biomedical Engineering",
+      "publisher": "Springer Nature",
+      "field": "數位醫療",
+      "url": "https://www.nature.com/natbiomedeng/collections",
+      "block": "僅有 collections 頁，格式與本工具不同"
+    },
+    {
+      "journal": "Nature Medicine",
+      "publisher": "Springer Nature",
+      "field": "一般醫學",
+      "url": "https://www.nature.com/nm/collections",
+      "block": "僅有 collections 頁，格式與本工具不同"
+    },
+    {
+      "journal": "npj Health Systems",
+      "publisher": "Springer Nature",
+      "field": "數位醫療",
+      "url": "https://www.nature.com/npjhealthsyst/collections",
+      "block": "僅有 collections 頁，格式與本工具不同"
     }
   ],
   "trend_engine": {

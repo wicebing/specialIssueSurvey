@@ -13,18 +13,21 @@ on:
       - "requirements.txt"
       - ".github/workflows/weekly_cfp.yml"
 
+# Pages is served from the branch (docs/ plus its CNAME for
+# journals.yabilab.dev), so this workflow only needs to commit. Deploying the
+# artifact from here as well fought with that branch build and failed, while
+# the site published correctly anyway.
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: weekly-cfp
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -61,23 +64,3 @@ jobs:
             git commit -m "chore: weekly CFP report $(date -u +'%Y-W%V')"
             git push
           fi
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-  deploy:
-    needs: collect
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
