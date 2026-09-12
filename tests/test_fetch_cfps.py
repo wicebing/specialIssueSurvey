@@ -407,3 +407,26 @@ def test_an_unchallenged_host_still_uses_requests():
     session._wait_turn = lambda url: None
     result = session.get("https://www.nature.com/npjai/calls-for-papers", use_cache=False)
     assert result.ok and result.transport == "requests"
+
+
+# --- topic keyword matching -------------------------------------------------
+
+TAXONOMY = [
+    {"id": "ai", "label": "AI / AI", "keywords": ["foundation model", "AI", "wearable"]},
+    {"id": "em", "label": "急診 / EM", "keywords": ["EMS", "triage"]},
+]
+
+
+def test_plural_keywords_match():
+    from scripts.cfp_sources import classify_topics
+
+    assert classify_topics("Foundation Models for Radiology", TAXONOMY)
+    assert classify_topics("Wearables in cardiac arrest", TAXONOMY)
+
+
+def test_keyword_does_not_match_inside_a_longer_word():
+    """'AI' inside 'brain' and 'EMS' inside 'systems' were real mis-taggings."""
+    from scripts.cfp_sources import classify_topics
+
+    assert classify_topics("Effects of psychedelics on the brain", TAXONOMY) == []
+    assert classify_topics("Systems level analysis of problems", TAXONOMY) == []

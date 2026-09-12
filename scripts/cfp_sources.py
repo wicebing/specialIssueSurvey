@@ -666,7 +666,12 @@ def _keyword_matches(keyword: str, haystack: str) -> bool:
     pattern = _KEYWORD_PATTERNS.get(keyword)
     if pattern is None:
         if keyword.isascii():
-            pattern = re.compile(rf"(?<![a-z0-9]){re.escape(keyword.lower())}(?![a-z0-9])")
+            # Allow a trailing plural so "foundation model" also matches
+            # "foundation models", while the boundaries still prevent "AI"
+            # matching inside "brain".
+            pattern = re.compile(
+                rf"(?<![a-z0-9]){re.escape(keyword.lower())}(?:s|es)?(?![a-z0-9])"
+            )
         else:
             pattern = re.compile(re.escape(keyword.lower()))
         _KEYWORD_PATTERNS[keyword] = pattern
