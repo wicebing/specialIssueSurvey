@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "generated_at": "2026-09-12T09:20:30.836314+00:00",
+  "generated_at": "2026-09-12T09:27:50.162445+00:00",
   "stats": {
     "open_calls": 101,
     "core_calls": 51,
@@ -53,12 +53,12 @@
       {
         "term": "clinical decision support",
         "label": "臨床決策支援",
-        "recent_count": 192,
+        "recent_count": 193,
         "baseline_count": 105,
-        "growth_ratio": 1.745,
-        "momentum": 0.804,
-        "volume_weight": 5.263,
-        "score": 13.3,
+        "growth_ratio": 1.754,
+        "momentum": 0.811,
+        "volume_weight": 5.268,
+        "score": 13.38,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -92,12 +92,12 @@
       {
         "term": "multimodal",
         "label": "多模態",
-        "recent_count": 222,
+        "recent_count": 221,
         "baseline_count": 143,
-        "growth_ratio": 1.489,
-        "momentum": 0.575,
-        "volume_weight": 5.407,
-        "score": 11.15,
+        "growth_ratio": 1.483,
+        "momentum": 0.568,
+        "volume_weight": 5.403,
+        "score": 11.08,
         "stage": "rising",
         "journals": [],
         "examples": []
@@ -222,12 +222,12 @@
       {
         "term": "machine learning",
         "label": "機器學習",
-        "recent_count": 442,
+        "recent_count": 441,
         "baseline_count": 410,
-        "growth_ratio": 1.041,
-        "momentum": 0.058,
-        "volume_weight": 6.094,
-        "score": 6.67,
+        "growth_ratio": 1.038,
+        "momentum": 0.054,
+        "volume_weight": 6.091,
+        "score": 6.64,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -248,12 +248,12 @@
       {
         "term": "sepsis",
         "label": "敗血症",
-        "recent_count": 201,
+        "recent_count": 202,
         "baseline_count": 187,
-        "growth_ratio": 1.037,
-        "momentum": 0.053,
-        "volume_weight": 5.308,
-        "score": 5.84,
+        "growth_ratio": 1.043,
+        "momentum": 0.06,
+        "volume_weight": 5.313,
+        "score": 5.91,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -313,12 +313,12 @@
       {
         "term": "extracorporeal",
         "label": "體外循環 / ECMO",
-        "recent_count": 88,
+        "recent_count": 87,
         "baseline_count": 83,
-        "growth_ratio": 1.023,
-        "momentum": 0.033,
-        "volume_weight": 4.489,
-        "score": 4.82,
+        "growth_ratio": 1.012,
+        "momentum": 0.017,
+        "volume_weight": 4.477,
+        "score": 4.65,
         "stage": "steady",
         "journals": [],
         "examples": []
@@ -350,6 +350,19 @@
         "examples": []
       },
       {
+        "term": "natural language processing",
+        "label": "自然語言處理",
+        "recent_count": 126,
+        "baseline_count": 136,
+        "growth_ratio": 0.897,
+        "momentum": -0.157,
+        "volume_weight": 4.844,
+        "score": 3.27,
+        "stage": "steady",
+        "journals": [],
+        "examples": []
+      },
+      {
         "term": "point-of-care ultrasound",
         "label": "即時超音波",
         "recent_count": 39,
@@ -358,19 +371,6 @@
         "momentum": -0.047,
         "volume_weight": 3.689,
         "score": 3.22,
-        "stage": "steady",
-        "journals": [],
-        "examples": []
-      },
-      {
-        "term": "natural language processing",
-        "label": "自然語言處理",
-        "recent_count": 125,
-        "baseline_count": 136,
-        "growth_ratio": 0.89,
-        "momentum": -0.168,
-        "volume_weight": 4.836,
-        "score": 3.15,
         "stage": "steady",
         "journals": [],
         "examples": []

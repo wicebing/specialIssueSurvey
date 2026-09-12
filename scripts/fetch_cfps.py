@@ -321,6 +321,20 @@ def generate_site(week_id: str | None = None) -> None:
         key=lambda c: c["deadline"]["date"],
     )[:8]
 
+    # Coverage by field, so a reader can see at a glance whether their own
+    # specialty is represented this week rather than scrolling the report.
+    field_counts: dict[str, int] = {}
+    for call in calls:
+        name = call.get("field") or "其他"
+        field_counts[name] = field_counts.get(name, 0) + 1
+    fields_html = (
+        "\n".join(
+            f'<li>{html.escape(name)}<span class="pill">{count}</span></li>'
+            for name, count in sorted(field_counts.items(), key=lambda kv: -kv[1])
+        )
+        or "<li>尚無資料</li>"
+    )
+
     reports_html = (
         "\n".join(
             f'<li><a href="reports/{path.stem}.html">{html.escape(path.stem)} 週報</a></li>'
@@ -378,9 +392,15 @@ def generate_site(week_id: str | None = None) -> None:
     <ul class="report-list">{trends_html}</ul>
   </aside>
 </section>
-<section class="panel">
-  <h2>週報存檔</h2>
-  <ul class="report-list">{reports_html}</ul>
+<section class="grid">
+  <div class="panel">
+    <h2>各領域開放徵稿數</h2>
+    <ul class="report-list">{fields_html}</ul>
+  </div>
+  <aside class="panel">
+    <h2>週報存檔</h2>
+    <ul class="report-list">{reports_html}</ul>
+  </aside>
 </section>
 """
     (DOCS_DIR / "index.html").write_text(
