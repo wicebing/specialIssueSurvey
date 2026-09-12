@@ -149,6 +149,10 @@ def carry_forward_blocked_sources(
             score=max(0, int(item.get("score", 0)) - 5),
             fingerprint=item.get("fingerprint", ""),
             tier=item.get("tier", "other"),
+            # Carrying the field over matters as much as the deadline: without
+            # it every carried record falls into the "other" bucket, which on a
+            # runner that cannot reach Springer is most of the report.
+            field=item.get("field", ""),
             carried_forward=True,
             last_verified=item.get("last_verified") or previous_week,
         )
@@ -220,7 +224,15 @@ def render_site_page(title: str, body: str, active: str = "") -> str:
 <body>
   <main class="shell">
     <header class="topbar">
-      <div class="brand"><a href="{prefix}index.html">Top Journal CFP Tracker</a></div>
+      <div class="brand">
+        <a href="{prefix}index.html">
+          <img class="brand-logo" src="{prefix}assets/yabilab-logo.png" alt="YABILAB" width="40" height="40">
+          <span class="brand-text">
+            <strong>YABILAB</strong>
+            <small>Top Journal CFP Tracker</small>
+          </span>
+        </a>
+      </div>
       <nav class="nav" aria-label="Primary">
         <a href="{prefix}index.html">期刊 Special Issue</a>
         <a href="{prefix}conferences.html">會議截稿日</a>
@@ -595,6 +607,8 @@ SITE_CSS = """
   color-scheme: light;
   --bg: #f7f8f5;
   --panel: #ffffff;
+  --panel-veil: rgba(255, 255, 255, 0.84);
+  --content-veil: rgba(255, 255, 255, 0.90);
   --ink: #1b2321;
   --muted: #5e6b66;
   --line: #d8ded8;
@@ -612,17 +626,41 @@ body {
   line-height: 1.65;
 }
 
+/* Lab logo as a page watermark. Fixed rather than scrolling, so it stays put
+   behind a long report, and kept behind everything with a low opacity that
+   reads as texture rather than competing with the tables. The URL is relative
+   to this stylesheet, so it resolves from any page depth. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("yabilab-logo.png");
+  background-repeat: no-repeat;
+  background-position: center 46%;
+  background-size: min(68vw, 620px);
+  opacity: 0.055;
+  pointer-events: none;
+  z-index: 0;
+}
+
 a { color: var(--accent); }
 
-.shell { max-width: 1160px; margin: 0 auto; padding: 32px 20px 56px; }
+.shell { max-width: 1160px; margin: 0 auto; padding: 32px 20px 56px; position: relative; z-index: 1; }
 
 .topbar {
   display: flex; align-items: center; justify-content: space-between;
   gap: 16px; padding: 14px 0 24px; border-bottom: 1px solid var(--line);
 }
 
-.brand { font-weight: 800; font-size: 1.05rem; }
-.brand a { text-decoration: none; }
+.brand a {
+  display: flex; align-items: center; gap: 11px;
+  text-decoration: none; color: var(--ink);
+}
+.brand-logo { width: 40px; height: 40px; display: block; flex: none; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.2; }
+.brand-text strong { font-weight: 800; font-size: 1.02rem; letter-spacing: 0.02em; }
+.brand-text small { color: var(--muted); font-size: 0.78rem; font-weight: 500; }
+
 .nav { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.95rem; }
 
 .hero { padding: 34px 0 24px; }
@@ -630,7 +668,10 @@ a { color: var(--accent); }
 .hero p { max-width: 860px; color: var(--muted); font-size: 1.05rem; margin: 0; }
 
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 22px 0 32px; }
-.stat, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+/* Cards are slightly translucent so the watermark reads through them as
+   texture. The report body below stays nearer opaque, because that is where
+   the dense tables are and contrast matters more than decoration. */
+.stat, .panel { background: var(--panel-veil); border: 1px solid var(--line); border-radius: 8px; }
 .stat { padding: 16px; }
 .stat strong { display: block; font-size: 1.8rem; }
 .stat span { color: var(--muted); font-size: 0.9rem; }
@@ -650,12 +691,12 @@ a { color: var(--accent); }
   color: #075e54; font-size: 0.8rem; white-space: nowrap;
 }
 
-.content { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 28px; overflow-x: auto; }
+.content { background: var(--content-veil); border: 1px solid var(--line); border-radius: 8px; padding: 28px; overflow-x: auto; }
 .content h1 { line-height: 1.15; }
 .content h2 { margin-top: 2rem; }
 .content table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
 .content th, .content td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
-.content th { background: #eef3f1; text-align: left; }
+.content th { background: rgba(238, 243, 241, 0.92); text-align: left; }
 .content blockquote { border-left: 4px solid var(--accent); margin: 18px 0; padding: 10px 16px; background: var(--soft); color: #26413d; }
 
 footer { color: var(--muted); font-size: 0.9rem; margin-top: 30px; }

@@ -51,7 +51,7 @@ python -m venv .venv
 本機每週自動跑：
 
 ```powershell
-.\scripts\install_windows_task.ps1 -RepositoryPath "/home/runner/work/specialIssueSurvey/specialIssueSurvey"
+.\scripts\install_windows_task.ps1 -RepositoryPath "Y:\yabilab\specialIssueSurvey"
 ```
 
 設定 `NCBI_API_KEY` 環境變數可提高 PubMed 趨勢查詢的速率上限（非必要）。

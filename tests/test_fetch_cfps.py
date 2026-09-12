@@ -474,3 +474,27 @@ def test_no_excluded_publisher_is_configured():
     for spec in config["sources"]:
         assert "frontiersin" not in spec["url"].lower()
         assert "mdpi" not in spec["url"].lower()
+
+
+def test_carry_forward_preserves_the_field(tmp_path, monkeypatch):
+    """Without this every carried record lands in the 'other' bucket."""
+    from scripts import fetch_cfps
+    from scripts.cfp_sources import SourceReport
+
+    monkeypatch.setattr(fetch_cfps, "DATA_DIR", tmp_path)
+    (tmp_path / "latest.json").write_text(
+        json.dumps({
+            "week": "2026-W36",
+            "calls": [{
+                "source_id": "s1", "journal": "BMC Nursing", "title": "Staffing",
+                "url": "https://x.org/1", "deadline": {"date": "2027-01-01"},
+                "status": {"state": "open"}, "fingerprint": "fp1",
+                "tier": "core", "field": "護理",
+            }],
+        }),
+        encoding="utf-8",
+    )
+    blocked = SourceReport("s1", "BMC Nursing", "u", status="bot_challenge", accepted=0)
+    carried = fetch_cfps.carry_forward_blocked_sources([blocked], TODAY, 540)
+    assert carried[0].field == "護理"
+    assert carried[0].tier == "core"
