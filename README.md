@@ -6,7 +6,7 @@
 
 ## 最新週報
 
-[2026-W38 週報](reports/2026-W38.md)
+[2026-W39 週報](reports/2026-W39.md)
 
 - 確認開放投稿：374 筆
 - 其中有明確截稿日：269 筆
@@ -16,7 +16,7 @@
 
 另一份每週更新的清單，列出頂尖會議的**截稿日、舉辦城市與會議日期**。
 
-[2026-W38 會議截稿週報](reports/conferences/2026-W38.md)
+[2026-W39 會議截稿週報](reports/conferences/2026-W39.md)
 
 ```powershell
 .\.venv\Scripts\python -m scripts.fetch_conferences
@@ -32,6 +32,7 @@
 
 ## 歷史週報
 
+- [2026-W39 週報](reports/2026-W39.md)
 - [2026-W38 週報](reports/2026-W38.md)
 - [2026-W37 週報](reports/2026-W37.md)
 
