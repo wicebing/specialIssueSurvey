@@ -1,10 +1,10 @@
 {
-  "week": "2026-W40",
-  "generated_at": "2026-09-28T04:49:09.731985+00:00",
+  "week": "2026-W41",
+  "generated_at": "2026-10-05T05:03:34.012670+00:00",
   "stats": {
     "tracked": 49,
     "open": 8,
-    "urgent": 6,
+    "urgent": 5,
     "pending": 41,
     "sources": 8
   },
@@ -30,7 +30,7 @@
       "note": "International World Wide Web Conferences",
       "tier": "other",
       "_next_deadline": "2026-10-18",
-      "_days_left": 20
+      "_days_left": 13
     },
     {
       "name": "Medical Informatics Europe (EFMI MIE)",
@@ -53,30 +53,7 @@
       "note": "",
       "tier": "core",
       "_next_deadline": "2026-10-20",
-      "_days_left": 22
-    },
-    {
-      "name": "UbiComp/ISWC",
-      "acronym": "UbiComp/ISWC",
-      "edition": "2026",
-      "url": "https://www.ubicomp.org/ubicomp-iswc-2026",
-      "submission_deadline": "2026-11-01",
-      "abstract_deadline": null,
-      "deadline_text": "",
-      "city": "Shanghai, China",
-      "venue": "",
-      "dates": "October 11-15, 2026",
-      "start_date": null,
-      "field": "HI",
-      "rank": "CCF A / CORE N / THCPL A",
-      "relevance": "穿戴裝置與遠距監測",
-      "source_id": "ccf_health_hci",
-      "status": "open",
-      "typical_month": "",
-      "note": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
-      "tier": "core",
-      "_next_deadline": "2026-11-01",
-      "_days_left": 34
+      "_days_left": 15
     },
     {
       "name": "ATS International Conference",
@@ -99,7 +76,7 @@
       "note": "投稿需付費；截止時間為美東時間下午 5 點。",
       "tier": "core",
       "_next_deadline": "2026-11-04",
-      "_days_left": 37
+      "_days_left": 30
     },
     {
       "name": "CVPR",
@@ -122,7 +99,7 @@
       "note": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "core",
       "_next_deadline": "2026-11-10",
-      "_days_left": 43
+      "_days_left": 36
     },
     {
       "name": "NAACL",
@@ -145,7 +122,30 @@
       "note": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2026-12-23",
-      "_days_left": 86
+      "_days_left": 79
+    },
+    {
+      "name": "ACL",
+      "acronym": "ACL",
+      "edition": "2027",
+      "url": "https://2027.aclweb.org/",
+      "submission_deadline": "2027-01-04",
+      "abstract_deadline": null,
+      "deadline_text": "",
+      "city": "Kyoto, Japan",
+      "venue": "",
+      "dates": "August 17-22, 2027",
+      "start_date": null,
+      "field": "AI",
+      "rank": "CCF A / CORE A* / THCPL A",
+      "relevance": "臨床文本與 LLM",
+      "source_id": "ccf_core_ai",
+      "status": "open",
+      "typical_month": "",
+      "note": "Annual Meeting of the Association for Computational Linguistics",
+      "tier": "core",
+      "_next_deadline": "2027-01-04",
+      "_days_left": 91
     },
     {
       "name": "SAEM Annual Meeting",
@@ -168,7 +168,7 @@
       "note": "研究摘要 1/5 截止；Didactics 與 Innovations 等其他投稿軌在 2026 年 9 月就截止，需分開注意。",
       "tier": "core",
       "_next_deadline": "2027-01-05",
-      "_days_left": 99
+      "_days_left": 92
     },
     {
       "name": "SIGIR",
@@ -191,7 +191,7 @@
       "note": "International Conference on Research on Development in Information Retrieval",
       "tier": "other",
       "_next_deadline": "2027-01-14",
-      "_days_left": 108
+      "_days_left": 101
     },
     {
       "name": "AAAI",
@@ -281,29 +281,6 @@
       "status": "not_announced",
       "typical_month": "June",
       "note": "",
-      "tier": "core",
-      "_next_deadline": null,
-      "_days_left": null
-    },
-    {
-      "name": "ACL",
-      "acronym": "ACL",
-      "edition": "2026 (最近一屆)",
-      "url": "https://2026.aclweb.org/",
-      "submission_deadline": null,
-      "abstract_deadline": null,
-      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-01-05",
-      "city": "",
-      "venue": "",
-      "dates": "",
-      "start_date": null,
-      "field": "AI",
-      "rank": "CCF A / CORE A* / THCPL A",
-      "relevance": "臨床文本與 LLM",
-      "source_id": "ccf_core_ai",
-      "status": "not_announced",
-      "typical_month": "January",
-      "note": "Annual Meeting of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": null,
       "_days_left": null
@@ -430,7 +407,7 @@
       "url": "https://www.apbc2026.com/home",
       "submission_deadline": null,
       "abstract_deadline": null,
-      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-06-15",
+      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-07-17",
       "city": "",
       "venue": "",
       "dates": "",
@@ -440,7 +417,7 @@
       "relevance": "亞太生物資訊",
       "source_id": "ccf_clinical_ai",
       "status": "not_announced",
-      "typical_month": "June",
+      "typical_month": "July",
       "note": "Asia Pacific Bioinformatics Conference",
       "tier": "core",
       "_next_deadline": null,
@@ -1114,6 +1091,29 @@
       "_days_left": null
     },
     {
+      "name": "UbiComp/ISWC",
+      "acronym": "UbiComp/ISWC",
+      "edition": "2026 (最近一屆)",
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2026",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-05-01",
+      "city": "",
+      "venue": "",
+      "dates": "",
+      "start_date": null,
+      "field": "HI",
+      "rank": "CCF A / CORE N / THCPL A",
+      "relevance": "穿戴裝置與遠距監測",
+      "source_id": "ccf_health_hci",
+      "status": "not_announced",
+      "typical_month": "May",
+      "note": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+      "tier": "core",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
       "name": "台灣急診醫學會年會 (TSEM)",
       "acronym": "TSEM",
       "edition": "2027",
@@ -1153,8 +1153,8 @@
       "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference",
       "status": "ok",
       "found": 5,
-      "accepted": 1,
-      "notes": "4 awaiting next-edition announcement"
+      "accepted": 0,
+      "notes": "5 awaiting next-edition announcement"
     },
     {
       "source_id": "ccf_core_ai",
@@ -1162,8 +1162,8 @@
       "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference",
       "status": "ok",
       "found": 10,
-      "accepted": 2,
-      "notes": "8 awaiting next-edition announcement"
+      "accepted": 3,
+      "notes": "7 awaiting next-edition announcement"
     },
     {
       "source_id": "ccf_data_mining",
