@@ -1,10 +1,10 @@
 {
-  "week": "2026-W42",
-  "generated_at": "2026-10-12T05:24:39.016038+00:00",
+  "week": "2026-W43",
+  "generated_at": "2026-10-19T04:09:37.053060+00:00",
   "stats": {
     "tracked": 49,
     "open": 9,
-    "urgent": 8,
+    "urgent": 9,
     "pending": 40,
     "sources": 8
   },
@@ -30,7 +30,7 @@
       "note": "International World Wide Web Conferences",
       "tier": "other",
       "_next_deadline": "2026-10-18",
-      "_days_left": 6
+      "_days_left": -1
     },
     {
       "name": "Medical Informatics Europe (EFMI MIE)",
@@ -53,7 +53,7 @@
       "note": "",
       "tier": "core",
       "_next_deadline": "2026-10-20",
-      "_days_left": 8
+      "_days_left": 1
     },
     {
       "name": "ATS International Conference",
@@ -76,7 +76,7 @@
       "note": "投稿需付費；截止時間為美東時間下午 5 點。",
       "tier": "core",
       "_next_deadline": "2026-11-04",
-      "_days_left": 23
+      "_days_left": 16
     },
     {
       "name": "CVPR",
@@ -99,7 +99,7 @@
       "note": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "core",
       "_next_deadline": "2026-11-10",
-      "_days_left": 29
+      "_days_left": 22
     },
     {
       "name": "NAACL",
@@ -122,7 +122,7 @@
       "note": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2026-12-23",
-      "_days_left": 72
+      "_days_left": 65
     },
     {
       "name": "ACL",
@@ -145,7 +145,7 @@
       "note": "Annual Meeting of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2027-01-04",
-      "_days_left": 84
+      "_days_left": 77
     },
     {
       "name": "IJCAI",
@@ -168,7 +168,7 @@
       "note": "International Joint Conference on Artificial Intelligence",
       "tier": "core",
       "_next_deadline": "2027-01-04",
-      "_days_left": 84
+      "_days_left": 77
     },
     {
       "name": "SAEM Annual Meeting",
@@ -191,7 +191,7 @@
       "note": "研究摘要 1/5 截止；Didactics 與 Innovations 等其他投稿軌在 2026 年 9 月就截止，需分開注意。",
       "tier": "core",
       "_next_deadline": "2027-01-05",
-      "_days_left": 85
+      "_days_left": 78
     },
     {
       "name": "SIGIR",
@@ -214,7 +214,7 @@
       "note": "International Conference on Research on Development in Information Retrieval",
       "tier": "other",
       "_next_deadline": "2027-01-14",
-      "_days_left": 94
+      "_days_left": 87
     },
     {
       "name": "AAAI",
