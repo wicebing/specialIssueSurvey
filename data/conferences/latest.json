@@ -1,60 +1,14 @@
 {
-  "week": "2026-W43",
-  "generated_at": "2026-10-19T04:09:37.053060+00:00",
+  "week": "2026-W44",
+  "generated_at": "2026-10-26T04:12:57.266043+00:00",
   "stats": {
     "tracked": 49,
-    "open": 9,
-    "urgent": 9,
-    "pending": 40,
+    "open": 7,
+    "urgent": 7,
+    "pending": 42,
     "sources": 8
   },
   "conferences": [
-    {
-      "name": "WWW",
-      "acronym": "WWW",
-      "edition": "2027",
-      "url": "https://www2027.thewebconf.org/",
-      "submission_deadline": "2026-10-25",
-      "abstract_deadline": "2026-10-18",
-      "deadline_text": "",
-      "city": "Dublin, Ireland",
-      "venue": "",
-      "dates": "May 10 - 14, 2027",
-      "start_date": null,
-      "field": "MX",
-      "rank": "CCF A / CORE A* / THCPL A",
-      "relevance": "網路健康資訊與假訊息",
-      "source_id": "ccf_data_mining",
-      "status": "open",
-      "typical_month": "",
-      "note": "International World Wide Web Conferences",
-      "tier": "other",
-      "_next_deadline": "2026-10-18",
-      "_days_left": -1
-    },
-    {
-      "name": "Medical Informatics Europe (EFMI MIE)",
-      "acronym": "MIE 2027",
-      "edition": "2027",
-      "url": "https://mie2027.efmi.org/call-for-papers",
-      "submission_deadline": "2026-10-20",
-      "abstract_deadline": null,
-      "deadline_text": "Submission deadline: 20 October 2026",
-      "city": "Tallinn, Estonia",
-      "venue": "",
-      "dates": "26-30 April 2027",
-      "start_date": "2027-04-26",
-      "field": "醫學資訊",
-      "rank": "",
-      "relevance": "歐洲醫學資訊主力會議",
-      "source_id": "society_informatics",
-      "status": "open",
-      "typical_month": "October",
-      "note": "",
-      "tier": "core",
-      "_next_deadline": "2026-10-20",
-      "_days_left": 1
-    },
     {
       "name": "ATS International Conference",
       "acronym": "ATS 2027",
@@ -76,7 +30,7 @@
       "note": "投稿需付費；截止時間為美東時間下午 5 點。",
       "tier": "core",
       "_next_deadline": "2026-11-04",
-      "_days_left": 16
+      "_days_left": 9
     },
     {
       "name": "CVPR",
@@ -99,7 +53,7 @@
       "note": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "core",
       "_next_deadline": "2026-11-10",
-      "_days_left": 22
+      "_days_left": 15
     },
     {
       "name": "NAACL",
@@ -122,7 +76,7 @@
       "note": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2026-12-23",
-      "_days_left": 65
+      "_days_left": 58
     },
     {
       "name": "ACL",
@@ -145,7 +99,7 @@
       "note": "Annual Meeting of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2027-01-04",
-      "_days_left": 77
+      "_days_left": 70
     },
     {
       "name": "IJCAI",
@@ -168,7 +122,7 @@
       "note": "International Joint Conference on Artificial Intelligence",
       "tier": "core",
       "_next_deadline": "2027-01-04",
-      "_days_left": 77
+      "_days_left": 70
     },
     {
       "name": "SAEM Annual Meeting",
@@ -191,7 +145,7 @@
       "note": "研究摘要 1/5 截止；Didactics 與 Innovations 等其他投稿軌在 2026 年 9 月就截止，需分開注意。",
       "tier": "core",
       "_next_deadline": "2027-01-05",
-      "_days_left": 78
+      "_days_left": 71
     },
     {
       "name": "SIGIR",
@@ -214,7 +168,7 @@
       "note": "International Conference on Research on Development in Information Retrieval",
       "tier": "other",
       "_next_deadline": "2027-01-14",
-      "_days_left": 87
+      "_days_left": 80
     },
     {
       "name": "AAAI",
@@ -999,6 +953,29 @@
       "_days_left": null
     },
     {
+      "name": "Medical Informatics Europe (EFMI MIE)",
+      "acronym": "MIE 2027",
+      "edition": "2027",
+      "url": "https://mie2027.efmi.org/call-for-papers",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "Submission deadline: 20 October 2026",
+      "city": "Tallinn, Estonia",
+      "venue": "",
+      "dates": "26-30 April 2027",
+      "start_date": "2027-04-26",
+      "field": "醫學資訊",
+      "rank": "",
+      "relevance": "歐洲醫學資訊主力會議",
+      "source_id": "society_informatics",
+      "status": "not_announced",
+      "typical_month": "October",
+      "note": "",
+      "tier": "core",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
       "name": "NeurIPS",
       "acronym": "NeurIPS",
       "edition": "2026 (最近一屆)",
@@ -1114,6 +1091,29 @@
       "_days_left": null
     },
     {
+      "name": "WWW",
+      "acronym": "WWW",
+      "edition": "2027 (最近一屆)",
+      "url": "https://www2027.thewebconf.org/",
+      "submission_deadline": null,
+      "abstract_deadline": null,
+      "deadline_text": "下一屆尚未公布；上一屆截稿 2026-10-25",
+      "city": "",
+      "venue": "",
+      "dates": "",
+      "start_date": null,
+      "field": "MX",
+      "rank": "CCF A / CORE A* / THCPL A",
+      "relevance": "網路健康資訊與假訊息",
+      "source_id": "ccf_data_mining",
+      "status": "not_announced",
+      "typical_month": "October",
+      "note": "International World Wide Web Conferences",
+      "tier": "other",
+      "_next_deadline": null,
+      "_days_left": null
+    },
+    {
       "name": "台灣急診醫學會年會 (TSEM)",
       "acronym": "TSEM",
       "edition": "2027",
@@ -1171,8 +1171,8 @@
       "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference",
       "status": "ok",
       "found": 4,
-      "accepted": 2,
-      "notes": "2 awaiting next-edition announcement"
+      "accepted": 1,
+      "notes": "3 awaiting next-edition announcement"
     },
     {
       "source_id": "society_emergency",
@@ -1198,8 +1198,8 @@
       "url": "",
       "status": "ok",
       "found": 7,
-      "accepted": 1,
-      "notes": "6 awaiting next-edition announcement"
+      "accepted": 0,
+      "notes": "7 awaiting next-edition announcement"
     },
     {
       "source_id": "society_digital_health",
