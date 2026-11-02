@@ -1,6 +1,6 @@
 {
-  "week": "2026-W44",
-  "generated_at": "2026-10-26T04:12:57.266043+00:00",
+  "week": "2026-W45",
+  "generated_at": "2026-11-02T05:27:19.601882+00:00",
   "stats": {
     "tracked": 49,
     "open": 7,
@@ -30,7 +30,7 @@
       "note": "投稿需付費；截止時間為美東時間下午 5 點。",
       "tier": "core",
       "_next_deadline": "2026-11-04",
-      "_days_left": 9
+      "_days_left": 2
     },
     {
       "name": "CVPR",
@@ -53,7 +53,7 @@
       "note": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "core",
       "_next_deadline": "2026-11-10",
-      "_days_left": 15
+      "_days_left": 8
     },
     {
       "name": "NAACL",
@@ -76,7 +76,7 @@
       "note": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2026-12-23",
-      "_days_left": 58
+      "_days_left": 51
     },
     {
       "name": "ACL",
@@ -99,7 +99,7 @@
       "note": "Annual Meeting of the Association for Computational Linguistics",
       "tier": "core",
       "_next_deadline": "2027-01-04",
-      "_days_left": 70
+      "_days_left": 63
     },
     {
       "name": "IJCAI",
@@ -122,7 +122,7 @@
       "note": "International Joint Conference on Artificial Intelligence",
       "tier": "core",
       "_next_deadline": "2027-01-04",
-      "_days_left": 70
+      "_days_left": 63
     },
     {
       "name": "SAEM Annual Meeting",
@@ -145,7 +145,7 @@
       "note": "研究摘要 1/5 截止；Didactics 與 Innovations 等其他投稿軌在 2026 年 9 月就截止，需分開注意。",
       "tier": "core",
       "_next_deadline": "2027-01-05",
-      "_days_left": 71
+      "_days_left": 64
     },
     {
       "name": "SIGIR",
@@ -168,7 +168,7 @@
       "note": "International Conference on Research on Development in Information Retrieval",
       "tier": "other",
       "_next_deadline": "2027-01-14",
-      "_days_left": 80
+      "_days_left": 73
     },
     {
       "name": "AAAI",
